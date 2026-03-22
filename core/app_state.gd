@@ -13,6 +13,10 @@ var active_plan_name: String = ""
 var active_season: String = "spring"   # "spring" | "summer" | "fall"
 var active_plan_entries: Array = []    # Array of { crop_id, plant_day, tile: Vector2i }
 
+# ── Navigation helpers ────────────────────────────────────────────────────────
+# Set before navigating to crop_reference so the Back button returns correctly.
+var crop_reference_back_scene: String = "res://scenes/main_menu.tscn"
+
 # ── Sprite friendship levels (persisted in memory, saved with plans later) ───
 # Dict: sprite_id -> hearts (0–10)
 var sprite_hearts: Dictionary = {

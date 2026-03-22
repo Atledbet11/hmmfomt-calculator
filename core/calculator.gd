@@ -7,6 +7,8 @@ const SEASON_LENGTH: int = 30
 
 
 # Returns an array of harvest day numbers (1–30) for a crop planted on plant_day.
+# For non-regrow crops (regrow_days == 0), replanting on each harvest day is modelled:
+# the crop cycles every first_harvest days from the initial plant_day.
 # plant_day: the day the seed is planted (1–30)
 # crop_id: key into CropsData.CROPS
 # Season ends at day 30; no harvests after that are included.
@@ -24,12 +26,46 @@ func get_harvest_days(crop_id: String, plant_day: int) -> Array:
 	harvests.append(first)
 
 	if crop.regrow_days > 0:
+		# Regrow crop: subsequent harvests every regrow_days after first
 		var next: int = first + crop.regrow_days
 		while next <= SEASON_LENGTH:
 			harvests.append(next)
 			next += crop.regrow_days
+	else:
+		# Non-regrow crop: replant on harvest day, next harvest first_harvest days later
+		var next: int = first + crop.first_harvest
+		while next <= SEASON_LENGTH:
+			harvests.append(next)
+			next += crop.first_harvest
 
 	return harvests
+
+
+# Returns the days on which seeds must be purchased (initial plant + each replant).
+# For regrow crops there is only ever one planting. For non-regrow crops, a new
+# seed is needed on every harvest day except the last one of the season.
+func get_planting_days(crop_id: String, plant_day: int) -> Array:
+	var crop: Dictionary = CropsData.get_crop(crop_id)
+	if crop.is_empty():
+		return [plant_day]
+
+	if crop.regrow_days > 0:
+		return [plant_day]  # single planting for regrow crops
+
+	# Non-regrow: plant on initial day + every harvest day except the last
+	var harvests: Array = get_harvest_days(crop_id, plant_day)
+	var plant_days: Array = [plant_day]
+	for idx in range(harvests.size() - 1):
+		plant_days.append(harvests[idx])  # replant on harvest day (last excluded)
+	return plant_days
+
+
+# Total seed cost for one tile of a crop given its planting schedule.
+func get_seed_cost_total(crop_id: String, plant_day: int) -> int:
+	var crop: Dictionary = CropsData.get_crop(crop_id)
+	if crop.is_empty():
+		return 0
+	return crop.seed_cost * get_planting_days(crop_id, plant_day).size()
 
 
 # Returns total number of harvests for a crop planted on plant_day.
@@ -43,6 +79,22 @@ func last_viable_plant_day(crop_id: String) -> int:
 	if crop.is_empty():
 		return 0
 	return SEASON_LENGTH - crop.first_harvest
+
+
+# Returns the latest plant day that still yields the maximum possible harvests.
+# Scans backward from day 30 to find the last day with the peak harvest count.
+func latest_max_plant_day(crop_id: String) -> int:
+	var max_count: int = 0
+	for day in range(1, SEASON_LENGTH + 1):
+		var c: int = get_harvest_count(crop_id, day)
+		if c > max_count:
+			max_count = c
+	if max_count == 0:
+		return 0
+	for day in range(SEASON_LENGTH, 0, -1):
+		if get_harvest_count(crop_id, day) >= max_count:
+			return day
+	return 1
 
 
 # Given a full season plan (array of {crop_id, plant_day, tile}),

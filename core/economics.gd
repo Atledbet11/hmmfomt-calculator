@@ -40,7 +40,7 @@ func season_breakdown(season: String, plan_entries: Array) -> Array:
 		var harvests: int = Calculator.get_harvest_count(crop_id, plant_day)
 		by_crop[crop_id]["tiles_planted"] += 1
 		by_crop[crop_id]["total_harvests"] += harvests
-		by_crop[crop_id]["seed_cost_total"] += crop.seed_cost
+		by_crop[crop_id]["seed_cost_total"] += Calculator.get_seed_cost_total(crop_id, plant_day)
 		if crop.sellable:
 			by_crop[crop_id]["gross_revenue"] += harvests * crop.sell_price
 
@@ -69,9 +69,10 @@ func daily_gold_timeline(season: String, plan_entries: Array) -> Dictionary:
 		var crop: Dictionary = CropsData.get_crop(crop_id)
 		if crop.is_empty():
 			continue
-		if not seed_cost_by_day.has(plant_day):
-			seed_cost_by_day[plant_day] = 0
-		seed_cost_by_day[plant_day] += crop.seed_cost
+		for pd in Calculator.get_planting_days(crop_id, plant_day):
+			if not seed_cost_by_day.has(pd):
+				seed_cost_by_day[pd] = 0
+			seed_cost_by_day[pd] += crop.seed_cost
 
 	var timeline: Dictionary = {}
 	var running_gross: int = 0
@@ -106,8 +107,9 @@ func _break_even_day(season: String, crop_id: String, plan_entries: Array) -> in
 	for entry in plan_entries:
 		if entry.get("crop_id", "") != crop_id:
 			continue
-		total_seed_cost += crop.seed_cost
-		for h_day in Calculator.get_harvest_days(crop_id, entry.get("plant_day", 1)):
+		var ep_day: int = entry.get("plant_day", 1)
+		total_seed_cost += Calculator.get_seed_cost_total(crop_id, ep_day)
+		for h_day in Calculator.get_harvest_days(crop_id, ep_day):
 			harvest_days.append(h_day)
 
 	harvest_days.sort()

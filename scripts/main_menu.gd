@@ -16,6 +16,7 @@ const SCENES := {
 	"Calendar View":   "res://scenes/calendar_view.tscn",
 	"Economics":       "res://scenes/economics_panel.tscn",
 	"Sprite Manager":  "res://scenes/sprite_manager.tscn",
+	"Crop Guide":      "res://scenes/crop_reference.tscn",
 }
 
 

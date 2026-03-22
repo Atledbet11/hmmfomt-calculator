@@ -295,7 +295,7 @@ func _suggest_contracts(heavy_days: Array, hireable: Array) -> Array:
 			if cl >= duration:
 				contract_len = cl
 
-		var hire_day := max(1, start_day - 1)  # hire the day before cluster starts
+		var hire_day: int = max(1, start_day - 1)  # hire the day before cluster starts
 
 		# Pick the first available hireable sprite
 		var chosen_sprite := ""
@@ -307,8 +307,8 @@ func _suggest_contracts(heavy_days: Array, hireable: Array) -> Array:
 		if chosen_sprite != "":
 			var harvests_covered := 0
 			for hd in heavy_days:
-				var work_start := hire_day + 1
-				var work_end   := hire_day + contract_len
+				var work_start: int = hire_day + 1
+				var work_end: int   = hire_day + contract_len
 				if hd.day >= work_start and hd.day <= work_end:
 					harvests_covered += hd.count
 

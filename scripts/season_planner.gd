@@ -208,6 +208,10 @@ func _make_sidebar() -> PanelContainer:
 	_refresh_side_list()
 
 	vbox.add_child(HSeparator.new())
+	vbox.add_child(_make_button("Crop Guide", func():
+		AppState.crop_reference_back_scene = "res://scenes/season_planner.tscn"
+		get_tree().change_scene_to_file("res://scenes/crop_reference.tscn")
+	))
 	vbox.add_child(_make_button("View Calendar →", func():
 		get_tree().change_scene_to_file("res://scenes/calendar_view.tscn")
 	))
