@@ -253,7 +253,7 @@ func _update_holiday_preview() -> void:
 		return
 
 	var lines: Array = []
-	lines.append("Harvests: " + ", ".join(hdays.map(func(d: int) -> String: return "D" + str(d))))
+	lines.append("%d harvests: " % hdays.size() + ", ".join(hdays.map(func(d: int) -> String: return "D" + str(d))))
 
 	var conflicts: Array = []
 	for hd in hdays:
