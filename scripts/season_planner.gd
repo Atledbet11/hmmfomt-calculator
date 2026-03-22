@@ -573,8 +573,8 @@ func _refresh_side_list() -> void:
 			summary[key] = {"crop_id": entry.crop_id, "plant_day": entry.plant_day, "count": 0}
 		summary[key].count += 1
 
-	for key in summary:
-		var row := summary[key]
+	for key: String in summary:
+		var row: Dictionary = summary[key]
 		var crop := CropsData.get_crop(row.crop_id)
 		if crop.is_empty():
 			continue
