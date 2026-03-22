@@ -230,7 +230,7 @@ func _make_optimal_panel() -> PanelContainer:
 	vbox.add_child(grid)
 
 	for crop_id in optimal:
-		var info := optimal[crop_id]
+		var info: Dictionary = optimal[crop_id]
 		var cname: String = season_crops.get(crop_id, {}).get("name", crop_id)
 		var lbl := Label.new()
 		lbl.text = "%s: Plant Day %d (%d harvests)" % [cname, info.plant_day, info.harvest_count]
