@@ -13,6 +13,7 @@ const COL_BTN_TXT   := Color(0.10, 0.06, 0.02)
 const SCENES := {
 	"Farm Editor":     "res://scenes/farm_editor.tscn",
 	"Season Planner":  "res://scenes/season_planner.tscn",
+	"Day Simulator":   "res://scenes/day_simulator.tscn",
 	"Calendar View":   "res://scenes/calendar_view.tscn",
 	"Economics":       "res://scenes/economics_panel.tscn",
 	"Sprite Manager":  "res://scenes/sprite_manager.tscn",

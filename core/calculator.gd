@@ -97,6 +97,55 @@ func latest_max_plant_day(crop_id: String) -> int:
 	return 1
 
 
+# Returns which growth stage (0 = seeds, last = ripe) a crop is in on current_day.
+# Returns -1 if the crop hasn't been planted yet or is finished for the season.
+func get_crop_stage(crop_id: String, plant_day: int, current_day: int) -> int:
+	var crop: Dictionary = CropsData.get_crop(crop_id)
+	if crop.is_empty() or current_day < plant_day:
+		return -1
+
+	var stage_days: Array  = crop.get("stage_days",    []) as Array
+	var first_harvest: int = int(crop.get("first_harvest", 0))
+	var regrow_days: int   = int(crop.get("regrow_days",   0))
+	var ripe_stage: int    = stage_days.size()  # index of the "ripe" state
+	var elapsed: int       = current_day - plant_day
+
+	# Harvest day → always show ripe regardless of cycle arithmetic
+	if current_day in get_harvest_days(crop_id, plant_day):
+		return ripe_stage
+
+	if regrow_days > 0:
+		# Regrow crop: grows, harvests, then cycles back through a portion of stages
+		if elapsed < first_harvest:
+			return _stage_from_elapsed(elapsed, stage_days)
+		else:
+			var cycle_pos: int   = (elapsed - first_harvest) % regrow_days
+			var regrow_start: int = first_harvest - regrow_days
+			return _stage_from_elapsed(regrow_start + cycle_pos, stage_days)
+	else:
+		# Non-regrow (replant) crop
+		var harvest_days: Array = get_harvest_days(crop_id, plant_day)
+		if harvest_days.is_empty():
+			# Planted too late to ever harvest — show growing up to ripe-1
+			return _stage_from_elapsed(min(elapsed, first_harvest - 1), stage_days)
+		var last_harvest: int = int(harvest_days[harvest_days.size() - 1])
+		if current_day > last_harvest:
+			return -1  # done for the season
+		var cycle_pos: int = elapsed % first_harvest
+		return _stage_from_elapsed(cycle_pos, stage_days)
+
+
+# Maps elapsed days since planting to a stage index using the stage_days array.
+func _stage_from_elapsed(elapsed: int, stage_days: Array) -> int:
+	var cumulative: int = 0
+	for i in range(stage_days.size()):
+		var d: int = int(stage_days[i])
+		if elapsed < cumulative + d:
+			return i
+		cumulative += d
+	return stage_days.size()  # at or past ripe
+
+
 # Given a full season plan (array of {crop_id, plant_day, tile}),
 # returns a dict keyed by day (1–30) containing:
 #   {

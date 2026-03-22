@@ -212,6 +212,9 @@ func _make_sidebar() -> PanelContainer:
 		AppState.crop_reference_back_scene = "res://scenes/season_planner.tscn"
 		get_tree().change_scene_to_file("res://scenes/crop_reference.tscn")
 	))
+	vbox.add_child(_make_button("Day Simulator →", func():
+		get_tree().change_scene_to_file("res://scenes/day_simulator.tscn")
+	))
 	vbox.add_child(_make_button("View Calendar →", func():
 		get_tree().change_scene_to_file("res://scenes/calendar_view.tscn")
 	))
