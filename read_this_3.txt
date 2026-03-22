@@ -1,0 +1,3491 @@
+
+
+Harvest Moon : Friends of Mineral Town
+Harvest Moon : More Friends of Mineral Town
+
+Written by         : Franck Knight
+Started on         : March 13th, 2006
+First Submitted on : June 4th, 2010
+Version            : 0.2
+
+========
+Foreword
+========
+
+Welcome to my small guide to Harvest Moon for GBA. As I start writing this, I 
+have no intention of turning this into a full blown guide. There are more than 
+enough character guides and methods to befriend the people, you just pick one 
+that seems to suit you. What I wanted to write at first is a sort of guide to 
+start the game. Since both games are roughly the same, with a few exceptions, 
+the methods can be used in either versions.
+
+Just as a reminder :
+Boy Version = FoMT
+Girl Version = MFoMT
+Both way of naming can be seen in this guide.
+
+=================
+Table of Contents
+=================
+
+1.  Basic Controls
+2.  Harvest Moon at a Glance
+3.  Tools
+4.  Crop Basic
+5.  Animals Basic
+6.  Mining Basic
+7.  Fishing
+8.  Weather
+9.  Passing Time
+10. Making Money
+11. Mineral Town
+12. Harvest Sprites
+13. Wedding Blues
+14. Useful Tricks
+15. Festivals
+16. Spring First Year
+17. Summer First Year
+18. Fall First Year
+19. Winter First Year
+20. Second Year
+21. Third year and up
+22. Gameshark Code
+23. End word and Disclaimer
+24. Version History
+
+==============
+Basic Controls
+==============
+As the title says, I'll try to explain how to work the controls out for every 
+task you'll have to do.
+
+--Menus--
+Control Pad : Move selection arrow, scroll up/down, turn page
+Select      : 
+Start       : 
+A           : Select the option
+B           : Cancel / Previous Screen
+L           : Speed up the scrolling up/down
+R           : Speed up the scrolling up/down
+
+--Farm - Empty Handed--
+Control Pad : Move Character
+Select      : Open Earning Screen
+Start       : Open/Close Main Menu
+A           : Lift up item, Check Item, Talk
+B           : Use Equipped Tool
+L           : Whistle for Dog/Horse
+R           : Run/Walk
+
+You can change the Run/Walk option in the Diary screen.
+
+L + A       : Pull item out of Rucksack
+L + B       : Cycle tool in hand from Rucksack
+A + B       : Opens Rucksack Menu
+
+In the rucksack, pressing Start on an item will give you a choice to toss it 
+out. It doesn't count as littering when you do.
+
+Keeping B pressed down also lets you turn around on yourself, but when you let 
+go, you'll use the tool equipped.
+
+--Farm - Item in Hand--
+
+Control Pad : Move character
+Select      : Open Earning Screen
+Start       : Open/Close Main Menu
+A           : Check Item (in front), Give Item, Talk, 
+              Throw Item, Put Item in Bin, Put Item Down
+B           : Put item in Rucksack (if possible)
+L           : Nothing
+R           : Run/Walk
+
+L + A       : Cycle object in hand from Rucksack
+L + B       : Eat item (if edible)
+A + B       : Open Rucksack
+
+The A Button does alot of things, as you can see, but it depends on the 
+situation. For example :
+Holding Milk in front of the Cheese Maker will turn it into Cheese, but if 
+you're holding anything else, you'll just examine the Maker instead. In certain 
+events, characters won't accept gifts so even holding something, you'll just be 
+talking to them.
+
+Some items can be put on the ground, like branches or wood pieces for fences, 
+but only your field. Otherwise the item falls on the ground and disapears. Most 
+items can't be put down thought, like food. Some items can be put down anywhere,
+such as your animals (Dog, Chicken).
+
+Holding something allows you to check your mailbox, but if there's something in 
+the mail, like some Wine gift, you'll note that nothing happens, not even a 
+message that says 'no mail'. You'll need to drop the item first.
+
+========================
+Harvest Moon at a Glance
+========================
+
+Harvest Moon is just another game in the long tradition of Farm caretaking games
+Natsume has made. But this is easily one of the most detailed versions there has
+been up to now. There's lots of things to do outside of crops and animals, you 
+won't get bored as the seasons play a bigger role.
+
+So what exactly can you do?
+
+We'll get into the details in the walkthrough, but you'll obviously need to work
+on the farm itself at first. You need a steady cash flow to work, if only to buy
+the seeds needed to grow crops. 
+
+The field is in a bad shape, so to clean it you will need to improve your tools.
+And once its cleaned you'll have to plan on having grass for animals. And when 
+you get animals you need to take care of them everyday so their affection will 
+rise and give you better products, worth a better price everyday.
+
+And that's only the farm, because you can get more money by digging the mines as
+well. But you're not alone either, there's a whole village of people living 
+their lives everyday, that can all help you in one way or another. You'll want 
+to befriend many of them with gifts, including Harvest Sprites that can directly
+help you with your crops and animals everyday.
+
+And then you'll want to find someone, and marry him/her eventually. You'll get 
+to help the others marry in the village as well. Everyone has their own little 
+life, and you're the new addition to it.
+
+=====
+Tools 
+=====
+You have many tools at your disposition, but start with only 6. The box in the 
+lower right corner of your house is the tool box, you can hold 64 tools in 
+there. The box contains the starting 6 tools, but there are quite a few more to 
+get. Here's a list of them all.
+
+Most tools have a 'charge up' motion, when you level them up. Simply pressing 
+the button, even if its at max level, will still only result in a 'level 1 hit'.
+If you want to use the 'level 2' ability, you need to charge it up. You'll see 
+your character's motion change slightly as you charge up. Every change of stance
+means a different level of power.
+
+--Hammer--
+The Hammer is a versatile tool. It breaks the smaller rocks in your field, but 
+also those in the mine when you go for some ore hunting. You can also use it to 
+flatten some piece of fence. Its the only way to get rid of the rotten pieces, 
+but it can also make good parts disapear.
+
+At Copper, you can break the round rocks in your field too. It will take 6 
+   charged hits thought.
+At Silver, you can now break the round rocks in 3 hits, but also the big 
+   boulders in 6 hits.
+At Golden, you can break round rocks in 1 hit, and boulders in 3 hits.
+At Mystrile, you can break round rocks and boulders in 1 hit.
+At Cursed/Blessed, all boulders on the map will disapear with a single hit. 
+   There are a few exceptions to this I think.
+At Mythic, I don't know as I write this. Hopefully in the revision, yet I don't 
+   know how stronger this can become.
+
+Note that the extra levels of power don't work in the mines, so don't bother 
+charging up.
+
+--Hoe--
+Another useful tool, this lets you tile your field to allow planting seeds. 
+Throwing seeds on untiled ground makes them lost. But on tiled seed, they are 
+ready to grow. You can also retile grass when its freshly cut off, if you need 
+to change your layout. Also, the Hoe lets you dig in the mines, for stairs 
+going down, money or black herbs.
+
+At normal, it tiles one square.
+At Copper, it tiles two squares in a line.
+At Silver, it tiles three squares in a line.
+At Golden, it tiles four squares in a line.
+At Mystrile, it tiles six squares in a line.
+At Cursed/Blessed, it tiles a row of 12 long per 3 wide, with you as the center 
+   of the width.
+At Mythic, not sure again, bur probably even longer and wider, yeesh.
+
+Here again, its not use charging it up in the mines.
+
+--Axe--
+With only one obvious use, you don't need a manual for this. Cut wood, simply.
+
+At normal, you can only cut the small branches.
+At Copper, 6 hits can clear a stump.
+At Silver, 3 hits clear a stump.
+At Golden, 2 Hits clear a stump.
+At Mystrile, 1 hit clear a stump.
+At Cursed/Blessed, 1 hit clears the whole map you're in.
+At Mythic, I don't see how better this can become.
+
+--Scythe--
+This is your main tool to take care of grass and weeds. Wild weeds will grow on 
+your field randomly on non-seeded areas. You can cut them off with the Scythe or
+throw them on the ground. But grass needs to be cut off. You can also use it to 
+get rid of old crops when changing seasons.
+
+At normal, one tile is cut.
+At Copper, three tiles wide in front of you, with you in the center.
+At Silver, three tiles wide and 2 tiles away are cut.
+At Golden, a set of 3x3 tiles around you is cut, with you in the center.
+At Mystrile, a set of 5x5 is cut, with you in the center.
+At Cursed/Blessed, a square of 7x7 is cut off, with you in the center.
+At Mythic, I suppose its 9x9. Pretty big.
+
+--Watering Can--
+Obviously, you'll use this to water the fields. The amount of water it contains 
+grows with the levels as well, but you also cover more ground with a single 
+action.
+
+At normal, you water 1 tile in front of you.
+At Copper, you water 3 tiles wide in front of you.
+At Silver, you water 3x2 tiles in front of you.
+At Golder, you water 3x3 tiles in front of you.
+At Mystrile, you water 5x5 tiles in front of you.
+At Cursed/Blessed, you'll water 7x7 tiles in front of you.
+At Mythic, must be pretty big area.
+
+--Fishing Rod--
+As you can guess it, you can fish out of almost any body of water. The levels in
+this case allow you to charge up to catch bigger fishes. At higher levels, 
+you'll fish less junk and better fishes out. Some fishes can only be caught with
+the best rods.
+
+--Brush--
+Lets you brush your sheeps, cows and horse, once a day each. Brush them all 
+everyday to keep their affection rising.
+
+--Milker--
+Get the milk off of your adult cows every day.
+
+--Clippers--
+Get the wool off your sheeps once a week.
+
+--Medecine--
+Medecine is needed if your animals get sick. That can happen if you leave them 
+outside when it rains, or if you don't need them for a few days. You might never
+even have to buy this if you do well.
+
+--Miracle potion--
+This is a potion to use on your cows or sheep to have them pregnant. They need 
+to be put in the stall for that purpose first thought.
+
+--Seeds--
+You can buy the seeds at the supermarket or Won's place at the beach. Each bag 
+seeds and area of 3x3 with you as the center. So you must stand in the middle of
+the 3x3 formation to seed them all.
+
+--Podometer--
+It just counts the number of steps while you carry it. It doesn't need to be 
+equipped, just in your rucksack.
+
+--Godess/Kappa Gems--
+These special gems will make you recuperate your energy wihle holding it in your
+hands (no need to use them). Goddess Gem will heal your Stamina, and Kappa Gem 
+your Fatigue. Both heal about at the same rate that the hot bath would. Its 
+mostly used to recuperate when out of the mine, while walking back to the farm 
+you can just keep it on and it will heal you.
+
+Since time doesn't pass in the mine or in houses, its only useful outside.
+
+--Upgrading Tools--
+The 6 basic tools can be upgraded. If you check your earning screen, one of the 
+pages lists the tools and their current levels. A progress bar tells you how far
+you are from being able to reforge it. Once a bar is full, a small colored rock 
+appears under the bar, showing which kidn of ore you can use to upgrade it.
+
+The progress bar moves only when you use it, and slowly at higher levels. Using 
+it during festival doesn't work to level them up, but you can use them in the 
+mine where time doesn't pass. The best way to level them is to go to the mine, 
+use the tool repeatidly until you turn blue, and take a dip in the nearby hot 
+bath for 2 hours.
+
+Once you can reforge it, you need to get the needed ore out of the Spring Mine, 
+and bring it to Saibara the blacksmith. He will reforge it for a price, but you
+won't be able to use the tool for a few days while he's at work. Remember to 
+come back to pick it up, he won't deliver it back to you.
+
+One interesting thing to note is that you don't need to level them up in order, 
+meaning from Iron to Copper to Silver to Gold. You can skip straight to the 
+highest level, Mystrile. It will save you money and time in the end, because it 
+will take only half as much money and half as many days total to reforge it.
+
+And yes, Mystrile is the 'highest level' to upgrade through levels, as the 3 
+others are acquired through special means. And also, the 3 higher levels don't 
+replace your original tools, so you can keep your Mystrile tools. Read below for
+those higher levels.
+
+--Cursed and Blessed Tools--
+These are special tools, as they aren't upgraded from the basic 6 ones. You need
+to find the Cursed Tools in the Winter Mine, but they only appear once every 
+basic tool are upgraded to Mystrile (that means reforged, not just leveled up). 
+See the Mining Section for where to find them.
+
+Cursed Tools can't be taken off once equipped, and even worse, they drain 
+stamina like no tomorrow when used. They aren't advisable to use at all because 
+of that. The only way to take them off is waiting for a Confessional day at the 
+church (Monday, Wednesday or Rainy/Snowy days between 1pm and 4pm) and ask 
+Carter to remove it for 1000G.
+
+The Blessed Tools are when the curse has been removed off them. They have 
+exactly the same power, but without the huge stamina drain and limitation to
+unequipping them. How to remove the curse depends on the tool :
+
+The Hoe and Watering Can can be uncursed by going on those confessional days and
+removing the curse 10 times. It costs 1000G every time, so all that is needed 
+for this is money.
+
+The Hammer and Sickle needs to be equipped and never removed for 10 days 
+straight. This can be a problem if not done in winter. In winter all you need 
+to take care of are your animals, so ask for a sprite to lend a hand with them. 
+On the 11th's morning, the curse will be lifted. You don't need to equip the 
+Cursed item before the end of the day. It counts the number of times you sleep, 
+not the number of hours.
+
+The Axe and Fishing Rod can be uncursed after being used 255 times. Of course, 
+with the huge stamina drain, this is almost impossible. But there is one trick. 
+Alot of Festivals (Horse Racing, New Year Events...) have the 'unlimited 
+energy' tag, which means you can use any tool as much as you want and you 
+won't pass out. Bring them with you on such an event, and use it over and over 
+until they both get uncursed.
+
+--Mythic Tools--
+The most powerful tools in the game, are possibly the hardest to get. By the 
+time you got them all, they are possibly not as useful anymore either. But for 
+completion sake...
+
+You need to get all of your tools to Blessed state first, else you can't find 
+the needed materials. The materials are the Mythic Stones, mentionned in the 
+Mining Guide. They are rare stones indeed. Saibara will request one along with 
+50000G (ouch) and 2 days worth of work. You probably will wait a good while for 
+these, but its not necessary either. Most Blessed tools are more than sufficient
+for the work needed.
+
+===========
+Crops basic
+===========
+The thing to know about farming is planning a little about the space. At first, 
+your watering can is weak, you won't be able to water more than a space at a 
+time. What does that mean in practice? Means that you'll need to walk beside 
+each tile to water them. Later on you'll have means of watering more, but for 
+now, this is the basic.
+
+You'll want to keep one of many formations in mind, and use the one that you 
+find easiest simply. Your seed bag covers this area at most :
+
+XXX
+XXX
+XXX Block
+
+I call it the Block formation, or 9-tile. The problem is that when the plants 
+are grown enough, you won't get to water the middle tile. So at first you don't 
+want to use this formation. Some will argue that you can water the middle when 
+you harvest the rest, but how will you replant the tiles if you can't stand in 
+the middle tile?
+
+So you will want to use 8- or 7-tile formations. Of course I would suggest 8 
+tiles for maximum profit, but you might just choose to do it differently. 
+Possible formations :
+
+XXX        X X          X X
+X X        XXX          X X
+XXX        XXX          XXX
+Donut      Shallow-U    Deep-U
+
+I suggest the Donut or Shallow-U. The advantage of the Shallow-U is that you 
+won't be 'jumping' to the middle tile by accident. I find that a bit annoying, 
+but its not that much of a concern.
+
+In your field, you'll want to have space to walk around them, so you'll have 
+to tile like this :
+X = Crop
+- = Free space
+
+---------      ---------
+-XXX-XXX-      -XXX-XXX-
+-XX---XX-      -X-X-X-X-
+-XXX-XXX-      -XXX-XXX-
+---------  or  ---------
+
+You need at least a Silver Watering Can to reach the middle of a Block 
+formation, else keep it this way.
+
+Each crop grows in a certain season and at a certain speed. Turnips for example 
+take 4 days from being planted to being harvested. That means that if you plant 
+on the 1st, you'll harvest on the 5th. Some plants regrow without needing to be 
+seeded, in which case they take less time to regrow than from being seeded. For 
+example, Sweet Potatoes take 5 days to harvest, but then you'll have a new 
+harvest every 2 days.
+
+For that purpose, I've made several tools for you. First of, a small crop chart,
+giving you quick info about the kind of crops you can plant in that season. The 
+second tool, a calendar to monitor your crops harvest times, which will help you
+when you'll require the help of Sprites or to plan on certain events.
+
+So here are the crops charts. The price is per bag. When a crop doesn't regrow, 
+remember that you need to reseed, which you can do as soon as you've harvested 
+the crops out.
+
+The "Ripe In" lets you know how many days it takes for the first harvest. The 
+Harvest column tells you how many times you'll harvest it at most in the season,
+so you can plan on buying the extra bags. Sell for is the individual price per 
+crop. 
+
+The last 3 columns are net profit. Net profit is calculated by each 3x3 block 
+you'll seed. The number representant a single block for a whole season. It 
+counts the number of bags you'll need to buy, the number of harvests you'll 
+have and the price per crop you'll sell.
+
+This means that if you planted 3 blocks of Turnips, 8-tiles, you'll get 7560 
+total in profit at the end of Spring, if planted early enough in the season. The
+Optimum Column tells you which date you should plant it at most to get the 
+maximum harvests in a month. Knowing which Crops are most important to seed 
+first can be useful if you're a bit short on money for a day.
+
+Here's an example of how the profit is calculated for Turnips :
+120G x 7 bags  = 840G cost in seeds per 3x3 tile for the whole month
+9 Tiles x 60G per turnip sold = 540G for a 3x3 set
+540G x 7 Harvests = 3780 G per season
+3780G - 840G for the seeds = 2940G profit
+
+--Spring--
+            Price  Ripe in  Harvests    Sell  9-Tile  8-Tile  7-Tile  Opt.
+Turnip     : 120G   4 days  7            60G   2940G   2520G   2100G   2nd
+Potato     : 150G   7 days  4            80G   2280G   1960G   1640G   2nd
+Cucumber   : 200G   9 days  Regrow, 3    60G   1420G   1240G   1060G   1st
+Cabbage    : 500G  14 days  2           250G   3500G   3000G   2500G   2nd
+Strawberry :
+
+--Summer--
+            Price  Ripe in  Harvests    Sell  9-Tile  8-Tile  7-Tile  Opt.
+Tomato     : 200G   9 days  Regrow, 7    60G   3580G   3160G   2740G   3rd
+Corn       : 300G  14 days  Regrow, 5   100G   4400G   3900G   3400G   1st
+Onion      : 150G   7 days  4            80G   2280G   1960G   1640G   2nd
+Pineapple  : 1000G 20 days  Regrow, 2   500G   8000G   7000G   6000G   5th
+
+--Fall--
+            Price  Ripe in  Harvests    Sell  9-Tile  8-Tile  7-Tile   Opt.
+Carrot     : 150G   7 days  4            60G   1560G   1320G   1080G   2nd
+Eggplant   : 120G   9 days  Regrow, 7    80G   4920G   4360G   3800G   3rd 
+S.Potato   : 300G   5 days  Regrow, 13  120G  13740G  12180G  10620G   1st
+G.Pepper   : 150G   7 days  Regrow, 12   40G   4170G   3690G   3210G   1st
+
+You can only buy the first 3 items on the lists from the supermarket. You can 
+buy the 4th item from each season from Won. The 5th item is only available from 
+the supermarket when you shipped 100 crops of the first 3 kinds each season. 
+Don't worry about that in the first year thought, concentrate on getting some 
+cash at first.
+
+And here are the calendars for the seasons. These calendars show if you plant 
+on the first of each month. Sometimes its not possible, like the first year, 
+because you can't buy the seeds on the first day, so you can plant on the 
+second at best. Just push 'down' every crops on these calendars as needed.
+
+Use this calendar to plan when you need to buy new seeds, and when you'll need 
+to harvest. This is good for planning on the sprites' help later in the game. 
+The list only gives the names of the crops that will need to be harvested on 
+that day, so check which ones you need to reseed and those that regrow.
+
+I also added the birthdays of the townspeople for every month, so its easier to 
+track. Names in () are their alternate birthdays of the bachelors of your 
+version (girl or boy). If you picked the first date as your birthday, their 
+birthday will become the alternate. The game makes sure you don't have exactly 
+the same date by moving the bachelor's birthday by a few days.
+
+And the Festivals are added so you can plan around them. Remember that shops 
+are closed on festivals, so get what you need on the day before.
+
+Lastly, remember that if you the calendars work if you plant on the first. If 
+you can't, bump the list down for the needed amount of days.
+
+--Spring--
+
+1   New Year Festival       Plant Seeds
+2
+3
+4   Bold
+5                           Turnip
+6        
+7
+8   Harvest Goddess, Kappa  Potato
+9   (H. Goddess, Kappa)     Turnip
+10                          Cucumber
+11  Saibara 
+12
+13                          Turnip
+14  Spring Thanksgiving
+15  Staid                   Potato, Cabbage, Cucumber
+16  Elli
+17  Barley                  Turnip
+18  Spring Horse Race
+19  Lillia
+20  (Elli)                  Cucumber
+21                          Turnip
+22  Cooking Festival        Potato
+23
+24
+25                          Turnip, Cucumber
+26  Aqua
+27
+28
+29                          Turnip, Potato, Cabbage
+30 Sasha                    Cucumber
+
+--Summer--
+
+1  Beach Day                Plant Seeds
+2
+3  Popuri
+4  Harris
+5        
+6  Cliff      
+7  Chicken Festival  
+8                           Onion
+9       
+10 (Popuri, Cliff)          Tomato
+11 Basil
+12
+13                          Tomato
+14
+15                          Corn, Onion
+16 Timid                    Tomato
+17 Ann, (Kai)
+18                          Corn
+19                          Tomato
+20 Cow Festival
+21                          Corn, Pineapple
+22 Kai, (Ann)               Tomato, Onion
+23
+24 Fireworks Festival       Corn
+25 Thomas                   Tomato
+26                          Pineapple
+27                          Corn
+28                          Tomato
+29 Zack                     Onion
+30                          Corn
+
+--Fall--
+
+1                           Plant Seeds	
+2  Gotz
+3  Music Festival
+4
+5  Stu
+6                           S.Potatoes
+7        
+8                           S.Potatoes, G.Peppers, Carrots
+9  Harvest Festival
+10 Hoggy                    Eggplants, S.Potatoes, G.Peppers
+11 Manna
+12                          S.Potatoes, G.Peppers
+13 Mother Hill Festival     Eggplants
+14 Chef                     S.Potatoes, G.Peppers
+15 Karen                    Carrots
+16                          Eggplants, S.Potatoes, G.Peppers
+17 Doctor
+18 Fall Horse Race          S.Potatoes, G.Peppers
+19                          Eggplants
+20 Carter, (Gourmet)        S.Potatoes, G.Peppers
+21 Sheep Festival, Gourmet
+22                          Eggplants, S.Potatoes, G.Peppers, Carrots
+23 Anna, (Karen), (Rick)
+24                          S.Potatoes, G.Peppers
+25 (Doctor)                 Eggplants
+26                          S.Potatoes, G.Peppers
+27 Rick
+28                          Eggplants, S.Potatoes, G.Peppers
+29                          Carrots
+30 Pumpkin Festival         S.Potatoes, G.Peppers
+
+--Winter--
+
+1
+2
+3
+4
+5
+6  Gray
+7
+8
+9
+10
+11 Doug
+12
+13 Ellen
+14 Winter Thanksgiving
+15 Duke
+16
+17
+18 
+19 Won
+20 Mary
+21 (Won)
+22 Nappy
+23 (Gray)
+24 Starry Festival
+25 Stocking Festival,  (Mary)
+26 May
+27
+28
+29 Jeff
+30 New Year
+
+--Grass--
+Grass, while are seeded like crops, fall into a different category altogether.
+
+-They don't need to be watered (thus 3x3 blocks are fine)
+-They regrow on their own (even after winter)
+-They can be cut once a week for bushels of food for your cows/sheeps.
+
+Thus you'll want to plant many blocks so you can plan on having animals. 
+Leaving the the Cows and Sheeps outside, one tile of fully grown grass will be 
+eaten everyday, which is just as much as if you cut the piece and fed it to the 
+animal yourself.
+
+So you'll want more tiles just to cut them and make yourself a reserve for 
+winter. The fenced area doesn't need to be very big, just plan for animals x 7 
+days tiles minimum, so the grass has time to regrow. You'll 112 squares fenced 
+at most for all 16 bar animals, the maximum you can have. If you want to know, 
+that's 12.5 bags of grass (considering 3x3 squares, 12 bags = 108 tiles).
+
+If you decide to remove grass tiles, you need to wait to cut it, or the first 
+few days after winter. When grass is at the lowest, use the hoe to redig the 
+tile and it won't grow there anymore.
+
+=============
+Animals basic
+=============
+There are 5 kinds of animals that will inhabit your farm.
+
+--Dog--
+Your dog starts as a pup, it'll be adult by Fall first year. It won't be able 
+to do much at first, so keep it outside to make it happy, but keep it out of 
+the rain. Lift it up and down once every day to raise its affection (its this 
+game's way of petting apparently).
+
+When it gets to adult, you can buy a frisbee form Won, and train it at the 
+beach. Carry it on sunny days at the beach and check the sign near the beach 
+house to start a Dog Disk mini-game. The bar starts low, but will increase 
+through practice. 
+
+From my observations, the bar only increases when the dog catches the disk, and 
+the more distance it can catch the better. So try to aim for all near-max 
+catches. Stop and save between each if you want. I would personally have made 
+it increase the more you farther you make your dog run but anyway.
+
+You can only train a few times a day, depending on your dog's affection. So 
+save and reload until you get a maximum amount of catches everyday, so it will 
+increase faster.
+
+Your dog will also scare wild dogs away at night when trained enough at the 
+disk.
+
+Your dog won't get sick in the rain, but won't increase its affection as 
+quickly. You don't need to feed it either.
+
+--Horse--
+Your horse starts as a kid, and will be useless. But you can talk to it and 
+brush it everyday to increase its affection. It will become adult a full year 
+after being given to you.
+
+Once adult, it has saddle bags, which you can use as a shipping bin. You can 
+also ride it, but only on your farm unfortunatly. You can't talk to it anymore, 
+but you can keep brushing it for affection everyday.
+
+Horses don't need to be fed, but keep it out of the rain still.
+
+--Chicken--
+The cheapest animal, not the best moneymaker but requires little work. They 
+cost 1500G each from the farm. Just lift and drop everyday to increase 
+affection.
+
+You can either keep it outside, where it will feed on its own, or keep it 
+inside, but then you need to buy feed or make some using corn and throwing it 
+on the mill outside the coop for 30 pieces of chicken feed. Its only 10G each 
+to buy thought. Remember to keep any animal out of the rain thought. They can 
+get sick and unhappy if outside when raining or if not fed for a day.
+
+If not sick or unhappy it will produce an egg everyday. The quality of the egg 
+depends on its affection level. Normal, Good and High quality eggs are worth 
+increasingly more.
+
+In the coop, put an egg of any quality in the basket on the lower left side 
+for it to turn into a chick 3 days later. So you only really need to buy a 
+single chicken, and use its eggs to get more chickens.
+
+When kept outside, you need a fence, so that wild dogs won't attack them. Make 
+sure your fence has no rotten parts everyday. But its good to note that while 
+inside, time doesn't flow so you can take the time needed to pet your chickens 
+and take their eggs.
+
+You can have 4 chickens at most, 8 once you upgraded the coop.
+
+--Cow--
+Cows are your best money maker as far as animals go, and costs 5000G each. 
+Bushels are worth 20G each, but you can get some by cutting your grass patches 
+when tall enough. But you can only put them outside if you have tall grass for 
+them to feed on everyday. They only need one tile each day per cow/sheep to 
+feed on.
+
+As with any animals, keep them out of the rain if you want them outside, or 
+else make sure they have their feed inside the barn everyday. 
+
+Cows happy and in good health will produce Small, Medium and Large milk for 
+you to ship everyday, if you use the milker on them.
+
+If you push a cow in the upper left corner stall, and give it some miracle 
+potion, they will be pregnant with a baby cow. But you will be unable to get 
+any milk from them for that time. Its a bit more profitable to buy your cows 
+instead. Cows bought give milk once adult, which is a full week after being 
+bought.
+
+Your barn can hold a maximum of 8 cow/sheep combination, and 16 once upgraded.
+
+--Sheep--
+Essentially, everything that applies to a cow applies to a sheep too, with a 
+few exceptions.
+
+-You can use the clippers on them to get their wool, once a week. 
+-You can clip their wool off the day you buy them.
+-They have their own miracle potion, but use the same stall for pregnancy.
+-You can't give the miracle potion to a sheep that you clipped the wool off. 
+ You need the wool on to impregnate them.
+
+Otherwise they use the same food and same rules as cows for being outside.
+
+============
+Mining Basic
+============
+Mining is a good side to taking care of your crops. Time doesn't pass while 
+standing in the mine, it only increases one minute each time you use stairs to 
+go deeper, so unless you move down 10 floors, you probably won't see a time 
+change.
+
+Mining is a complex system to explain in a few words only. So let's start with 
+the basic layout of the mine.
+
+There are two mines, which contain different gems and ores. The spring mine is 
+near the hot baths in the mountain, and avaliable all year long. The Lake mine 
+is only available in winter when the lake is frozen over.
+
+Both contain 255 floors. Some items can only be found in one or the other mine, 
+on a given floor. Both both have the same layout rules for the floor sizes and 
+rock density. There are three rules for the sizes, in order of importance :
+
+1- If the floor number is multiple of 5 (5, 10, 15), it will be the biggest 
+   room, about 2.5 screens across by 2.5 screens high. The rock density is low, 
+   so its not too hard to move around.
+
+2- If the floor number is multiple of 3 (but not of 5) (3, 6, 9, 12, 18), the 
+   room will be about 2 screens high by 1 screen across, but the rock density 
+   is the highest here. You'll often find yourself trapped in rocks here.
+
+3- If none of the above, a standard 1x1 screen with a relatively low density of 
+   rocks.
+
+Both mines follow a few more rules as well :
+
+-DownStairs never appear one tile away from the UpStairs : XXX
+                                                           XoX
+                                                           XXX
+-Downstairs never appear on the tiles next to the walls.
+-All floors are randomly generated, down to the contents of the rocks/ground. 
+ Using the downstairs randomize the next one. Thus reloading the previous floor 
+ and using the same stairs would end up with a different room with different 
+ rock layout and content (ores, gems). It also means that reloading the same 
+ floor from a save, the room wouldn't have changed at all.
+-All floors may contain more than one stairs down, but sometimes might have 
+ none. You can test the multiple stairs by reloading the same floor save, and 
+ purposely skipping the stairs. You might find another set on the same floor. 
+ But only one stairs can be found at a time.
+-All floors can contain some herbs as well, even in spots where the stairs 
+ can't be. If you're using the AS/BS method, dig everywhere to get many herbs.
+
+Baring those, you can follow two methods to go very deep in the mine with a 
+mimimum of stamina/fatigue loss. The 2-save method (That I call AS/BS, the 
+AfterStars/BeforeStairs system), or the 1-save method. The AS/BS is way safer 
+to use and is also much more convenient when looking for certain prizes in 
+particular.
+
+--AS/BS procedure--
+
+1- Save on the floor before you take the downstairs or before entering the 
+   mine (BS)
+2- Take the stairs down, and look for the rock formations on the new floor. 
+   You need enough diggable space that stairs might appear in (look at the 
+   rules about the stairs position I mentionned before).
+3- If you don't have any space without having to break rocks, reload your BS 
+   and to back to Step 2.
+4- If you have enough diggable space for stairs, save your AS, 
+5- Start digging. Dig everywhere, including where stairs wouldn't be, 
+   looking for stairs AND Black Herbs. Just remember the position of each for 
+   now.
+6- If there were no stairs, reload the BS and return to step 2. If you found 
+   some, continue to step 7.
+7- Reload your AS, and dig ONLY the spots with the stairs and herbs.
+8- Go back to Step 1
+
+The trick will save you the most energy because you basically don't ever need 
+to hammer your way out of rocks. You might need to reload quite a few times on 
+the x3 floors thought. And you will dig only 2-3 times each floor, which 
+you'll quickly replenish with the black herbs. Even if you don't find herbs on 
+a floor, you'll find 1-3 on other floors to compensate.
+
+The trick basically means this : If you don't find what you need on a floor, 
+you reload the previous floor to randomize it again. If you find what you need, 
+to reload the same floor so that everything will be in the same positions as 
+before.
+
+The BS will randomize the floor again.
+The AS will keep the floor you're on as it was when you entered/saved.
+
+Because of that, you'll be using this trick to also seek out the special items. 
+Then you'll add this procedure in :
+
+4a. Instead of looking for stairs, dig or smash rocks to find the item you want.
+4b. If you don't find the item, reload the BS, return to Step 2 again.
+4c. If you find the item, reload the AS, and dig/smash on where the item is 
+    (or a path to it if need to).
+4d. Save a new AS, and continue to step 5.
+
+This way you'll ensure that you got what you wanted. Note that due to the 
+randomization, sometimes a floor WON'T have the item its supposed to have, 
+just like sometimes there are no stairs. So if you don't find it, reload the 
+BS and dig again until you find it and stairs going down.
+
+--Single Save Procedure--
+With this method, you're relying a bit more on luck, and you'll want to carry 
+down with you some energy boosting items, such as Lunch Box, Elli Leaves, 
+Bodygizer(or XL) and TurobJolt(or XL). You won't be able to count on getting 
+the stairs in a single dig this time, so this is the other way.
+
+1- Save on the floor before taking the stairs down.
+2- Look for enough space to dig where stairs might appear.
+3- If you don't have enough space, reload your save.
+4- If you have enough space, dig for the stairs.
+5- Once you found the stairs down, return to Step 1 to save.
+
+If you don't seem to find the stairs within a low amount of digs, reload 
+anyway and try again. Eventually you'll find the stairs within 2-3 digs. 
+Don't diss out herbs if you find some, eat them right away and keep looking 
+for stairs.
+
+Since you can't 'remember' the position of items here, you'll have to rely on 
+luck solely. And if you can't find the special item before your energy runs 
+out, just reload until you find it quickly enough. I don't suggest finding 
+more than one special item at a time because of that, unless you're carrying 
+some means of restoring energy.
+
+--Spring Mine--
+Now for the content of each mine. The spring mine being avalable all year 
+around isn't that much of a money maker. The Copper are worth only 15G, and 
+the best ores are found floor 10 and below, worth 50g. Which means a single 
+trip with a full bakset will be worth 1500G at most.
+
+Copper             15G     All Floors
+Silver             20G     All Floors
+Gold               30G     Floors 3+
+Mystrile           40G     Floors 5+
+Orihalcum          50G     Floors 10+
+Adamantite         50G     Floors 10+
+Mythic Stone    20000G     Same floors as Goddess Jewels
+Goddess Jewels             Floors 60, 102, 123, 152, 155, 171, 190, 202 and 222
+Teleport Stone             Floor 255
+
+These are all found in rocks.
+
+Power Berry           Floor 100
+French Fries Recipe   Floor 255
+
+These are found by digging.
+
+The Goddess Jewels, when the 9th is found, will combine into the Goddess Gem, 
+which when equipped as a tool, will recuperate Stamina with time. It doesn't 
+work in the mine since time doesn't pass. You don't need to be carrying all 9 
+thought. Even if some are in your house, they will still combine. As long as 
+you have a free tool slot! That's very important to keep a tool slot open when 
+you purposely go for the Goddess Jewels. The Jewels are plain items, but the 
+Gem is a Tool.
+
+The Mythic Stones only appear if you got every Blessed Tool first, which we'll 
+explain later on. So don't bother looking for these at first. They appear 
+rarely on those floors too. Sometimes you'll find none, sometimes you might 
+find 2 or 3. But they only seem to appear on the same floors as the Goddess 
+Jewels.
+
+The Teleport Stone is a tool that appears only on the 3rd year, so no need to 
+go that far yet either. And French Fries recipe, just get it at the same time 
+as the Teleport Stone, really.
+
+--Winter Mine--
+This mine is only open in winter, as said previously. Beside the Junk Ore, the 
+gem that is worth the LEAST is worth 55G. That's already better than the 
+Spring mine. But the gem of lowest value found on the very first floor of the 
+mine is worth 60G and the best 85G, so its worth 2550G for a full basket of 
+that one. More than the Spring Mine for sure.
+
+Amethyst         60G      All Floors
+Agathe           62G      All Floors
+Fluorite         65G      All Floors
+Peridot          68G      All Floors
+Emerald          70G      All Floors
+Ruby             85G      All Floors
+Sand Rose        60G      Floors ending in -9 (9, 19, 29...)
+Moon Stone       55G      Floors ending in -8 (8, 18, 28...)
+Diamond         100G      Floors ending in -0 (10, 20, 30...) with some 
+                          exceptions 
+Pink Diamond  10000G      Floors 30, 70, 90, 110, 130, 170, 190 and 255
+Alexandrite   10000G      Floors 50, 100, 150 and 200 (unconfirmed for later 
+                          floors)
+Kappa Jewels              0, 40, 60, 80, 120, 140, 160, 180 and 255
+
+These are all found in rocks. See below for additional notes on these.
+
+Power Berry               Floor 19
+Cursed Fishing Rod        Floor 29
+Cursed Hoe                Floor 39
+Cursed Ax                 Floor 49
+Cursed Hammer             Floor 59
+Cursed Watering Can       Floor 69
+Cursed Sickle             Floor 79
+
+These are all found by digging.
+
+Pink Diamonds may appear on those floors, but sometimes they won't either. 
+Sometimes you might find more than one on the same floor too. Use either save 
+trick to ensure that you find at least one.
+
+Alexandrites are special floors in the manner that they ONLY hold Alexandrites, 
+if any. That means you will find no other gems on those floors, thus why its 
+an exception for the diamonds. There might be more than one on a single floor 
+too. Use the save tricks to find at least one.
+
+Kappa Jewels follow the same rules as the Goddess Jewels. The Kappa Gem will 
+heal back Fatigue with time pass.
+
+The Cursed Tools are only found if all of your tools are upgraded to Mystrile. 
+They won't appear if not. And a glitch apparently lets you find more than one 
+Cursed Tool if that tool is already further leveled to Blessed, but there's no 
+practical use to that.
+
+--Mining profitably--
+The only way to make it really worth the time is going to the winter mine and :
+
+-Either dig down to 30 and get pink diamonds
+-Or stay on the first floor and use the save trick to fill your basket only 
+ with rubies, wasting a minimum of energy by saving on the first floor, finding 
+ the rubies, reloading the save and smashing only the rocks with rubies inside. 
+ Fill your basket like that for 2550G per trip, with minimal item/energy loss.
+
+Digging down for pink diamonds is worth 10000G, but it might be more boring 
+than just taking rubies out of the first floor. Only 4 full baskets of rubies 
+would cover the price of a single Pink Diamonds, and you'll only use your 
+hammer.
+
+Mythic Stones are tempting, but they are very rare, and going down 60 floors 
+for 1 or 2 is just as boring as Pink Diamonds, but can be done all year long.
+
+Another way is getting Orihalcums and turning them into jewels by Saibara. He 
+asks you 1000G for it, but you sell it 2000G. Comparing with the 50G you'd get 
+if you shipped it, that's still 950G more. Problem is, you can only carry 8 at 
+a time of course. But 8 broaches will be worth 7600G (8 x 950G), so its still 
+worth the effort.
+
+=======
+Fishing
+=======
+There's probably people finding that fishing is nice, but I find it utterly 
+boring personaly. You could spend a day fishing and still get scraps of 
+earnings. That's why my fishing rod was leveled last. But I'm not excluding 
+the potential of it anyway.
+
+There are 6 main areas to fish :
+
+-Mother Hill Lake
+-Mother Hill River (north of the lake)
+-Goddess Waterfall
+-Ocean (Beach)
+-Town River (goes along the farms south of town)
+-9th Floor of Winter Mine
+
+The goal in a fisher's life is eventually catching the big ones, the King Fish. 
+There are one of them in each of the fishing areas, but some of them require 
+some conditions to even have a chance at fishing them.
+
+One of the best tricks to fish is using one of the two beach events to get a 
+full basket of your choice. The time doesn't flow, and you have infinite 
+stamina, so nothing will stop you from getting what you want.
+
+Remember to avoid throwing fishes or thrash back in the ocean, it counts as 
+littering, and everyone hates you a bit more every time. So instead, put them 
+in your rucksack, and go press START when the pointer is on the item. You'll 
+get rid of it, without littering. Its a bit longer, but at least no other bad 
+things happen.
+
+Here's a list of items that I've found by area fished :
+
+Beach
+=====
+Branches
+Tin can
+Boots
+Fish Bones
+Sardine
+Herring
+
+
+=======
+Weather
+=======
+
+Weather affects greatly your life on the farm. It's not to be underestimated 
+either. People in the village also behave differently depending on the weather.
+Like most, they avoid going on in bad weather. Certain weather effects might
+cause destruction and chaos as well. It's important to know about this.
+
+First of all, the TV in your living room has a weather channel, when you
+press Up on the TV. It gives an accurate weather report on how it will be
+on the next day (not today).
+
+The different weathers :
+-Good weather
+	The good weather is the normal one, there is nothign special going
+	on, and depending on the season it's worded differently. Such as
+	summer saying it will be a hot day. As such, there can be good 
+	weather in every season.
+-Rain
+	Rain happens in Spring, Summer or Fall only. During Rain, various
+	things are affected. 
+	-You don't need to water your crops.
+	-Animals left out might become sick (except Dog and Horse)
+	-You get tired faster when using tools.
+	-Alot of the villagers stay in their houses or meet elsewhere than
+	 usual.
+	-The confessional is always open on rainy days.
+-Snow
+	Snow has the same effects as Rain, except it happens only in winter.
+	The difference is that you don't have any crops to water obviously.
+-Hurricanes
+	This happens only in summer, and causes major damage to your farm.
+	Stones and branches are thrown randomly in your field, fences are
+	destroyed, crops are ripped out, and animals that were left out
+	are possibly gone forever. In fact, during Typhoons you cannot even
+	get out of the house either, so your animals also will be angry for
+	not being fed on that day.
+-Snowstorm
+	Similar to Hurriance, but happen only in winter. While it won't destroy
+	your field, it will still keep you from going outside, animals might be
+	lost if they were still outside, or will be angry or sick for being
+	being fed for a day.
+	
+Important to note, any and all events and festivals will happen on sunny days.
+The weather will never be bad on those days. Also has to be sunny on days that
+Mayor Thomas, Barley or other people come to your door, except for Won.
+
+There is an easy way of tricking the weather into your favor though. If you
+get to bed before 12am, it will get randomly generated when you get up the
+next morning. So if you save before going to bed, you might get different
+results once you check the weather report on the next morning.
+
+Remember that the weather report is for the day after. Thus like this :
+Day 1 - Save your game, get o bed
+Day 2 - Check weather report for Day 3 when you get up.
+Day 3 - Target day of the trick
+
+It's a good habit to check the weater every morning so you can avoid Hurricanes
+and snowstorms. You can reload the previous night save and eventually the
+weather report will show a different result. It might take a few reloads to
+get the wanted weather. 
+
+You can also trick the weather into the weather of your choice for various 
+reasons. 
+
+-You can force it  to rain/snow on the other days so you can use the 
+ confessional, or to water your crops every day, reducing your work load.
+
+-You can force it to be sunny so that your animals can stay outside without
+ getting sick as well, or be able to train your dog at frisbee, among others.
+ Of course you also want it to be sunny on days you actually work your tools 
+ outside, like cleaning your field or wood chopping.
+
+-You can force it to get a Hurricane if you absolutely want more stones in 
+ your field, although I don't think the damage is worth it.
+
+-You CANNOT force it to have any other weather than Sunny on certain days,
+ which usually are festivals. Also, some days related to festivals might
+ never get bad weather, like when Barley comes to get a Cow or Sheep for
+ the Sheep/Cow Festivals. In fact, most people that comes to your door
+ forces the weather to be good. Only Won, Zack and Gotz don't care about
+ weather when they knock at your door, if not mistaken.
+
+-Also, the weather doesn't seem to change if you went to bed after 
+ midnight, possibly because the game already determined the next day's 
+ weather with the date change.
+
+============
+Passing Time
+============
+
+Time is easy to control to some degree. Every second is one minute passing 
+in game. Since the game only shows digits in 10s, you'll see the time change
+every 10 seconds.
+
+Time passes only when outside, that is on your field, in the village, at
+the beach or mountains.
+
+Time does not pass when you are inside. That includes any house in the village,
+the houses at the beach, your house, the barn, coop, horse shed and the two 
+mines. It also includes the extra houses you can get in the village, mountain 
+and beach.
+
+Time also does not pass during Festivals. The festivals require that you talk
+to certain people to make it advance and eventually end.
+
+There is one slight exception in the mines. Time only passes one minute every
+time you use stairs, wether it's going up or down. So 10 floors will equal to
+10 minutes in game.
+
+All Festivals do not require you to be there at the very first hour of it 
+starting. You can get there minutes before the end of it, and you will see
+the event in full.
+
+The hot spring in the mountain regains Fatigue and Stamina at a rate of 1 per
+minute or so, so depending on your levels, 1 hour in the spring is 60
+stamina/fatigue restored.
+
+The bath in your house has the same effect, but use up 30 minutes when you 
+use it, despite being inside of the house where time normally doesn't flow.
+It restores for 30 minutes worth, the same as the hot springs.
+
+Certain items, like the Goddess Jewel and Kappa Jewel, restore either Stamina
+or Fatigue just by holding it, aka not in your rucksack but in your hands,
+like if you wanted to use it as a tool. It restores at the same rate as the
+hot springs, but you can still walk around while holding it.
+
+Those jewels do not work where time doesn't flow, but it can restore 1 point
+if held when you go down stairs in the mines, since time advances 1 minute
+when you do.
+
+============
+Making Money
+============
+There's only two general ways of making money. There is a third unconventionnal 
+way in the girl version only.
+
+The first method is through shipping. Anything shippable will net you some 
+money when Zack comes to pick it up at 5pm everyday. The Shipping Bins hold an 
+unlimited amount of items, but you still need to find what to ship and how to 
+get those items.
+
+The second way is through ploughing in the mines. Digging around, you can find 
+some money bags. You can also find these in your field randomly. They are only 
+worth 10G each, but they are added to your cash right away. As you can guess, 
+its not a very efficient way of making money.
+
+The girl version as a third possible way, which is through Won. Won can buy 
+things from you. He can buy just about any item in the game, and will offer a 
+better price than Zack for most shippable items too, with some bargaining. You 
+need to raise the friendship with him before he offers to buy things off your 
+hands thought. This is an unconventional way to make money, but still worth to 
+mention.
+
+So obviously, you'll be mainly counting on your shipping items. But what can 
+you ship?
+
+Crops that you grow are an obvious choice, but require a few days to grow 
+evidently. As seen in the charts previously, some crops are worth more than 
+others. On the first year, you'll want to concentrate on making more income, 
+and on the following years getting 100 shipped crops of each. After that its 
+up to you.
+
+Your animals products are also shippable. Milk, eggs and wool come in different 
+qualities/quantities depending on the animal's affection, and if they won a 
+contest, which then factors the total time spent outside as well.
+
+When the barn and coop are upgraded, you can further increase the value of 
+those items by buying the Makers from the blacksmith. He requires a few days 
+and some Orihalcum to build one for you. Those will let you exchange the basic 
+products for Cheese, Yarn and Mayonaise, of the same 'quality' as the 
+milk/egg/wool used for it. For the same quality, the products spun through the 
+makers are worth more money everyday.
+
+There are herbs growing in the forest, mountain and beach. All colors are worth 
+around 100G each, except the Black Herbs found in the mines, because they can 
+be found in unlimited quantities in theory. The other colored herbs only grow 
+once a day. Also, every season have different products that can be found in the 
+forest, mountain, beach and behind Carter's church (fall and winter only) if 
+you can get that door unlocked.
+
+You can also fish using the rod. The higher the level of your rod, the bigger 
+and better fishes its possible to fish. But since its random, you'll still get 
+smaller ones of course. All fishes can be shipped, and also some of the special 
+items found, like Fossils and Pirate Treasures, that are rare catches even with 
+high level rods. In the girl version you can even keep fishes for later in that 
+water hole near your shipping box.
+
+The mines are also a way to get some shippable items. Every kind of ore and 
+gems found in either mines can be shipped. Its a good idea to bring the basket 
+with you when you go there. See the mining section to know where to find the 
+gems and how much each is worth. You can also make jewels that fetch a nice sum 
+from ores you get in the mine, explained in the mining section as well.
+
+============
+Mineral Town
+============
+
+Your obligated neighbor, your life on the farm is closely linked to this town. 
+Befriending them is part of the life here, and one day getting married to one 
+of them.
+
+--Mayor Thomas--
+Mayor of the town, he's also the one taking care of most festivals. He goes 
+every sunday to share some pie with Ellen. He asks you to take care of the farm 
+when you first arrive, and then he'll come over sometimes to tell you about the 
+upcoming festivals.
+
+--Zack--
+The second person you'll meet when you arrive, and possibly the most important 
+to some degree, Zack is the local postman. He takes care of the delivery of 
+parcels and mail that arrives, and also comes everyday at 5pm to take what's in 
+your shipping boxes. He gives you the money right away, you don't even need to 
+be there to see him about getting paid, he's very thrustworthy. His house is on 
+the beach.
+
+--Won--
+You'll eventually get him knocking at your door one morning to sell you apples 
+or a vase for your house. He's a moneymaker, and seems to hide some not-so-nice 
+attitude behind his merchandizing schemes. In the boy version he's mostly there 
+to sell you some extra seeds and flower seeds. 
+
+In the girl version befriending him will eventually allow you to sell him 
+items, or even play a mini-game that has chances of earning lots of money too. 
+He lives with Zack at the beach. Its possible to marry him too in the girl 
+version.
+
+--Ellen--
+The eldest in town. She apparently lost the use of her legs, and spends her 
+days rocking her chair and telling stories to Stu her grandchild. She's the one 
+you want to befriend if you wish to earn a stocking for christmas. When the 
+friendship is high enough, she will take a yarn you offer her and turn it into 
+a sock.
+
+--Barley--
+Another town elder, he will come early in the first year to ask you to take 
+care of a horse for him. He's also the one taking care of the Farm where you 
+can buy some Cows and Sheeps. He'll have them delivered to you in the same 
+day, straight in the barn when you do.
+
+--Carter--
+The town's priest, takes care of the church. Every Monday and Wednesday 
+(and rainy days), he'll be in the confessional, which allows you to uncursed a 
+tool, or confess your sins to the goddess, hoping for forgiveness. Not being 
+forgiven doesn't have bad consequences thought, but being forgiven has good 
+results. Every other day he's tutoring Stu and May in front of the church. He 
+also seems to have a hidden mushroom garden behind the church.
+
+--Karen, Jeff and Sasha--
+The owners of the supermarket. Jeff seems to be kind, but easily taken 
+advantage of. Try to be nice to him okay? Customers tend to take credit from 
+him, but you can't get any credit with him, don't try. Sasha takes care of 
+collecting the debts apparently, or else goes to the town square to chat with 
+the town's wives. Karen is their daughter. She doesn't like sweets, and often 
+hangs with Rick, usually in front of the shop in the morning. She's also 
+sometimes at the goddess pond. She's one elligible girl to marry in the boy 
+version.
+
+--Duke and Manna--
+Duke is the owner of the winery. They have a daughter Aja who apparently left 
+town suddenly. Duke keeps drinking his own wine alot and calling Aja long 
+distance, which doesn't please Manna much. Manna on the other hand is the 
+biggest chatter box in town. Don't tell her any secrets less the whole town 
+will know on the next day.
+
+--Rick, Popuri and Lillah--
+The caretakes of the Chicken farm, its where you'll go to buy your chicken and 
+feed. Rick and Popuri are two elligible bachelors, depending on the version you 
+play. Lillah takes care of the shop, but has a poor health. Her husband left to 
+find a cure, but hasn't returned yet. Popuri is often by the goddess pond, 
+helping in the shop, or else at the church. Rick is often hanging around Karen.
+
+--Stu and May--
+The only kids and town, often playing together, but usually hanging with Carter 
+in front of the church, perhaps for a bit of teaching of the Goddess' ways.
+
+--Doug and Ann--
+Doug is the tennant of the bar, also where you'll find the town's only phone, 
+if you want to buy things off the TV Shopping Network. He's open everyday for 
+most of the day. Its also the town's hotel, and a few people sleep there 
+everynight. Ann is one elligible bachelor, and works at the bar most of the 
+time. She's sometimes at the Goddess pond with Popuri too.
+
+--Saibara and Gray--
+Saibara is the town's blacksmith. When you need to upgrade tools, its where 
+you'll want to go. His apprentice is Gray, and he doesn't seem quite pleased 
+with all the work Saibara puts him through. He's one of your potential husband 
+in the girl version. Gray lives in the inn, in the same room as Cliff too.
+
+--Mary, Basil and Maria--
+Mary is one of the girls you can marry as well, she's a bookworm honestly. She 
+opened a library so she could lend the books that her father Basil has written 
+with his many travels. Basil is seen going around town looking for herbs and 
+new things, often in the mountains. He looks pretty much like a traveler. Mary 
+and her mom are seen going shopping together every few days too.
+
+--Elli and Doctor--
+Don't they look cute together? Well actually either can be married, depending 
+on the version you play of course. Elli is helping Doctor with his clinic by 
+selling the medecines. Doctor can be consulted if you need a checkup. He's also 
+the one that picks you up if you faint out by overworking yourself.
+
+--Gotz and Harris--
+The town's carpenter, he lives alone in the woods, but is visited everyday by 
+Harris the town's police officer. Gotz is either at his home, ready to take 
+orders to enhance your house, or walking the forest and mountain looking for 
+more wood to cut.
+
+--Kai--
+Kai, while being an elligible bachelor for the girl version, is possibly one of 
+the hardest to marry. He comes to town only once a year, and opens the beach 
+restaurant for the season. Its a nice place that alot of people visit, 
+including the sprites sometimes. Popuri seems to have a fondness for him.
+
+--Cliff--
+He apparently left his mom and sister to wander the world, and ended up here. 
+You'll find him at the church everyday, he's friends with Carter, and he sleeps 
+at the Inn at night. By Fall in the first year he'll start to run out of money 
+to live here, and if you don't offer him to help at the Winery when you are 
+asked to, he'll be leaving town by Winter time. You can marry him in the girl 
+version.
+
+--Harvest Sprites--
+Their house is right on the path next to the church. A small house, 7 sprites 
+are there. Befriending them will allow you to hire them for a few days at a 
+time, so they can work on watering your crops, harvesting them, or take care 
+of your animals. Sprites also can send you an invitation for a Tea Party in 
+spring.
+
+--Harvest Goddess--
+It seems sometimes like you're the only know that sees her around the place. 
+She appears in the Goddess Pond if you throw something in it, allowing you to 
+connect with the GameCube A Wonderful Life game, to trade some data and unlock 
+some items. You don't need to connect to play, but its bonus things you can't 
+find otherwise. She also offers you a game on the TV from Spring 1st to 5th. 
+She will also randomly appear to congratulate you on certain milestones 
+throughout the game.
+
+Its possible to marry her too, given some conditions, in the boy version.
+
+--Kappa--
+I'm not sure how I can describe him at all. This green creature seems to be the 
+alter ego of the Goddess. Living in the mountain lake, tossing him some 
+cucumbers for 10 days will eventually reward you with something. I think 
+that's the only use he has at all. You can marry him with the same conditions 
+as the Goddess in the girl version.
+
+--Gourmet Chef--
+Only seen once a year at the Cooking Festival, he's the judge of the contest. 
+Its possible to marry him in the girl version too, but not sure why you'd want 
+to. I guess you need to have done every recipe to marry him.
+
+===============
+Harvest Sprites
+===============
+The Sprites are your biggest asset and help in this game. They can make an 
+otherwise impossible chore into a profitable cause. Befriending them is an 
+important part of making lots of money in this game.
+
+Befriending them is relatively easy. They particularly like herbs of their own 
+color. You can also buy the 50G a piece Flour and give some to them, they love 
+that.
+
+Boosting their affection very quickly requires giving them gifts on their 
+birthdays, it helps enormously.
+
+Bold (Purple)  : Spring 4th
+Staid (Blue)   : Spring 15th
+Aqua (Indigo)  : Spring 26th
+Timid (Green)  : Summer 16th
+Hoggy (Yellow) : Fall 10th
+Chef (Red)     : Fall 14th
+Nappy (Orange) : Winter 22th
+
+On these days, try to concentrate your gifts on that sprite to make their 
+affections very high quickly. 
+
+Sprites love herbs of their own color best, but they also like flour, which 
+can be found very easily at the shop, and its pretty cheap.
+
+In Spring, you'll mostly find Blue herbs in the forest, and Orange and Yellow 
+herbs at the beach.
+In Summer, Red Herbs and Blue Herbs in the forest/mountain, and some Purple 
+Herbs at the beach.
+In Fall, Red and Green Herbs in the mountain, and Indigo herbs at the beach.
+In Winter, there's only 2 White herbs. One in the forest, and one behind the 
+church.
+
+When they reach at least 3 hearts, you can do two things with them :
+
+-Hire them to work on the farm
+-Play mini-games with them
+
+Playing Mini-Games don't have any rewards, but it will increase that sprite's 
+ability to the given task. Think of it as training the sprite. The better they 
+are at a task, the faster they do the work.
+
+Making them work also increase their ability, so eventually they will get 
+better at it. Its a good idea to ask them to do always the same task until they 
+are highly skilled at it. That way you'll have sprites for specific tasks.
+
+When you hire a sprite, you need to tell them which work they will do : Water, 
+Harvest or Animals, and for how long : 1, 3 or 7 days. When you hire them, they 
+will start working on the next day. And when they are done, you can't rehire 
+them right away, so there will always be a day that they won't work for you, 
+their day off if you want. You can rehire them, but they will start the day 
+after of course. You'll need to plan to hire another sprite for that day 
+instead, so there's always a sprite doing the requested work.
+
+Water will have them water your crops for you everyday. Two sprites can cover 
+my 12x24 garden easily even at no watering skill. This skill will probably 
+increase quickly if you keep hireing the same sprites. More skill translates as 
+moving faster on the field and watering them faster.
+
+Harvest is not needed everyday, so it won't skill up as fast. When the crops 
+are ready, the sprites will pluck them out for you and put them in the shipping 
+box automatically. More skill means moving faster to pluck the crops out. 
+Usually a single sprite should be enough unless all of your crops are ready at 
+the same time.
+
+Animals is taking care of the chickens, cows and sheeps, wether they are 
+outside or not. They do the action of brushing and milking/clipping them for 
+you, and if they are inside they will also add the feed to each stall as 
+needed. For chickens they will gather the eggs and add the feed if they are 
+inside.
+
+You might want to take care of your animals yourself because Sprites never use 
+the makers to increase the value of the items produced. They will never ship 
+cheese, they will automatically ship the milk instead. One sprite should be 
+enough to take care of all of your animals, no matter how many you have.
+
+Use the Crops Calendars I provided so you can plan on hireing the sprites to 
+harvest on the right days.
+
+Also, you can talk to a sprite while he's working on your field. He'll give you 
+a choice. "See you tomorrow" means you still need his services. "You're Done" 
+means that you've 'fired' the sprite, and he won't return on the next day. 
+Sometimes you might purposely fire a sprite because you won't need him on that 
+day, so you can rehire him for the next day.
+
+Examples, if its going to rain on the next day, fire your watering sprites, and 
+while its raining to hire them back for watering on the next. If you're not 
+expecting any harvests on a day, you can fire them so you can rehire them for 
+the next harvest.
+
+This gives you some control so you don't miss a day of harvest/watering due to 
+their work schedule being over. They don't give you the option to stay or fire 
+them if its on their last day.
+
+If you don't want to miss a day of work, and that you have enough sprites 
+willing to work for you, check your Earning screen for how many days are left. 
+When you see "1D", go see the sprites and hire new ones to replace the ones 
+finishing.
+
+Lastly, the sprites are open even on festivals and holidays, unlike shops. But 
+they are open only from 9am to 7pm.
+
+=============
+Wedding Blues
+=============
+You can marry, but not before certain conditions are respected. You need to 
+raise your affection with your prospect by giving him/her gifts often. The 
+small beating heart's color will gauge how far along you are. You also need to 
+trigger their heart events to progress toward the wedding. Some events will 
+also give you unique gifts.
+
+On the other hand, if you don't make the right moves, and see most of the Rival 
+Hearts events, you might see that boy/girl marry off to someone else. Here are 
+the pairings :
+
+-Rick and Karen
+-Kai and Popuri
+-Gray and Mary
+-Cliff and Ann
+-Doctor and Elli
+
+Watching their heart events (Rival heart events) will help them along getting 
+wed. But once you've married your choice, you should trigger those events so 
+everyone can marry and be happy. Certain events are only triggered when some 
+couples are made.
+
+If you can't manage to woo anyone before they all are married, you can always 
+marry the Goddess for the boy version, or Won, Kappa or Gourmet Chef in the 
+girl version, so not all is lost, but they arguably require more work.
+
+=============
+Useful Tricks
+=============
+-The Save/Reload trick explained in the mining section can be used in many 
+places in the game. It allows you to retry until you get the best results. Only 
+a few events can't be changed through reloading.
+
+-Forcing the weather is a good way to ease your workload by forcing it to rain
+so you don't have to water your plants. At least until you have sprites high
+enough to take care of it, or a good enough watering can to make it faster.
+
+-Forcing the weather can allow you to keep animals outside. Animals increase
+the quality of their products if they spent at least 25 days (600 total hours)
+outside. Those do not need to be consecutive hours.
+
+-Forcing the weather to rain can also benefit you by using the confessional.
+The confessional only opens between 1pm and 4pm on Monday and Wednesday, but
+also on any rainy day. 
+
+-You can only use the confessional once a day for forgiveness, but you can
+use it several times for cursed tools.
+
+-Save before using the confessional, and reload until you get a 'goddess 
+has forgiven you' reply. Every time you use it, it can offer 1 of 3 different
+combinations of things to ask forgiveness for :
+ -Littering or being mean to villages : Friendship boost with everyone
+ -Overworking sprites : Friendship boost with sprites
+ -Not caring for animals : Affection boost for all farm animals, horse and dog.
+ -Not enough sleep : Slight Fatigue/Stamina boost
+ -Marrying the goddess/kappa : Only useful if you've met the requirements.
+
+-Using the confessional to increase animal affection helps with getting better
+products from them, which in turn increase your money making.
+
+-On the other hand, if you want to train your dog to the disk throw, make sure 
+its sunny everyday. The Dog's ability to catch the disk apparently rises 
+depending on the total distance he 'catches'. A miss doesn't count toward 
+increasing this, so save and make sure you get good distances on all throws. A 
+little distance is better than none at all, for the little amount of throws 
+you're allowed per day.
+
+-When its raining or snowing your stamina depletes quicker while outside (when 
+you use tools), but not while inside or in the mine, so when it rains stay out 
+of the rain to work.
+
+-Even without tricking the weather, save before bed and after waking up if 
+you can use the two slots. Sometimes you'll realize the next morning that you 
+forgot to feed the animals, or that you should really have taken care of that 
+fence before sleeping.
+
+-If you're using only one save slot, save every morning, just in case you do a 
+mistake during the day, like forgetting your basket inside the Blacksmith when 
+reforging a tool. Your basket is effectively 'locked in' for a few days when 
+that happens.
+
+-Rocks can replace fence, but sometimes you'll find an animal escaped. Just 
+bring it back inside the rocked area. You can also use plain branches as fence, 
+like rocks. You can find a few branches every day in the woods, so you can 
+always get some. Neither rocks or branches will decay.
+
+-Some Festivals can be affected by a save/reload. The Horse Race mostly has the 
+same winners all the time, and each time you reload the odds change. So you can 
+reload until you see that the winning horse has a x7 to x15 winning ratio, or 
+you can take your chance and reload if you don't take the right one. Sometimes 
+a horse with lesser odds will snatch the title, it can happen.
+
+-The Chicken Festival can be won with a chicken of 0 hearts. In fact, you might 
+want to offer your younguest chicken to this competition, even with no hearts, 
+because they will live the longest. The competition itself is a bit wonky 
+thought, and your chicken acts weirdly when the affection rate is low. But keep 
+reloading until you nail the title.
+
+-Cow and Sheep festival's results depend solely on your affection rate to that 
+cow/sheep. The results are not quite random because of that, and can vary only 
+slightly if you reload. But to effectively see ANY difference at all, you need 
+to reload the day before you give the cow/sheep to Barley, thus not very 
+convenient. Since they live longer than chickens, this time you should give it 
+one with very high affection (8+ hearts) if you can.
+
+-Fishing at a festival and you don't want to litter? People in the village 
+start to dislike you when you do, your rucksack is limited in space and you 
+don't have a garbage can nearby. There's a very easy trick to get around this. 
+Go in your rucksack and manually toss them out pressing the start button. The 
+item is effectively discarded, but it doesn't count as littering! If you're 
+aiming for a full basket of pirate treasures, go ahead and take your time!
+
+-Affection/Friendship levels for the people in town are a bit different than 
+your animals. To increase frienship/affection, you need to give them gifts. 
+Their reaction usually will tell you what they like. There's also an 
+incredibly detailed FAQ on this linked later on.
+
+-The main rule with anyone, including sprites, seems to be that the first gift 
+you give are worth more affection points than the rest. So you want to give 
+them as a first gift A- Something they Like/Love, B- Have it wrapped before 
+hand if you can, and C- On their birthdays preferably. That's the biggest 
+affection boost you can get in a day with a single gift. Wrapping increases 
+the point value of the items, and on their birthday its increased as well. The 
+other way around is true as well. If you give Hated items, they will decrease 
+alot faster with wrapped/birthdays.
+
+-All of the citizens will increase their affection if you give them more than 
+one gift a day, except for the bachelors. Giving them more than one gift a 
+day doesn't increase them faster, so make that single gift count! Wrap it up! 
+So in short, the first gift you give to anyone should always be wrapped to 
+increase their affection faster.
+
+=========
+Festivals
+=========
+Festivals are interesting events that sometimes give you gifts and prizes as a 
+result. Its also a nice break from the routine work on the farm. The festivals 
+are at set dates every season and year.
+
+When a time frame is given, as soon as you enter the area in that time, the 
+event starts. When finished you are sent back home. In some events it will be 
+6pm, in others it will be next morning automatically.
+
+You can get to the event area minutes before the closing time, and you won't 
+miss it, so you can do what you need first.
+
+Most of the events that requires you to get to the Rose Square, Beach or 
+Mountain Top are also unlimited energy events. You can use that fact to 
+uncursed some tools, or fish a full basket. Time doesn't pass while in the 
+festival either.
+
+New Year Festival
+ Spring 1st, Rose Square, 6pm to Midnight
+ Saibara, Thomas, Duke, Manna, Ann, Elli, Doug, Stu, May, Zack, Gotz, Carter
+ Description : Celebrating the new year with citizens of the town.
+ Tips : Keep your rucksack empty, and you'll be gifted to a full pack of 
+        Rice Cakes to celeberate the new year. They make good gifts too.
+
+Spring Thanksgiving
+ Spring 14th, various
+ Description : Playing the boy version, you have to take cookies and offer 
+               them to the girl you prefer. You can only give one cookie per 
+               bachelor thought. This gives an affection boost to them. This 
+               is the equivalent of the White Day in japan, which the guy 
+               answers the girl's affection that she showed by offering 
+               chocolates on Valentines Day. Playing the girl version, 
+               you'll be offered cookies by high affections guys. They will 
+               come to your house every 2 hours game time (8am, 10am...)
+
+Spring Horse Race
+ Spring 18th, Rose Square, 10am to 6pm
+ Description : Horse racing at the square, bet on horses for medals which can 
+               be exchanged for gifts. If your horse is mature, you can race 
+               yourself.
+ Ann, Karen, Rick, Popuri, Sasha, Jeff, Manna, Saibara, May, Barley, Thomas, 
+ Zack, Harris, Duke, Doug
+ Tips : Use the reload trick to bet only on high payout horses. If you can 
+        race, bet on yourself for a high payout. It might need a few races to 
+        get the hang of winning thought. Winning the race also gives you a 
+        Power Berry the first time. If your horse isn't old enough, you'll be 
+        limited to betting.
+ Bring your empty basket, and you can fill it with Broaches. 540 medals will 
+ fill the basket of broaches, and sell for a total of 60000G, making it a great 
+ money maker early on. You can carry a few more in your hands.
+ You can buy a Jewel of Truth for 1000 medals, but don't if you didn't get 
+ your shelves yet. You won't be able to store it anywhere else. There's also a 
+ Power Berry for 900 medals.
+
+Cooking Contest
+ Spring 22nd, Rose Square, 10am to Noon, 4pm to 6pm
+ Karen, Manna, Sasha, Doctor, Lillia, Rick, Gotz, Zack, Ann, Doug, Carter, 
+ Gourmet, Thomas
+ Description : Gourmet will give you a category of food to prepare. Then you 
+               have the rest of the day to ready it, and then bring it back to 
+               the square for its judging.
+ Tips : You can't participate until you get your kitchen in the second house 
+        expansion. Well you can, but you won't get good results even if you 
+        could find something that fits the category. You need to go to the 
+        square between 10am and Noon to talk to Gourmet and get the category of 
+        food to prepare, then you go back home to cook it, and finally go back 
+        to the square with your dish to tel Thomas you're ready. If you're not 
+        the winner, its usually a random one chosen among Doug, Ann, Lillia and 
+        Manna. No Karen's black stuff will never win.
+
+Summer Festival
+ Summer 1st, Beach, 10am to 6pm
+ Popuri, Kai, Doug, Sasha, Thomas, Zack
+ Description : Come and enjoy the opening of the beach with everyone.
+ Tips : Bring your basket. You have unlimited energy, so you can fish to fill 
+        it up for extra money. If you have a mature dog, enter the Dog Disk 
+        competition for a Power Berry as a prize. Save beforehand and try until 
+        you manage a perfect shot for the prize. You can fish after you've made 
+        sure you won the competition too, so you won't have to fish all over 
+        again.
+
+Chicken Sumo Festival
+ Summer 7th, Rose Square, 10am to 6pm
+ Popuri, Barkley, Rick, Saibara, Doug, Duke, Thomas 
+ Description : An amusing competition where Chickens try to intimidate each 
+               other off the ring.
+ Tips : You can win even with a chicken of 0 hearts. Try to enter your 
+        younguest chicken so that it will give you good eggs for the longest 
+        time afterwards. Save before entering the square. The game mechanics 
+        are a bit wonky, but keep trying until you win. Winning gets them to 
+        produce G-P-X brand of eggs when they reach the 'L' stage of eggs.
+ 
+Cow Festival
+ Summer 20th, Rose Square, 10am to 6pm
+ Description : The Cow version of the Chicken Sumo, but there's no fighting at 
+               least, just judging.
+ Tips : Nothing to do much here, just enter the cow with the highest affection 
+        and it might win. Winning earns it to produce higher quality milk, same 
+        way than eggs do.
+
+Fireworks Festival
+ Summer 24th, Beach, 6pm to midnight
+ Cliff, Elli, Ann, Kai, Doctor, Mary, Gray, Karen, Rick, Popuri
+ Description : Everyone gathers at the Beach to watch fireworks near the end of 
+               summer.
+ Tips : Unlimited energy + beach + basket = lots of fishes once again. Fish 
+        before starting the fireworks. Talk to Rick to start the event. If you 
+        have at least one bachelor to Green Heart level, you can ask to watch 
+        the fireworks together instead of Rick. You'll wake up the next morning.
+
+Music Festival
+ Fall 3rd, Church, 6pm to midnight
+ Jeff, Sasha, Karen, Mary, May, Stu, Ellen, Ann
+ Description : Nothing too special here, just get to the church to have you 
+               playing music while Karen sings. Only Popuri doesn't 
+               participate, for some reason.
+
+Harvest Festival
+ Fall 9th, Rose Square, 10am to 6pm
+ Sasha, Manna, Anna, Doug, Karen, Mary, Ann, Gotz, Carter, Elli, Thomas
+ Description : Come and add your food to the stew!
+ Tips : Nothing special, just bring anything edible with you, or bring a 
+        poisonnous mushroom for funny results as everyone gets sick. As if 
+        Karen was helping any with this.
+
+Fall Horse Race
+ Rose Square, 10am to 6pm
+ Description : Even more Horse Racing before the winter!
+ Tips : Same as the Spring event, same prizes too. You'll get a Power Berry if 
+        you race and haven't won it in Spring already.
+
+Sheep Festival
+ Rose Square, 10am to 6pm
+ Description : Show off your sheep with the best wool.
+ Tips : The Sheep version of the Cow Festival, but you need to remember that 
+        you can't enter a sheep that doesn't have its wool on, so don't go and  
+        clip it off for a week before the event. You can't affect the judging 
+        other than offering your best sheep. Winning earns you better quality 
+        wool in the same way eggs and milk do.
+
+Pumpkin Festival
+ Fall 31st, your farm, every 2 hours
+ Description : Haloween, without the costumes.
+ Tips : Buy 3 chocolates before this day. Every 2 hours of the morning, the 
+        kids will come. Stu, May... and Popuri that seems to find it unfair 
+        that only kids get some sugary treats. Indulge her and give her some 
+        too.
+
+Winter Thanksgiving
+ Winter 14th, Various
+ Descrption : Valentines's day if you prefer. As per Japan tradition, the 
+              girls offer the boy they like chocolates. On White Day the boy 
+              answers with something if they accept. Its a sort of proposition 
+              day to date later on. Playing the boy version, you will get 
+              the visit of high affection girls every 2 hours. Playing the boy 
+              version you need to go give the chocolates to the girls in town.
+
+Stocking Festival
+ Winter 25, going to bed after 9pm
+ Description : On the night of the 25th, if you have a stocking, Mayor Thomas 
+               will come while you sleep and put a random item in your sock as 
+               a gift. Santa Thomas?
+
+Noodles Festival
+ Winter 30
+ Rose Square, 6pm to Midnight
+ Thomas, Manna, Duke, Jeff, Sasha, Ann, Gotz, Carter
+ Description : One of the two End of Year festival. This one has everyone throw 
+               in a noodle banquet.
+ Tips : Bring an empty rucksack for your fill of buckweath flour.
+
+StarGazing Festival
+ Winter 30
+ Mother Hill top, 6pm to Midnight 
+ Description : The other end of year celebration, come and watch the last 
+               sunset of the year.
+
+=============
+Special Items
+=============
+Some items need a bit more work, but are useful as well to gather in due time :
+
+Power Berries : They increase your stamina, so you can use your tools for a 
+                longer time. There are 10 to be found :
+  -Randomly in your field, dig it out with the Hoe.
+  -Giving Flowers or Crops to the Goddess Pond for 10 days straight.
+  -Buying it with Medals in the Horse Race festival.
+  -Digging it in the Spring Mine 100th floor.
+  -Digging it in the Lake Mine 19th floor.
+  -Look BEHIND the entrance to the Lake Mine in winter.
+  -Win the Dog Disk contest
+  -Win a Horse Race with your own horse
+  -Fish it out of the beach in Winter with a Mystrile Rod or better.
+  -Buy it on the TV Shopping Network once you bought everything else possible.
+
+A Blue Power Berry that increase your Fatigue maximum can be obtained by 
+offering a cucumber to the Mountain Lake for 10 days.
+
+Jewels of Truth : Nine of them scattered, finding the 9th will allow you to see 
+your Stamina and Fatigue levels in numbers.
+  -Bought from Won for 50000G.
+  -Bought with 1000 medals at the Horse Races..
+  -Found on your Dog House.
+  -Found in the Horse's water.
+  -Found between the pages of a book on the second floor of the library.
+  -Found by examining the first lamppost south of the church.
+  -Found on the calendar of the Vacation House you buy from Gotz.
+  -Given by Thomas after 50 years of marriage (!!).
+  -Found in Thomas' refridgerator once you have all 8 others.
+
+=======================
+Walkthough Introduction
+=======================
+Here's a detailed walkthrough about playing the game. This will mostly detail 
+the first year of playing, since its where you will probably get the most done. 
+The other years are keeping the good work and getting a few things more done. 
+Alot of things can't be done before year two either, but by then you should be 
+in a good position to work it out on your own.
+
+=================
+Spring First Year
+=================
+
+The first season of the game. You can't expect to do much. In fact, I feel this 
+is the place of the game to do all you can in preparation for the next season. 
+There are only a few ways to make money, and you probably won't get out of the 
+season extremely rich, but enough to take care of your crops and animals for 
+the rest of the year. That's the basic idea of the first year in all, getting 
+settled in and learning of the system. There is very little permanent damage 
+you could do in Spring, so take the time to get things done now and be ready 
+for later.
+
+In this season, you can plant Turnips, Potatoes, Cucumbers and Cabbages, 
+althought you might not grow cabbages on the first year, since you need to buy 
+them from Won instead, which isn't even in town as you start. If you do, 
+consider the day you've planted it to count how long it will be until the 
+harvest.
+
+Your tools are at low level, and you have no sprites to help you at first, so 
+you'll have to plan accordingly. For crops use 8 or 7 tiles formations so you 
+can water them all on your own.
+
+Start giving gifts to sprites too. They like herbs found in the mountain area 
+and beach, especially herbs of their color. There are blue herbs in the forest, 
+and the beach has some Orange and Yellow herbs. You won't need their help on 
+this season, but pumping their friendship will help you in the long run.
+
+--Spring 1--
+On the first day you unfortunatly can't do a thing. Althought in the MFoMT 
+version you can actually get the 'bad ending' by saying you don't want the 
+farm, but what fun would that be hm? So just accept the work, lazy bones.
+
+--Spring 2 to 5--
+Now the real work can start. On the first day, look outside your door and the 
+Mayor and Zack will introduce themselves to you, and explain a bit of the 
+controls and system. Won will appear during those 4 days as soon as you get 
+out of your house, possibly twice. Once to introduce himself, and once to sell 
+you an apple. 
+
+If you have the money and playing MFoMT, just buy it and give it back to him at 
+the beach house. Won is fond of things that are more or less rare, so his own 
+apples are considered as rare. Go figure. You don't really need to befriend him 
+in FoMT, so don't buy what he tries to sell you if you value your money. Not 
+yet at least.
+
+So every morning start by peeking outside. There will be one day, as long as it 
+doesn't rain, where Barley will come and ask you to take care of a horse. If 
+you don't see those events on the first 4 days or work, you will in the next 
+days soon enough. Make sure its sunny if you want to see them. They don't come 
+to your house on rainy days, so you might want to use the Weather Trick for 
+this.
+
+Remember to buy a brush at the blacksmith's place for 800G as soon as you can, 
+so you can brush your horse everyday and talk to it to raise its affection 
+toward you faster. If you don't take good care of it, Barley will take it away 
+from you next year. You can only really talk and brush it, no need to feed it. 
+
+Also take care of your dog by lifting it up and down once a day, that raises 
+its affection as well. You can leave it out, but if its going to rain, get him 
+back inside the house before bed.
+
+Once you made sure that there's nothing more out your door, get back inside, go 
+in front of the TV and SAVE. Turn on the TV and check on the LEFT channel. 
+There will be two outcomes : the New Year Special show, or the Harvest Goddess 
+game. The New Year event is nothing at all, so just keep pressing right until 
+you see the Goddess appear. 
+
+The Goddess will give you a guessing game. She gives you a number and then asks 
+you if the next will be higher or lower. Numbers are 0 to 9, 0 being lowest. 
+Its safe to think that betting High on 0-4 and Low on 5-9, but this game is 
+frustrating on the statistical chances. I've often lost while betting Higher 
+on a 1. 
+
+Try to win between 10 and 14 times in a row to get some Relaxation Tea Leaves. 
+They are worth 1000 each. Play it once at a time, and reload your game if you 
+don't get the leaves. That's why I told you to save twice, because you'll be 
+reloading often, and sometimes you'll save after losing. You can use the second 
+save to fix your mistake.
+
+Win 3 Relaxation Tea Leaves, drop them in your shipping bin, and go back in 
+for more. You can only play the game 5 times, counting the ones you lose. If 
+you mistakingly pressed LEFT on the Goddess when trying to catch her show, 
+don't worry, it doesn't count as a try until you see the first number appear. 
+You'll get 5000G a day using this method, which means 20000G for the first 4 
+days. And you didn't even start to work on the farm.
+
+Once the goddess game is done for the day, you'll want to start doing other 
+things. The first thing you should do is grab the Honey in the tree south of 
+your house, and offer it to Gotz. He walks out of his house exactly at 7am, so 
+you can catch him there. Else he's back at his house around 11am if you prefer. 
+Do that everyday until he gives you a recipe.
+
+You can write the recipe down if you want, because the game doesn't remember 
+it for you unless you cook it yourself. And since you're not about to start 
+cooking anyway, you can't use it.
+
+While you're near his cabin, get some flowers, and go uphill to throw them in 
+the Goddess Pond, the one by the hot baths. You'll have to do this 10 days in 
+a row. On the eleventh day she will give you a Power Berry, to extend your 
+Stamina/Energy. That wasn't too hard was it?
+
+Then move north to the uppermost section of town. The house on the left of the 
+bench is the General Store, go inside and buy some seeds. You only start with 
+500G, so pick what you think is better. Go with Turnips. Turnips grow fast, 
+but you'll need to buy more seeds everytime. Cucumbers aren't worth as much 
+money, but regrow on their own if you're picky about it. You should prioritize 
+money making at this point.
+
+Get back to your farm, and use what energy you have to start cleaning your 
+field. You can't do anything about the big rocks and tree stumps, so don't 
+worry about those. If you can, clear a bit of space near the shipping bin in 
+the upper left corner, and tile some 3x3 areas to plant the seeds you bought. 
+Lay it out as explained in the Crops Basic section.
+
+The position of the blocks doesn't matter, as long you have space to run 
+around them and water all of them. Since there are a few obstacles that you 
+can't get rid of yet, try to find some space that will allow you to move to 
+every crop, or use a different shape that will allow you to.
+
+Plant, water them, and use your axe/hammer/scythe to clear your field. You 
+could always just pick and throw bushes, but I suggest the scythe so you can 
+train it and upgrade it later. You don't need to do your whole field in a day 
+either. If you have time left, go in the hot baths for an hour, and clean some 
+more. 
+
+Don't go beyond the final 'hold head and shaking' stage of energy, the one 
+right before you turn blue. When you're too close to blue, you usually 
+oversleep on the next day, and I've overslept even going to bed before 8pm 
+when blue. Even spending 30m in the hot bath can save you from losing 2+ hours 
+in the morning.
+
+As soon as you get your first pay from your Tea Leaves (5000G, woohoo), go 
+back on the shop after your daily offering and buy the RuckSack on sale for 
+3000. Now you can carry twice as many items and tools. You won't be able on 
+the Day 3 because the shop will be closed, so you will have at least 10000G by 
+Day 4, so buy the Basket while at it, for 5000G. You will be using the Basket 
+often, as it can contain 30 items for shipping, but you can't 'take' things 
+out from it. So when put in, its going to be shipped.
+
+If you got extra, buy a chicken at the Farm (the first on the left north from 
+your far or the woods trail near Gotz's house). Its only 1500G. Use some of 
+your leftover money to buy some feed, its only 10G each. You're still getting 
+5000G a day, so don't worry about money too much yet. Buy more seeds, since 
+you have more money, and keep 4-6 tiles of turnips/cucumbers. We just need to 
+keep a steady flow of income for now.
+
+If after doing your harvesting and watering you have too much time left, how 
+about mining? This will probably be the only thing to do if it rains on these 
+days, since you'll have alot less energy to work on cleaning the field anyway. 
+With an upgraded rucksack and basket it will be easier. Bring it to the mine, 
+along with a hammer and pickaxe.
+
+Check in the Mining Section for either method of saving. It will make it easier 
+and more profitable to save your energy.
+
+Your goal this early in the season is level 10. Every 5 floors is a nice big 
+area with lots of space to walk around. You could aim for level 100, where you 
+can dig out a Power Berry from the ground, if you want, but its still early in 
+the game for that. You'll have occasions into digging your way to the very 
+lower levels for other reasons later too.
+
+At level 3 you start finding gold ores. From level 5 mystrile ore, and at level
+10 you start finding Orihalcum and Adamantite. Those are the best money makers 
+you can find here. Level 10 isn't very long or hard to get to. Break rocks, put 
+every Adamantite and Orihalcum ore you find, and keep the Mystrile in your bag. 
+
+A full basket of Adamantite and Orihalcum is worth 1500G. If you feel you're 
+using too much energy finding the good ones and don't fill your basket enough, 
+put Mystrile in the basket as well, and keep Gold Ores in your rucksack. Lower 
+Value is better than nothing at all.
+
+When you run out of energy, go out, dump the basket in your shipping bin, and 
+go back to the hot baths to get your energy back. You can do it again if you 
+have time. 1500G isn't amazing, but in 4 days that means 6000G more, if you do 
+it only once a day. A trip to level 10 only takes 10 minutes of game time. Its 
+extra money, trust me you'll like having more of this in the start of the game.
+
+One way to make some good profit is keeping the Orihacum in your rucksack and 
+going to forge them into broaches by Saibara. It costs you 1000g to do it, but 
+they sell for 2000G. Even if you have only two slots in your rucksack, that's 
+still 2000G profit per trip. Just beware of the closing times.
+
+Remember to check on Carter on Monday, Wednesday and rainy days. If you don't 
+have animals, ask him to forgive you about the town people or about littering 
+the road. It will increase everyone's friendship toward you. You could also 
+ask to forgive about the Sprites, that's pretty useful but not necessary this 
+early. If you have animals, you might want to increase their affection instead.
+
+Something else you might receive during Spring is in your mail, an invitation 
+to a tea party from the sprites. Try to go on a rainy day (and a day without 
+harvest if you can), and if you hired any sprites somehow, make them go back 
+home for the next day. Then you can go and present your invitation to one of 
+the sprites before 5pm for the party itself, and you'll get some Relaxation 
+Tea Leaves as a gift too!
+
+On the fourth, its the birthday of Bold, the purple sprite. If you have some 
+time, take all of the herbs in the forest, mountain and beach, and give them 
+all to him to boost his affection. If you have some extra money, but don't 
+spend too much, buy some flour and give it to him as well. It doesn't take 
+alot of gifts to max him in fact. Early start on the sprites. 
+
+You don't really need their help yet, but you can start asking them to water 
+your field for some training if you want. The more they work, the faster they 
+will be, so they will cover more ground eventually.
+
+--Spring 6 to 10--
+You can't play the Goddess game anymore, you'll have to rely on mining and 
+harvesting. You can pick the bamboo shoots on the west side of the mountain as 
+well for some extra money. Just try to keep some steady income. You'll see Won 
+or Barley with the horse if you didn't get them yet, as long as its not 
+raining.
+
+If you did see Won twice and Barley, you could use the Weather Trick to make it 
+rain, saving you the need to water the crops. But don't try to work in the 
+rain, you run out of energy much quicker. Just go mine, keep the offerings to 
+the goddess everyday, and take care of your chicken if any.
+
+If you have a chicken, as soon as you can, put an egg in the incubator. You'll 
+have another chicken for the price of a single egg. While there's an egg there, 
+just bring the other eggs to the hot baths, and throw them in from the top 
+opening. You'll get a spa-boiled egg, which sells for 80G instead of 50G for 
+regular eggs.
+
+I suggest that you keep mining to get some money almost everyday at this 
+point. You'll want some extra for the upcoming holiday. You should get a 
+harvest of turnips during that period, so remember to buy some seeds to 
+replace them. 
+
+On Saturdays, check the TV Shopping Channel for things to buy. Its either a 
+mirror for 1000G or 2000G for a clock. They aren't very useful, but you'll 
+need to buy nearly everything later to marry, so you can start now if you have 
+a bit of spare money, which you should have anyway. Oh, to actually buy them, 
+go to the tavern and use their phone.
+
+If the weather is good, spend some time cleaning more of your garden everyday 
+before bedtime. You'll want to have it rid of most of the herbs, and all rocks 
+and branches. The bigger pieces will come soon. Don't work in the rain because 
+your stamina depletes quicker.
+
+Also keep giving honey to Gotz, he should reward you with a recipe soon. After 
+that you can skip giving him some everyday, only ever so often to keep his 
+friendship up. If its down, he won't want to work on your house later.
+
+--Spring 11--
+Day 11, that means its been a week since you've bought your rucksack. Well one 
+week later, there's an even bigger on sale for 5000G! You should still have 
+some from the Relaxation Tea Leaves and the money you've been mining for in the 
+last days. Now we're getting to business. Spend the rest of the day as you 
+will, mining or whatever. You should give the offering to the goddess before 
+that, and take care of your crops and chickens first, so after buying it 
+you're mostly free.
+
+--Spring 12 to 17--
+Now you'll start getting into a routine. After taking care of your crops, 
+watering, and of your chickens, you should start the day by doing a round of 
+gifts. Today should be the last day you need to offer flowers to the goddess, 
+rewarding you with the Power Berry. Take the 3 blue grass in the forest area 
+and near the hot baths, and the two sets of flower. Bring it any spa-boiled 
+egg with you as well, for gifts. You'll do rounds first to Ellen, which is the 
+top most row in the village, third door from the left. Granny likes eggs and 
+flowers, so either will do.
+
+Then move on to the church to give the eggs and flowers to Carter, the priest 
+in the church. Eventually this will pay off. Then move by the beach, and take 
+the 4 herbs that are there. Go back to the sprites. They like it if you give 
+them herbs of their own color best. You should have Blue, Yellow and Orange 
+with you, so hand them over to them first, at least one. You can hand the 
+others to the rest as you wish.
+
+The 15th is Staid's birthday this time. He likes Blue Herbs, but he even likes 
+them more on his birthday, watch his friendship grow fast on this day, 
+especially if you add a round of Flour to all of the herbs, even if not blue.
+
+If you're playing the MFoMT version, the last one to befriend is Won, which is 
+in Zack's beach house. When you go there the first time, Zack should hand you 
+a fishing rod too. You'll get to work on that later, but the other tools are a 
+bit more important at this stage. 
+
+To befriend Won, go to the mine and go down to level 3 or better. Get him some 
+Gold Ores. Those are pretty cheap to sell anyway, you're better with the 
+50G-worth Adamantite and Orihalcum. If you go mine, just keep the Gold ones 
+and sell the Mystrile, Orihalcum and Adamantite ores. Money and gifts in a 
+single trip if you go to level 10, not bad hm?
+
+Give Won every gold ore you fetched out of the mine, and he'll adore you very 
+soon. He'll allow you to sell items to him, and usually at a better price than 
+Zack will, as well as items that Zack won't take. Won in MFoMT is one of the 
+better ways to get money, but you need to carry the items with you, instead of 
+shipping them. So you can sparingly sell Won some of the rarest items for an 
+extra bit of money. If you're on the Boy Version FoMT, don't worry about Won 
+at all.
+
+So until the 18th, just keep doing rounds of gifts to the sprites, Ellen, 
+Carter and the sprites.
+
+--Spring 18--
+The 18th is the Horse Race! Too bad yours isn't big enough, but don't you worry 
+about it this year. You can't race until year 2, but there's still something 
+great to do here.
+
+First of all, you don't need to get to the town square before the end of it. I 
+
+mean that you don't need to be there at 10am, you can go there just before 6pm 
+and it will be fine. Just be sure not to miss it.
+
+None of the shops are open today, and everyone is at the square, so you can 
+skip the gifts for today. Spend the day on your crops, animals, mining, do 
+whatever you want otherwise. Before 6pm head to the square with your basket, 
+but don't enter it. Save right before walking into the square. You'll see why.
+
+You can bet on races this year, and there's a great way to make money here, so 
+why not abuse it? First simply watch the races a few times, to get an idea of 
+the winners. It won't always be the same, but 90% of the time it will. Watch 
+the winning odds. It costs you about 5000G to put 99 coins on a single horse, 
+so you'll want to maximise that. And for that you want to watch the payout 
+rate of the winners. Try to judge where your 5000G would get the highest 
+payout.
+
+For me, the first race never changed. The winner always had x3. But the second 
+and third race often had the fastest horse on x7 to x11 payout. THOSE are the 
+ones you want. So don't go betting on the first if its only x3, bet on the 
+second race if the payout is good, and on the third. If the payout was under 
+x7 on every race, reload and try again, the odds change most of the time.
+
+Don't worry if you use up all of your money. You'll want to earn about 1700 
+medals total. If you can't seem to rise that high, get over 700 medals at 
+least.
+
+After the three races, use your medals to buy things. So what to buy? Well, 
+Broaches are what you want for good money here. Fill your basket with 30 of 
+them, they cost 18 medals and sell for 2000G each. That means 60000G for a 
+full basket! You can hold 8 on yourself too, so that means 38. If you pick a 
+39th, you can leave the basket there and come back to get it later, noone will 
+touch it. But 39 truly is the maximum you can get.
+
+If you have lots of medals left, you can buy the Power Berry for 900. You'll 
+keep the rest of the medals for the next time. Don't buy the Jewel of Truth, 
+simply because you don't have anywhere to store it yet, and you can't get the 
+rest of them either.
+
+Put everything fromy our basket and hands in the bin once home, and you're 
+done for this festival. You should have some 70000G on you at 5pm the next 
+day, when Zack comes over to pickup everything you have. Don't worry if you're 
+broke until then.
+
+--Spring 19 to 29--
+Now you're practically rolling in cash? Well not quite, but you have more than 
+enough for the rest of the month. Keep your crops rolling, keep taking care of 
+your horse, dog, chickens and gifts every morning. Buy a cow if you want, get 
+the milker from the blacksmith too. The cows can be bought on the bottom 
+farms, the rightmost one, for 5000G. Buy enough feed for a while, since you 
+didn't start on grass yet. 
+
+Speaking of grass, go buy several bags with your new money. Don't start fencing 
+the place yet, no need to while you don't have a steady source of wood. Start 
+growing the grass from in front of the barn, and stretch it left, leaving a 
+space along the side to plant fences later.
+
+A bit of math here, if you want to keep your animals outside you'll need to 
+count 1 tile per animal per day of mature grass. The maximum you can get is 8 
+cow/sheep at first, so you'll need 56 tiles of grass at most. If you get 16 
+later, you'll need 112 tiles. For 8 animals, this means you'll have to plant 7 
+blocks (3x3) of grass. For 16 animals, you'll need 13.
+
+You won't need to fence in more than this, the rest of the area will be used 
+differently. Just make sure its in front of the doors to the barn, so you can 
+push your cows/sheeps out straight into it later.
+
+You might get another Power Berry from tiling your field. The location is 
+random, so the best chance is usually when you're tiling large areas, like for 
+the grass you've just prepared.
+
+There's a cooking festival during this period, but since you can't cook 
+anything yet, I decided to skip it altogether this year.
+
+Keep giving gifts to the sprites, they will be helpful soon enough. Aqua's 
+birthday is on 26th, so concentrate the gifts on him, even if you never gave 
+him anything the rest of the month because the herbs aren't of his color.
+
+And with some free time if you have any, start leveling up your tools. Some 
+tools will level on their own, but most of them will require some extra 
+effort. Each tools have different ways to efficiently level them up. 
+
+Hammer : Take it to the Spring Cave, where you mine. Don't go down levels, 
+         just smash the rocks on the first level. Bring your basket and put 
+         all of the copper and silver ores in it for some small cash flow 
+         while you do this.
+
+Hoe : Do the same as the hammer, but work on the ground instead. Ignore the 
+      stairs, and keep plowing. You'll get some black herbs, which you can eat 
+      since they aren't worth alot. You can also find money bags, only worth 
+      10G each, but its better than nothing.
+
+Watering Can : It will most probably be up in the gold by the end of Spring, 
+               so don't worry too much about it the rest of the time. If you 
+               need to train it, use the Spring Cave and fill its water from 
+               the Goddess Spring right beside it.
+
+Scythe : Clean your garden of every herb everyday. It will train on its own 
+         mostly.
+
+Those are the easiest since you get to do something while training them. All 
+of them can be trained in the Spring Cave if need is. Since time doesn't go 
+by, you can use them over and over, and rest in the hot baths when tired, 
+until the day is over.
+
+Your goal is to achieve 4 levels for each. Check in the Tools section for 
+information on their levels.
+
+You can get them done in any order you want, but I would suggest getting 
+Hammer and Axe done as soon as you can, because they will help to clear the 
+rest of your field. Furthermore, if you can get the Axe done first, it will be 
+extremely useful to gather wood for your house extension. Remember that giving 
+the hammer or hoe means you can't mine anymore for a few days. I went with 
+Hammer and hoe first because they are used to mine the ores for each of them, 
+and having them already done lets me get the ores before the next one is 
+ready.
+
+Once you have one or more tools that you can upgrade to Mystrile, go down the 
+mine to at least level 5, and break rocks to get a Mystrile stone. Bring the 
+tool and the stone to the blacksmith, and he'll take 5000G and 4 days to 
+upgrade the tool. As said in the tools section, skipping straight to Mystrile 
+saves money and time.
+
+You can get your tool back 4 days later, and drop another over on the same 
+day, if you have the Mystrile ore. Since mining will be a bit difficult with 
+missing tools, concentrate on gifts and training the rest of the tools. You 
+can get 3 tools to Mystrile by the end of the month, possibly.
+
+--Spring 30--
+Nothing very different here, save for an event. Kai comes back to town. You can
+witness the scene if you out of your farm toward town after 6pm but before 7pm 
+or so, a few girls obviously enjoying the guy's company. If you're playing the 
+girl version, he's one of the possible choices for you to marry, but he's only 
+there in summer every year, so you have to make the gifts count if anything. 
+He particularly loves Pineapples.
+
+Its the last day of spring, so after you're done harvesting, use the scythe to 
+get rid of the leftover crops you have. When it turns into summer, they won't 
+grow anything, so you need the space for new crops.
+
+In preparation for summer, you can buy Pineapple seeds from Won's shop. They 
+are worth the most money during summer. You'll also want to grow some other 
+crops, like Corn that you can turn into chicken feed if you need to. Problem 
+is you can't buy them until its actually summer, from the supermarket, so 
+you'll need to wait until Summer 2nd (1st is a festival).
+
+Lastly, if you can spare some cash buy several bags of spring seeds for next 
+year. If you can stock up on many, you'll be able to seed your fields from the 
+first day instead of waiting on the second day. Yes, the first day of spring 
+is a holiday, so you can't buy seeds. If you can't don't worry about it too 
+much.
+
+If you kept giving gifts to Won in MFoMT, he will eventually let you play an 
+apple game. If you manage to guess at least twice in a row what apple he 
+names, you'll get a ticket for a sort of roulette game. Just try to take to 
+him holding the Ticket to play it. If you can get 2 same numbers, you'll get 
+some random seeds from his shop, 1 to 5 bags of them. If you can get 3 same 
+numbers or in a sequence (like 4-5-6), you can win a record. You probably 
+don't have the record player, but Won will buy it from you for anywhere 
+between 80,000 and 160,000. Just keep refusing him until he gives you a 
+high price for it. 
+
+Its another way to have a quick cash inflow early in the game. It takes some 
+patience, but you can repeat this indefinitly. If you miss the first apple 
+game, you can talk to him over the counter to challenge him again for only 
+100G. Its cheap compared to the prizes you can get in the roulette game, but 
+you can always just save and reload here as well. If you have the boy version, 
+there are other ways to make money. They just decided to throw this one in, 
+and there are some bugs about Won's dialogs too, so it seems like its quickly 
+added more than anything.
+
+The main trick to winning Won's game is following one of the three apple and 
+remembering its name. If he picks your apple, fine. If he picks another apple, 
+you got one out of two chances to have it right. Its about the best odds you 
+can get, unless you're extremely good at following three apples at the same 
+time.
+
+=================
+Summer First Year
+=================
+
+Summer is the season to consolidate all you've been working on in Spring. If 
+you followed my advices, you should have some left over cash from the horse 
+races still, 2 or 3 tools to Mystrile, and most of the others trained to their 
+maximum. You should have a full chicken coop too, and you possibly bought a 
+cow. You'll buy more eventually, but you should start by taking care of your 
+crops and upgrade your house in this season.
+
+The best money makers are Pineapples and Corn in summer. You can also use the 
+corn for chicken feed. Just throw the harvested corn into the small mill near 
+the chicken coop to get 30 pieces of food. Most crops are renewable, so you 
+don't need to reseed them everytime. 
+
+If you got your sprites to a high affection level, how about getting them to 
+work for you? Get some to water your crops, so you can use 3x3 blocks. They 
+will be able to water the center one. No need to make them work for your 
+animals yet.
+
+Thought you can't buy/plant seeds on the first day, it is to note that the 
+only thing you miss by planting on the second day is a single harvest of 
+corn, so its not so bad.
+
+Another point of interest in summer, check the weather everyday. Its the 
+season of hurricanes. Use the save and reload tricks to force the weather to 
+stay sunny or rainy at worse. Avoid hurricanes if you value your farm. Animals 
+left outside can be lost, fences will be ripped off, grass patches will 
+disapear, some crops will be gone, and rocks/branches will litter the whole 
+place. Not to mention that during the hurricane, you can't go out of the 
+house, so you can't take care of animals inside the barn and coop. They will 
+all be angry the next day for not being fed, unless the sprites were 
+courageous enough to take care of them for that day. All in all, avoid 
+hurricanes if you can.
+
+Last thing about summer, the flowers, herbs and food change in the mountain 
+area. So you have new things you can harvest by looking around. The forest 
+still has some blue herbs, but there's also some red herbs, and the beach has 
+purple herbs. So you can keep working on Staid (Blue) if he's not maxed, and 
+if he's maxed hand the blue ones to other sprites instead.
+
+As soon as you get your axe upgraded, start taking care of the stumps in your 
+field, and cut wood in the forest and mountain to gain some more. You'll need 
+alot of wood to upgrade your house, barn and coop.
+
+--Summer 1--
+The Beach Party, yay! Well, here's a chance to use your fishing rod for some 
+extra cash. Bring your basket and use your rod to fish out a full basket of 
+fishes. Don't toss too many things back in the sea thought, people don't like 
+that. Fishes go in the basket for selling, the rest you can keep in your pack 
+until you can get rid of it. If you don't care for what people think of you, 
+throw it back. But I think Sprites don't like it either.
+
+You won't take home an amazing amount unless your rod is higher level, which is 
+probably not the case by now, but since you don't burn energy during festival, 
+you can take your time to catch as many as you want before going on. If you 
+were like me you went with the farm tools first, like Axe, Hammer and Hoe, so 
+fishing rod isn't that useful yet. But keep training it, there's two festivals 
+you can fish in summer, and you should get it to Mystrile before then.
+
+You can still give gifts to the sprites during holidays. If you concentrated 
+only on the orange, yellow and blue in spring, you'll get to boost the 
+affection of two new sprites with the new available herbs. The beach has a 
+bunch of Purple herbs too, but you can't get to them today because of the 
+beach party. If Staid has maxed friendship, give the blue herbs to someone 
+else.
+
+Since the shops are closed, there isn't much to do before the party. But if 
+you bought the pineapple seeds, you can plant them. As said, you can take some 
+time to realign your fields now, and do 3x3 squares, if you hire the sprites 
+to water and harvest the middle part that you can't reach. If not keep with 
+the donut and shallow-u shapes. You only need to get to the beach before 6pm 
+to be part of it.
+
+--Summer 2 to 6--
+You'll probably want to spend a part of the day preparing your field for the 
+new crops, and buy the seeds for it in town. Also if you kept giving gifts to 
+Carter, the back door will eventually be unlocked. It has more goodies to nab 
+over there, for shipping, gifts or recipes. While there's nothing in summer, 
+its good to have it done before Fall.
+
+Keep training your last tools on your free time. Get a Mystrile ore early on 
+days your new tool is ready, get your new tool and give another one to upgrade 
+right away. Between two upgrades, remember to buy the Milker too, if you 
+already haven't, before your cows gets old enough to give some milk.
+
+Keep giving gifts to the Sprites. You should have one or two at a high 
+affection level (at least 6 hearts), so send them to water your crops. I've 
+seen that even a begginer Sprite is able to water 12 3x3 crops without missing 
+any, so get them to work one at a time, especially if you've given your 
+watering can to be reforged. You'll be stuck without watering for 4 days 
+without it, so ask a Sprite to take care of the water for 7 days during that 
+time.
+
+Make sure that you always have new sprites to replace the previous ones when 
+their work schedule is over. This will start training them for the very busy 
+fall season.
+
+Remember that when the sprites are working in your field, you can still give 
+them gifts. For that reason, Blue (Staid) and Red (Chef) are good choices 
+because there's alot of herbs of their color right next to the farm. Its easy 
+to go pick a few and give it to them while they are working.
+
+On Day 6, Rick will come to pick one of the chicken off for the festival of 
+the next day. Don't worry he won't eat it. Try to give him the younguest one. 
+I'll explain why later.
+
+--Summer 7--
+The Chicken Sumo Festival! It starts at 10am, but you can be there before 6pm 
+as usual. So take care of your chores, and if you think you have time take 
+herbs for the sprites.
+
+Save before entering the Town Square. The Chicken Sumo is a pretty frustrating 
+game since it sometimes doesn't seem to follow any logic, especially with low 
+affection chickens. Talk to Rick for a small explanation that doesn't make all 
+that much more sense.
+
+Basically, you just use one button, A. It will send a signal for your chicken 
+to try and intimidate your opponent into fleeing. But don't press the button 
+off the start. It seems that the first 'attack' always misses. It seems easier 
+if you wait for your opponent to do the first move, and then intimidate it off 
+ring. But sometimes its random as your chicken moves and faces other 
+directions. Can't help you much there, but try to intimidate only when facing 
+the opponent or close enough. If you're both one over the other or just about, 
+attack and hope it works. Else you can be pushed off easily.
+
+Reload if it doesn't work, as it can go against you easily. There's very 
+little skill involved. That's why even the youngest chickens (with less 
+affection) can still win.
+
+Why should we pick the youngest? Because he will live younger than the others. 
+The prize is that your chicken will be able to lay better quality eggs later. 
+But first you need it to rise its affection. Since it will live longest, 
+you'll eventually get to that point. In the earning screen your chicken will 
+have a crown as a testimony of winning the event.
+
+--Summer 8 to 19--
+So, is your axe ready? If so, take some time to cut the extra stumps in the 
+forest and near the hot baths for some wood. You'll need 200 pieces, which you 
+can check in your earnings screen (select button, remember). Upgrade your 
+house for 200 wood and 3000G, you'll be happy of the results.
+
+Keep chopping wood nearly everyday, along with your watering, harvesting and 
+animal caretaking. Give gifts if you still have time. More wood will be 
+needed to upgrade the house, coop and barn later on. You could always buy the 
+wood, but its a waste of money mostly, since there's at least 7 stumps worth 6 
+pieces of wood each a day. 5 near Gotz's cabin and 2 near the hot baths. 
+There's a last one on the west side of the mountain too, but its a waste of 
+time for a single one. If your Axe is Mystrile, a single 5th level charge will 
+chop them down (that's when you're red and 'angry').
+
+When you finally get to upgrade your house, you'll get new items on sale 
+through the TV station on saturdays. Including the Refrigerator, which lets 
+you keep anything edible, up to 99 each. So start saving a few crops, grapes 
+and herbs of each kind if you want to, for later uses, recipes and other stuff. 
+
+The other item of interest is Shelves, for the same price of 2500G, you can 
+store anything else that isn't edible. Finally you have a place to store the 
+Jewel of Truth, ores or other useful things.
+
+The other thing that will be offered on TV are the Kitchen and some of its 
+tools. 
+
+Once you got your house extension underway, you can start fencing a small area 
+near the chicken coop, and put your chickens outside. I believe it makes them 
+happier quicker, you'll save on their food because they will eat off the 
+ground, and when they spend enough days outside the quality of their eggs can 
+also increase. You still need to 'lift them up' once a day to increase their 
+affection.
+
+Same for cows, but they need grass, so you can wait until fall for an easier 
+time. Meanwhile start fencing some larger area slowly, for the cows, and 
+spreading grass everywhere you can. Start in from of the cow barn, so you can 
+just push them out into the fenced area and close it behind them once done. I 
+suggest just 6 or 9 tiles down, and across from the corner to the front of 
+the barn.
+
+Once fenced, remember to take a moment to check on the state of your fence 
+too, because parts can rot. Fortunatly you can check on it using the farm map. 
+Replace any part quickly to avoid your animals being attacked during the night.
+
+The 16th is Timid's birthday too, the green Sprite. Giving him most of the 
+herbs that day will probably get him maxed out in affection or very high. Even 
+better if you give him Green Herbs.
+
+On the 19th, Barley will come to take one of your cows. If you have an adult 
+cow that isn't sick and can give milk, go ahead and let him take the one with 
+the highest affection. But in the first year, you probably won't have more 
+than a heart or two at this point. Well its worth trying anyway.
+
+--Summer 20--
+The Cow festival is a bit like the Chicken Festival, in the way that if you 
+can win, your cow can potentially give better milk. The difference is that the 
+score is from judging, not from some makeshift minigame. So even putting your 
+best cow in the first year probably won't help much.
+
+Saving and loading doesn't change a thing in this festival, unless you saved 
+before giving the cow to Barley a day before. So better luck next year.
+
+As usual, you can spend the day as you want and go to the Square before 6pm to 
+attend to the event. You're sent back home at 6pm, so you can finish a few 
+things before bed. Since there's no shops, you can't give gifts to anyone else 
+than the sprites.
+
+--Summer 21 to 23--
+Continue on your farm work. By now you might have upgraded all of your tools to 
+Mystrile. If that's the case its perfect. Else keep working on them steadily. 
+You'll want them all done by winter, so you still have some time. If you got 
+the shelves, you can go fetch a few Mystrile ores in advance and store them 
+for later use, instead of going to get one everytime.
+
+Keep at least 1 corn in your fridge, just in case of emergency. You see, if 
+you run out of food for the chickens in the middle of winter, you could use a 
+corn on the mill to get 30 chicken feed. Even if you can buy the feed cheaply 
+enough, if that happened on a holiday, you're out of luck.
+
+Lastly keep on chopping wood everyday for the house, coop and barn extensions. 
+The third House Extension requires 700 logs and 10000G. The chicken coop 
+extension need 420 wood, and the barn extension 500 wood. If you had lots of 
+money you could buy the wood off him too I guess, else you'll have to work it 
+yourself. 
+
+--Summer 24--
+Fireworks Festival starts at 6pm, shops are closed, yadda yadda. Sprites are 
+still available, so take some time to offer a few gifts, and take care of your 
+tasks and wood chopping.
+
+Head to the beach before 9pm, and bring your basket for some unlimited energy 
+and time fishing. I had a Mystrile rod by then, but only fished crap. Ah well.
+
+--Summer 25 to 29--
+The end of the month tasks.
+
+Buy plenty of grass seeds, and start tiling and seeding them in the lower 
+right corner of the map. No need to stretch it very high, and give yourself 
+some space on the left of the farm for your chicken area. With grass, the herbs 
+will stop popping on the ground all over the place. And it will be good to get 
+lots of feed for the cows and sheeps for winter. You only need to keep them in 
+a smaller space to avoid them running around or getting attacked at night.
+
+Speaking of, get yourself a few more Cows/Sheeps by the end of the month, if 
+you want to. 
+
+Start planning where next season's crops will be. Fall is the BIG season for 
+money. Better get those sprites hired, else you won't be able to keep up with 
+everything either. Anyway, plan to have lots of space. You can even put them 
+side by side if you don't need to water or harvest them yourself, no need for 
+space in between the crops to walk around anymore. Just try to figure where 
+grass will be, and where crops will be.
+
+Check the crop calendar, and cut the crops with your scythe once their last 
+harvest for the season is done, to get some work done in prevision of the next 
+season.
+
+--Summer 30--
+The last day of Summer, all of the harvesting should be done, so now you can 
+use your scythe to take everything down and retile the ground for your fall 
+crops as you planned. Spend the day doing this if you need to really, it will 
+be worth it. If you can go buy some more seeds, so you can plant early next 
+year instead of losing a day.
+
+
+===============
+Fall First Year
+===============
+
+This is easily where you'll rake the most money just by crops alone this year. 
+If you did well, you should have managed to keep some money over the month of 
+summer, from crops, eggs, milk and whatever money you had made out of the 
+Horse Race bets.
+
+If you are good friends with Carter, you'll get access to a few rare truffles 
+everyday in the back of his church. Its a good deal. Keep making friends with 
+Ellen as well, you'll need her help for winter.
+
+And if your tools aren't upgraded to Mystrile yet, this is the last month to 
+do it. In Winter you'll get to upgrade them even more if all of them are at 
+Mystrile.
+
+New goodies grow around the farm, mountain and forest now too. The Blue Herbs 
+are gone, but you'll find more Red and Green herbs. Mushrooms also grow 
+around. And your tree has 3 apples everyday, along with the usual honey. The 
+beach only holds 2 indigo herbs this time around. Probably not worth the 
+detour unless you go see Won.
+
+You'll notice that your dog now jumps fences. Yup, he's now old enough. Try to 
+stop by Won when you can and buy a frisbee. If you want you can spend days to 
+train your dog at frisbee, for the event in Summer. Just go to the beach with 
+your dog, and check the sign near Kai's restaurant. Your dog's ability rises 
+with the total distance it 'catches'. A miss doesn't help at all, so 
+save/reload to avoid those if you can.
+
+In this season you'll want to upgrade the Barn and Chicken Coop so you can get 
+some Makers. They will help you increase your profits from eggs, milk and wool, 
+but also you need some yarn for Ellen in winter.
+
+Look at the Fall Crop Calendar. Woo, busy month. Better keep the harvest 
+sprites to work every day if you have both Peppers and Sweet Potatoes. But as 
+you can see, its no contest which crop is the most profitable this month. 
+Plant as many sweet potatoes as you want. You should have enough sprites with 
+high friendship to keep watering and harvesting everyday. Which means you can 
+go with 3x3 blocks as well. No need for space between rows, the sprites move 
+everywhere.
+
+--Fall 1--
+Most obviously, today a trip to the shop is needed to get all the new seeds 
+you'll want to grow on this day. If you have Sprites working already, plant 
+them early for them to water. Else you'll need to water them yourself for 
+today, which should be easy if you upgraded the watercan. 
+
+Since fall is easily the most profitable, and if you got high affection for 
+your sprites, you'll want to cram as many crops as you can. I went with 4 sets 
+of 3x3 carrots, 4 times eggplants, and 20 times sweet potatoes. Two sprites 
+can cover that many in a day, both for harvesting and watering, and even a bit 
+more I bet. You don't need space in between the sets if sprites take care of 
+everything, so you can put as many sets in a small space as you can.
+
+You probably won't have alot of time for gifts today, but maybe you can go for 
+some wood chopping and gathering things for shipping or your fridge in the 
+mountain.
+
+--Fall 2--
+Carter will come to invite you to church for a music festival. Go ahead!
+
+Spend the day as you wish, with gifts, wood chopping and animal caretaking. 
+Hopefully you have enough sprites to water everything.
+
+If you have the money and you planted some, buy more carrot seeds in advance. 
+You can harvest them 4 times through the fall season, so you'll want 4 times 
+the seeds you have crops for them. Since I had 4 sets, I bought 16 total in 
+the month. That will avoid running out of seeds, and you can replant them as 
+early as they are harvested. All of the others regrow without seeding.
+
+--Fall 3--
+You only need to go to church after 6pm and before midnight, so take your 
+time. How about going into the mine for some adamantite? You'll need 3 of 
+them for the blacksmith to make you some new tools. You need your coop and/or 
+barn upgraded for those first. You can still gather the adamantite for 
+the purpose and store it in your shelves until needed. 
+
+As a note, its saturday, but the bar is closed so you can't buy anything 
+through TV. So what do you do? Wait on Sunday. You have until Wednesday to buy 
+the things on TV, even if they won't be showing what's on for sale past 
+Saturday. As long as you saw what's on sale, use the phone.
+
+--Fall 4 to 8--
+Back to the normal work until the next festival. Keep befriending the sprites 
+and Ellen, and Carter if he didn't unlock his backdoor yet.
+
+If planted on the first day, the first harvest would be Sweet Potatoes on the 
+6th! That fast huh? Yeah, and its going to be harvested every 2 days from now 
+on, so you'll need every sprite you can get to work on this, else you won't 
+maximize your income this season. Be sure to check when they stop working for 
+you to get them replaced.
+
+If you're not sure of when you need a harvest, either check the calendar, or 
+use a save/reload trick to peek on the next day. If there's no harvest, reload 
+the previous day and tell your harvesting sprites that they are done. Then you 
+can hire them back for the day after.
+
+You can do the same to watering sprites if its going to rain. Or else you'll 
+have to go ask for two sprites to pick up the work when the others will be 
+done (1D left).
+
+--Fall 9--
+An easy Festival, just bring whatever you can that is edible like one of your 
+crops, or a poisonous mushroom for some funny result. Once again, you can go 
+just before 6pm. You'll get to toss what you brought in a mix with the others.
+
+--Fall 10 to 12--
+Uneventful days overall. 10th is Hoggy's (Yellow sprite)'s birthday, so try to 
+cram the gifts on that day to max him as well.
+
+--Fall 13--
+The Moon Festival. That's where you're supposed to ask the one you prefer to 
+watch the stars. But if you concentrated on making money at first, you 
+probably won't have a contender just yet. Ah well. Next year you'll start 
+wooing for sure. If you don't have anyone, nothing to do here, and shops are 
+closed.
+
+From this day until the sheep festival, don't clip the wool off your best 
+sheep, and don't impregnate it either if you want it to participate. You 
+probably won't win unless you bought the sheep early in the year, but its your 
+choice.
+
+--Fall 14--
+Duke will come over today to ask you to help with the vineyard. Accept, and 
+he'll ask to bring someone else. Only one will accept this job, and its Cliff 
+in the church. Hire him too, and take care of the day as usual.
+
+Today is also Chef's birthday (Red Sprite), give him lots of gifts if he's not 
+maxed yet.
+
+--Fall 15--
+You'll have to be at the vineyard at 10am, that doesn't give you alot of time 
+in the morning. Take care of what you can, and go there afterward. If you got 
+Cliff to help, well you did a good action because he'll be offered a job, and 
+he'll be able to stay in town afterwards. If you hadn't, Cliff would have left 
+before the end of the year. You'll be released at 5pm, so clean a bit what you 
+can around the farm before bed.
+
+--Fall 16 and 17
+Two ordinary days, nothing of importance here.
+
+--Fall 18th--
+Horse races! Well your own horse still isn't big enough, but you can still bet 
+and make lots of cash. Just use the same strategy. Observe a few times by 
+saving before entering the square and reloading. And then try to hit some x7 
+to x15 winners. Its possible that you lose too, you can always reload. Then 
+load your basket with broaches to sell.
+
+This time you might want to buy the Jewel of Truth too. You have shelves to 
+store it this time. If you haven't the first time, get the Power Berry too. 
+You only need 540 medals to fill your basket of Broaches, so plan accordingly 
+for the amount of medals you need. 1000 for the Jewel of Truth, 900 for the 
+Power Berry.
+
+You only need to get to the square before 6pm, so take care of the farm first.
+
+--Fall 19 and 20--
+Usual days, except Barley will come over for a sheep this time, on the 20th. 
+Just like the cow festival. Nothing to note otherwise. Only 10 days until 
+winter.
+
+--Fall 21--
+The Sheep Festival is just like the cow festival, meaning you can't do a thing 
+about the winner really. All you can do is offer your sheep with the most 
+affection. You need to be there before 6pm as usual. Remember that your sheep 
+is in the barn when you go back home, so bring it back outside with the 
+others, or feed it inside.
+
+--Fall 22 to 29--
+The last stretch to winter. Keep your sprites working, your animals outside and 
+well kept. If you go by the general store, buy 3 chocolates for the upcoming 
+festival, and store it aside until then. When passing in front of the clinic, 
+buy a few Bodigizer and Turbojolt as well, for the mining task in winter.
+
+You can bring your animals inside if you want, but you can wait until the last 
+day of fall as well. Its faster to take care of them inside, game-time wise, 
+but you need to feed them yourself of course. You don't need to worry about 
+fences while inside either, which might help do more things during the day.
+
+On the 29th, once the day is nearly over, 'fire' all of the sprites that are 
+set to watering. You won't need them on the next day. You'll want to keep the 
+harvesters just in case you get a last set of crops.
+
+--Fall 30--
+The last day of Fall, and then its winter. Fire all of the sprites once the 
+day is over, and bring the animals inside. Make sure you feed them from now 
+on. Spend the day to cut every bit of grass in your field. You can hold 999 
+pieces at most (you can check in the Earning screen too).
+
+During the day some kids will come knocking for candies. Its the Great Pumpkin 
+festival, or halloween if you prefer. Give them the chocolate you bought so 
+they'll be happy. The first one is as early as 6am. Second one arrives at 8am. 
+Last one is evidently on 10am. Popuri finds it unfair and wants some too, 
+apparently.
+
+=================
+Winter First Year
+=================
+Woo, now you're done with the harvesting and watering for a while. You should 
+buy some more cows and sheeps to keep you busy and keep some cash flow. If 
+you've made the makers already, you can increase the profits from milk, wool 
+and eggs by turning them into cheese, yarn and mayonnaise before shipping. 
+
+Keep your animals inside all season, meaning that you'll save alot of time on 
+taking care of them. I don't find sprites to be useful, all they can do is 
+keep you from getting the milk, eggs and wool before you do, thus keeping you 
+from changing them into cheese, etc.
+
+What will you do the rest of your days? Well the mountain lake is now frozen 
+over, giving you the chance to cross over for the winter mine! That's where 
+we're going. The gems inside are worth alot more than the adamantite and 
+orihalcum you had in the spring mine, so that will help on the money making.
+
+But that's not all there is to it. We're going there to find the Cursed tools 
+as well. Cursed tools are even more powerful versions of your tools, but the 
+problem is that you can't unequip them. You can always get them off by talking 
+to Carter in the confessional, but that's not very efficient in any way.
+
+There are ways to uncurse them permanently, but we'll get there into due time. 
+First we need to get them out of the mine. There are also other goodies to get 
+in there.
+
+Also, since you don't need the sprites in this season, go once in a while with 
+gifts for them to keep their affection high, or max out those that aren't yet. 
+They love flour from the shop, its closeby and cheap. They like it about as 
+much as herbs of their color, so it won't take long either.
+
+You should have a nice tidy sum from the non-stop fall harvest. Don't spend it 
+all, but use what's needed to upgrade house, barn, coop as needed, and buy 
+things off TV. Your tools should be all to Mystrile now, or else you won't get 
+those Cursed Tools at all.
+
+During this season, also watch the weather channel for snowstorms. When they 
+tell you to keep animals inside and lock doors, that's nothing good. You might 
+want to trick the weather to be good or snowy when that happens.
+
+Last thing, if you want a extra bonus for the Stocking Festival, you need a 
+sock. Ellen is the only one that can make you one. If your friendship with her 
+is VERY high, give her some yarn of any quality, before 11am or noon, and she 
+will offer you socks if you wait the rest of the day. But if she takes the 
+yarn normally, that means you're not high enough yet. So keep pumping her 
+friendship.
+
+Winter 13 is her birthday, so you might want to concentrate the gifts on that 
+day more than any other if she still won't make you socks.
+
+--Winter 1--
+Its saturday, so you shouldn't forget to buy things off the TV. Drop every 
+tool in your house except the hoe and hammer,, get the basket if you want, and 
+bring with you a couple of Turbojolt and Bodigizer. Take a dip in the hot bath 
+or your house bath if you have it to recuperate what you've lost from taking 
+care of your animals, and off to the mine we go. 
+
+Go to the mountain area with the big lake. Oh look, you can cross it now that 
+its frozen. On the other side you'll see the mine. But wait, don't go in yet. 
+Go BEHIND it and check for a Power Berry! Wee. Now go inside.
+
+So what is our goal? Depends on what you want to do, but you should probably 
+prioritize getting the cursed tools out of there. There are 6 tools in here, 
+so you should have enough space to carry them all. Also they are found in the 
+ground, so its possible to get them all in one trip. Use either of the Save 
+Tricks given in the mining section.
+
+The first stop is level 19. Dig around for another Power Berry. Then every 
+following level finishing in -9 will have a Cursed Tool in the ground, in the 
+order of Fishing Rod (first? Damn.), Hoe, Ax, Hammer, Watering Can and Sickle. 
+So the last floor would be level 79.
+
+Like the stairs, the position of the tools are random, and sometimes there is 
+none. Use the save tricks until you hit both stairs and tools, if you want to 
+conserve energy as much as possible.
+
+When you have a Cursed TOol, be careful when you switch tools using the L+B 
+shortcut. You might equip the Cursed tool by mistake and then be unable to 
+take it off. To avoid that go through the A+B rucksack menu instead. But if 
+you are here only for cursed tools, you'll only need the hoe normally. If you 
+equip one by mistake, reload your save.
+
+The other item of interest is the Kappa Jewel, which is another stone like the 
+Jewel of Truth that you will need 9 of. Considering that you only can carry 8 
+items at a time, you might just want to catch a few and try again later for 
+more. They are found on levels 0, 40, 60, 80, 120, 140, 160, 180 and 255, 
+level 0  being the level you actually enter the mine in. They are found in 
+rocks. On this trip you'll probably want to stop on level 80 at most, so you 
+might get 4 (0, 40, 60, 80).
+
+If you brought the basket, its not advisable to do both gems and cursed tools, 
+because of the energy issue, but you'll find that all gems are already worth 
+more than Adamantite/Orihalcum, at 55 gold. They are listed in detail in the 
+mining section.
+
+Also on level 30 and 70 (if you stop for the cursed tools only), you have a 
+'chance' of finding a Pink Diamond worth 10000. You'll have to break rocks for 
+it, and there's one, rarely two, and sometimes none of them. If you really 
+want it, keep reloading until you find one relatively fast, again for energy 
+issues.
+
+On level 50 you'll similarly find an Alexandrite, for 10000 as well. Note that 
+this is an exceptionnal floor that you'll ONLY find Alexandrite, if any at 
+all. Like the Pink Diamond its possible there won't be any.
+
+So grab what you can and get out of the mine. 
+
+--Winter 2 to 13--
+In these days, beside your animals, go back to the mine if you have anything 
+else to do there. If you found all cursed tools thought, you might want to 
+consider uncursing them first. Check the Tool section for the way to uncurse 
+them all.
+
+When you get to the tools that you need to equip for 10 days, enlist the help 
+of a sprite for your animals. You won't be able to brush or milk/clip them, 
+but you can still talk to them.
+
+On winter 2, if its not snowing, Thomas the Mayor should come and ask you for 
+some random item. Save on the night before, and keep reloading until he asks 
+an item that you can get easily. Easiest to get are Black Grass from the mine, 
+White Grass from behind Gotz's House, Truffles if you kept any from behind 
+the church in Fall, Bracelet (make at Blacksmith with Orihalcum), Diamond 
+(Winter Mine floors -0) or Moon Stone (Winter Mine floors -8). Pick whatever 
+you find is easier for you, and reload until satisfactory.
+
+The reward for the trade off is the Golden Fence! Well it sounds nice, looks 
+nice, doesn't even rot away like normal fence... but everyone in the village 
+will hate you and then call you Moneybags, no matter what's your real name. 
+Just store it away, or if you're playing the girl version, sell it to Won for 
+a nice price, he likes those things.
+
+The rest of the days, do what you can, depending on your situation (Cursed 
+Tools and such). Note that there are other things in the Spring Mine too, but 
+since its open all year long, we can concentrate on the Winter Mine for the 
+moment.
+
+If you are good friends with Ellen, offering her some yarn, she might offer 
+you to make socks with it. But this might be difficult in the first year, she 
+requires lots of gifts to be very good friends. Might want to try that next 
+year worse case.
+
+But if you give her alot of gifts, especially on her birthday on Winter 13th, 
+eventually she'll accept a ball of yarn as normal gift and instead of the 
+usual message, she'll say that she'll make you socks with it. You'll be 
+'warped' to 6pm and receive stockings that will be hung on the wall of your 
+house by Stu when you get back home. Note that you need to give it to her 
+between 9 and 11am for her to make the socks.
+
+You'll probably have lots of time on your hands in this season, so you could 
+go get the other Jewel of Truth scattered around. There's some you can't get 
+yet thought.
+
+One is on your doghouse, and another in the water of your horse's house. 
+Simple enough? A third is on the lamppost straight in front of the church. 
+Easy. Another is sold by Won for 50000. That's a bit much, but eventually 
+you'll buy it if you can't now. Another was at the Horse Races, if you got 
+it before. If not you'll have another race in Spring to buy it for 
+1000 medals. And a last is in the Library, second floor, right books on the 
+bottom row. That's 6. Just store them away, because the last ones are very 
+very VERY far way from now.
+
+On the 13th, don't worry if its not snowing the next day because its 
+Thanksgiving. Buy some chocolate if you're playing the girl version. Today is 
+also Ellen's birthday, if you really want to pump her friendship.
+
+If you're still bored because you don't even have Cursed Tools to uncursed, do 
+some trips to the Winter Mine for the Kappa Jewels or more cash (gems, pink 
+diamonds, alexandrite). Or to the Spring Mine for the Goddess Gems. Note that 
+you'll still need to go to level 255 of the Spring mine later in the game, for 
+something else, so you can wait until then.
+
+--Winter 14--
+Winter Thanksgiving is the equivalent of Valentine's day. But in Japan, on 
+Valentine's Day girls give chocolate to the boys they like, and on March 14th, 
+White Day, the boys answer the girl with chocolate of their own if they like 
+the girl as well. In this game its similar, except the Spring Thanksgiving is 
+the replacement of the White Day.
+
+So if you're playing the girl version, give some chocolate to the guy you 
+prefer, if you already started wooing some in the first year. Heck, just give 
+some to every guy in town if you want to. If you're on the boy version, you'll 
+get chocolate if one or many of the girls have high affection ratings. They 
+will come to your house every 2 hours starting at 8am to give you something.
+
+Otherwise this is a normal day, but without shops.
+
+--Winter 15 to 23--
+Can it get any more routine than this? Well nothing to note here, just keep 
+taking care of your animals, or have the sprites do it if you're holding one 
+of the Cursed Tools for 10 days. If not you can always mine deeper.
+
+Check the mining section, for valuable gems, Goddess Gems and Kappa Gems once 
+again.
+
+--Winter 24--
+Starry Night Festival. If you have a girl/boy with high enough affection, they 
+will invite you to watch the stars at their house. If you don't have anyone, 
+well its mostly a family reunion, so you won't have anything to do on that day.
+
+--Winter 25--
+Stocking Festival, or christmas for our world. Its mostly the same, except 
+that Santa is replaced by Mayor Thomas. If you have a sock hung in your home, 
+he'll fill it with a random item. Its not worth much, but its free. Its the 
+thought that counts! You need to be in bed between 9pm (25th) and Noon next 
+day (26th) for him to come over. Sneaky old man.
+
+Otherwise the day chores go as normal.
+
+--Winter 26 to 29--
+What a boring season, really. Nothing to mention here. Did you uncurse all of 
+the possible tools? You should normally only have the tools that need to be 
+used 255 times left (Fishing Pole and Axe). Else hopefully it will be done 
+during the last days of winter, because Spring is around the corner and you 
+want your hands free by then.
+
+If you're done holding the cursed tools, there is another power berry to be 
+fetched with the fishing rod. Since you have lots of time doing nothing, you 
+can go get this one at the beach. Go fish there, and you might find it. I 
+suggest saving before starting, and if you don't find it in the same day, just 
+reload and try until you get it, so you won't spent several days on this. And 
+this only works in winter, so you can get it out of the way.
+
+--Winter 30--
+Two days of New Year Celebrations basically. You have two choices for this 
+day. Either you head to the top of the mountain (Mother Hill) or to Rose 
+Square. That just depends on how or with who you want to greet the new year.
+
+Before you do, if you saved some seeds from spring last year, you'd better ask 
+your sprites to help you water them starting the next day. Else you can leave 
+them celebrate new year in peace.
+
+The biggest difference is that you'll get some free Buckweath flour from the 
+square celebration. In fact, they fill your rucksack and hands with it, so 
+you might want to choose that one for cooking ingredients. The mountain top 
+star gazing doesn't have any prize.
+
+While you're there, bring your two cursed tools, and keep using them both 
+until they uncurse. And voila! All 6 tools are now Blessed for the second 
+year. In this Festival, your energy is unlimited, so you won't go tired of 
+using the two cursed tools 255 times each. If you forgot, you have another 
+chance on Spring 1st.
+
+The Square Event is held starting at 6pm, and the Mother Hill event start at 
+midnight, I believe.
+
+=================
+End of First year
+=================
+Now let's recap what we have done on this year.
+-All tools up to Mystrile.
+-Cursed versions acquired and then Blessed.
+-Full Chicken Coop, barn is up to you.
+-6 Jewel of Truth.
+-6 or 7 Power Berries (Depends on the one in the Spring Cave mainly).
+-All sprites have high affection.
+-Befriended Carter and Ellen
+-House fully extended with Bath
+-Chicken Coop and Barn upgraded
+-Horse max affection
+-Dog max affection
+-Most kitchen tools (if your house is at the biggest level to buy them)
+
+The festival results vary on if you had animals long enough so that they could 
+win it (high affection), or just managing to win the Chicken Sumo Festival. The 
+first year results in competition doesn't matter too much anyway, as long as 
+you managed to get a good profit and high affection for your animals so you 
+will earn more during the second year.
+
+If all that is done in the first year, and have a decent amount of money to 
+start the season, you're in great shape. You don't need alot of money to start 
+with, just to buy the crops really. Your animals already provide with steady 
+cash flow everyday.
+
+How many cows/sheeps you have is up to what you can handle mostly, because its 
+not necessary either to have it full. More cows/sheeps mean more potential 
+money, but also more time to take care of them and more feed. Especially if 
+they are outside.
+
+If you haven't done all of these, don't worry too much either. This is what 
+can possibly be done if you know the game well to start with. The first year 
+is mostly getting things into gear and getting used to everything.
+
+===========
+Second Year
+===========
+Second year starts now. Since we've worked on getting the farm into shape the 
+first year, what are we going to do on the second year?
+
+You already know how to work your farm, how many crops you can take care of. 
+The second year just pushes it a bit further. If you completed the list I've 
+given for the first year, you'll just need to further improve upon this.
+
+You don't need a step by step walkthrough anymore, so I'll go with the big 
+lines of what you'll want to complete for every season.
+
+==================
+Spring Second Year
+==================
+
+Keep your animals inside unless they still need their affection to be raised. 
+Put them outside only for that reason or to raise their G-products into P- and 
+X-Products after the 600 hours outside.
+
+Barley will come to check on the horse exactly a year after giving it to you, 
+if its not raining. If you have at least 6 hearts, he should give it to you 
+for good. Else he will take it back for a whole year from you.
+
+If you kept your horse, it's now adult. Ride it around the farm at blazing 
+speeds! It has satchels that act like shipping boxes too. You can't talk to it 
+anymore, but you can still brush it.
+
+Start handing gifts to your favorite marriage prospect, and raise their heart 
+meter so you can witness the heart events along the way. Without the heart 
+events, you won't get to the wedding, even if their heart meter is maxed.
+
+Try to avoid too many rival heart events with the one you want to marry, else 
+you might lose him/her to someone else. But usually they start marrying in the 
+
+4th year, so you should have time to pick one before that.
+
+In the boy version there is an extra girl that you can marry if you're 
+unfortunate enough to have all of the others marry out, and its the Harvest 
+Goddess herself, but she's hard to get.
+
+In the Girl version, there's actually 3 other propects, but you can judge that 
+they aren't incredibly tempting. Won is one of them, which is probably the 
+best choice, even if not quite advisable. The Chef from the cooking contest is 
+another (wow, desperate?) and the Kappa is the replacement of the Goddess 
+(Why? Oh WHY!?). You'd definitly need to be in bad shape to pick one of them 
+in my opinion, but oh well.
+       
+Yeah, the supermarket is closed on Tuesdays, and Spring 2nd is a Tuesday, 
+unfortunatly. So if you didn't save seeds from last year, you have to wait on 
+the third to buy them again. Else you can start on the first day for maximum 
+crops.
+
+Your goal is to ship 100 of the Turnips, Potatoes and Cucumber, so you can buy 
+Strawberry seeds at the general store. You don't need to plant them this year, 
+but they aren't available until you did this.
+
+Another thing you want to aim for is getting 50 Blue Herbs and 50 Green Herbs 
+shipped. Once that is done you'll be able to buy some BodygizerXL and 
+TurbojoltXL from the clinic, which are twice as powerful as the ordinary 
+versions. There's a few in the mountains everyday, so pick them up and ship 
+them.
+
+We didn't concentrate on this part the first year because its more important 
+to get money at that point. Now we can fill up some holes left over from last 
+year with new things. Its a good idea to save some of your crops for recipes 
+too.
+
+The goddess game on TV is back, from Spring 1st to 5th. You might not want to 
+spend all that time for 5000G a day, but its up to you. 25000G for the 5 days 
+isn't too bad. If not, play to at least get some rice cakes or buckwheat 
+flour.
+
+Your garden will need to be retiled again, but the grass will regrow on its 
+own. You can use the hoe to retile grass before it grows again, if you decide 
+to change the layout, but you'll need to reseed of course.
+
+The fence is most probably rotten everywhere if you used lumber, but you don't 
+need to bring your animals outside yet either. You could just leave them 
+inside until you fix it, if you insist on keeping them in the sunlight.
+
+Remember to rehire the sprites to work for you as well.
+
+On the First day of Spring, head to the Square with an empty rucksack, after 
+6pm, for the New Year celebration. They will fill your hands and ruck sack 
+with rice cakes. Its a festival of course. Its your last chance to uncurse the 
+255-uses tools while you're in the square, at least for a few weeks.
+
+When you have some time, go into the Spring mine to look for Mythic Stones. 
+Check the Mining section for more info. They are rare, worth 20000G shipped, 
+but will allow you to eventually turn your Blessed tools into Mythic tools, 
+the most powerful version. 
+
+But it costs 50000G per tool to be reforged, so you might either sell the 
+Mythic Stones or store them for later. You probably don't want to spend 
+50000G on a tool that already does a great work. Mythic Stones don't appear 
+unless all of your tools are Uncursed, remember that before doing the trip 
+down.
+
+If you feel really like it, apparently a glitch makes it that you can get more 
+than one cursed tool once it becomes uncursed. I was holding a Blessed Hammer 
+when I found a Cursed Hammer in the winter mine. Its just funny, because it 
+doesn't have any practical use to it. Of course, the mine isn't accessible 
+before winter, but I wanted to make this noted.
+
+During Spring you'll also get some cucumbers. Keep 10 or more in your fridge, 
+and start taking one everyday to the Mother Hill Lake. Toss it in for 10 days 
+straight, and on the 11th the Kappa will give you a Blue Power Berry, 
+increasing your Fatigue.
+
+We didn't do this in the first year only because you didn't have anything to 
+keep them in, aka a refridgerator. Keeping 10 of them was a problem with the 
+spaced harvests of it. But this year it shouldn't be a problem to save 10 of 
+them from the sprites's work. So once you got your cucumbers, start dropping 
+them one per day at the lake near the Winter Mine.
+
+Also if you can, bring your dog every sunny day to the beach for some frisbee 
+throw practice. You can do that on the way to the sprites or shop without much 
+of a detour, and practicing doesn't take game time. 
+
+Horse Racing on the 18th, you'll finally get to ride your horse into the race. 
+Save, and practice a few times to get the hang of the system. You need to give 
+your horse small speed bursts, so you need to learn how to do it properly. 
+Winning the first time earns you a Power Berry.
+
+You can even bet on yourself for that usual batch of broaches. 60000G for a 
+bit of work isn't that bad at all.
+
+For the Cooking Contest, go to the square between 10am and noon. The Gourmet 
+Chef will tell you what's the category of food to prepare. Then you go back 
+home, cook the food, and bring it back for the judging. The Festival Guide 
+lists a few relatively easy recipes to make that are practically assured of 
+winning. Try to plan ingredients for the recipes listed there, or even cook 
+some of them in advance.
+
+==================
+Summer Second Year
+==================
+Supermarket is closed on the first day, so hopefully you kept seeds from last 
+year.
+
+Its closed because of the beach festival. You should save before going to the 
+beach. You'll be able to have your dog participate this time, and win a Power 
+Berry if you do. Hopefully you practiced enough to get its bar higher, thus 
+tossing it further.
+
+While at the beach, you can fish with unlimited energy too. If you got your 
+fishing rod at Blessed level, you should be getting some nice catches, and 
+even a chance for Pirate Treasures (10000G) or Fossils (5000G) that both can 
+be shipped (put in basket). Both are rare thought, but still.
+
+You can fish after the disk throw event, so you make sure you've won it before 
+spending all that time fishing.
+
+For the crops, if you can ship 100 of the 3 basic crops (corn, tomato, onion), 
+you'll get a new one to buy from the supermarket. That's the goal this year 
+again. Don't worry too much about less income, the fact that you take care of 
+alot more crops this year makes up for it.
+
+Save some crops for recipes again. Save corn for chicken feed too. 99 corn in 
+the fridge =~ 3000 chicken feed. Green herbs now grow in the mountain, so 
+remember to get 50 shipped for the TurobjoltXL. Get some Wild Grapes too for 
+recipes.
+
+Keep working on your friendship with everyone in town, but especially your 
+favorite boy/girl. Getting everyone happy is just to get recipes mostly.
+
+Chicken Sumo Festival, bring one of your youngest chicken once again, and 
+save/reload until you come out as a winner. You can win even with a chicken 
+that has no hearts, with a bit of luck and patience.
+
+Cow Festival, bring your best cow. Your cow should win if it has at least 8 
+hearts, so try to give your youngest cow that has that much affection.
+
+================
+Fall Second Year
+================
+Carrot, Eggplant, Sweet Potato are your main crops again, for 100 of each. But 
+I'm sure you already have more than enough Sweet Potatoes sent from last year. 
+Plant some of each, and fill the rest with Green Peppers or Sweet Potatoes. 
+Make sure you get your 100 shipped for Carrots and Eggplants thought, so you 
+can buy the new kind of seeds for next year.
+
+Sheep Festival, same thing as the cows in summer. Give the youngest one that 
+has at least 8 hearts.
+
+You should have already won the Horse Racing, but you can still earn the 
+medals/broaches as usual here.
+
+==================
+Winter Second Year
+==================
+*yawn* I hate this season. So much of nothing to do. Beside taking care of 
+animals, you can always go to the Winter Mine, and do a few trips for extra 
+cash. If you followed my guide in the first year, you shouldn't have anything 
+to do in there. You already got the Cursed Tools, Power Berry and Kappa Jewels. 
+Else get them done this year.
+
+You could always spend your time rising the cash for the Mythic Tools, if you 
+haven't yet. Several trips to the Spring Mine to get Mythic Stones too.
+
+=================
+Third Year and up
+=================
+As far as this game goes, you're done with just about everything major to do. 
+All that is left is making sure you marry if its not done, and complete a few 
+odd and ends.
+
+Starting in the third year, there is a new item in the Spring Mine, all the 
+way down to the 255th floor. Get the Goddess Jewels along the way, if you 
+haven't done that yet. I would have waited up to this point personally, 
+because you don't want to go to level 255 that many times if you can avoid it.
+
+Level 255 has the FrenchFries recipe, and the Teleport Stone. That stone 
+allows you to basically move where you want on the map instantly. It appears 
+only starting third year.
+
+Some of your chickens will eventually die of old age. Chickens live around 
+3 years, and barn animals 5 years. You should use these tips when this 
+happens :
+
+-Reloading the previous day, the result of dieing or not is random, so it 
+ might live a few more days.
+-If the animal keeps dieing too often and you need to reload too often, go 
+ sell that animal for a nice sum, and buy/hatch a new one to replace.
+
+Animals that won the contests (crowned) usually fetch a bigger sum too. They 
+will die eventually so might as well get something out of them.
+
+Once you got enough money and wood (999 lumber and 10,000,000G, wow), buy the 
+Mountain House from Gotz and you'll get a Jewel of Truth from the calendar.
+
+You'll be given another Jewel by the Mayor to congratulate on the 50 years of 
+wedding, and you'll find the 9th and last one in the Mayor's fridge once you 
+got all 8 others.
+
+The Jewel of Truth tells you how much Stamina/Fatigue you have left. It might 
+be useful for trips in the mine, but at this point of the game, you might not 
+care about it all that much.
+
+The rest of your life is spent keeping everyone happy in the village, and your 
+spouse, and taking care that the other bachelors marry by witnessing their 
+rival heart events. Not that you care anymore once you're wed yourself hm?
+
+===============
+GameShark Codes
+===============
+
+These are codes I figured out on my own, using VisualBoy Advance's memory
+viewer. It took a while to figure out!
+
+I want to first say that I don't encourage cheating at all. in fact, I
+believe it kills the fun of the game. If you get everything you need 
+without effort, why are you even playing the game?
+
+I used those codes in my latest games as shortcuts to get things faster,
+thus I didn't find/use codes to get unlimited money straight off, I
+still work for it. 
+
+In fact I didn't use those codes writing this guide. I actually lost my 
+saved game after writing it, so I used them to try to get my game back 
+to where it was.
+
+I believe the worse part is the mines if you're aiming for completion. 
+Even using the 2-save trick, it took me nearly 9 hours to get down to 
+floor 255. So after losing my save, I wasn't keen on doing it again, 
+honestly. Thus why I found the codes for it. 
+
+Similarly, the Goddess game code was to avoid having to reload too often,
+as that game hates me :P
+
+Instead of 1k for Tea Leaves, you can get 10k for Pirate Treasure. Thus 
+you only need to get 2 Pirate Treasures for roughly the same as you'd 
+get with 4 days of Tea Leaves normally. It's a bit faster of course.
+
+These codes in MFoMT, I have not found all equivalents in FoMT yet, but I
+know that most websites carry the codes for it anyway. The girl version
+codes are more rare.
+
+How codes work is that the first 8 numbers is the 'address' of the code, 
+while the next digits are the value. You can make yourself codes, but it 
+might be easier to edit the value manually if you're using VBA.
+
+Also, all of those codes should be turned off after being used. The game is
+a bit funky on those, and don't allow to 'lock' values very well (for
+example, unlimited energy). You should just turn them on and off for a 
+quick recharge. This is especially true in the mines, the game locks up 
+if you forget to turn the code off.
+
+For Stamina boost (useful for a quick recharge in the mines mostly) :
+02004205 : xx
+
+Tool Experience 
+Max out experience so you don't have to train them yourself. You can use
+lower values if you want, but these bring tools all the way to Mystrile
+experience, so you only need to go forge them.
+
+Hammer : 020041F8 : FFFF
+Scythe : 020041F0 : FFFF
+Axe    : 020041F4 : FFFF
+Hoe    : 020041EC : FFFF
+Water  : 020041FC : FFFF
+Rod    : 020041FE : FFFF
+
+Goddess mini-game :
+In the first 4 days you can play the game with the goddess. Start the game
+normally, and when she offers you the first choice of number, input the code
+(don't forget to turn it off after), and the game will think you have won XX
+times :
+
+02002240 : 00XX 
+
+One good use of this :
+- Pirate Treasure : 		02002240 : 0047 
+
+Mines :
+This code works slightly different. If you activate the code at any moment
+you can move, the game will lock up for some reason.
+
+How to use the code is slightly different as a result. Find stairs as usual,
+step on them, and when you see the confirmation "Do you want to use the stairs",
+activate the code. This will change the 'current floor' value to what you input,
+thus the next floor will be whatever you put the code at + 1. Turn off the
+code, and then say 'Yes' to go down. Game locks up if you forget to turn it
+off.
+
+The two mines are actually linked together with the same code, but with 
+differet target values. So it's possible to get into the Winter mine in
+any season by entering the Spring mine, find stairs, activate the code for
+a Winter mine floor, and you'll end up on it. Just remember that you cannot
+exit the Winter mine normally, since the lake is not frozen. So the trick is
+to use the code again to return to any Spring mine floor, and use the stairs
+back up toward the entrance.
+
+The Spring Mines floors start at 003A = Floor 0 (base 57)
+The Winter Mines floors start at 013A = Floor 0 (base 313)
+
+Also, the floors are in Hexadecimal, so convert it properly first. You can use 
+Windows calculator in Scientific mode for that easily. The (base) number is 
+what you need to add to go to those floors.
+
+So if you want to get to floor 100, you use 100 + 57, convert it to Hexadecimal,
+and the result is 9D, that you'll use in the code. Once you used the stairs, 
+you will end up on floor 100. 
+
+Another note is that any number that is not a mine ends up on another game
+map, like the village. It also locks up the game.
+
+Lastly, you cannot go straight to floor 0 either as far as I know. Either way
+you can simply use stairs up to reach it in either mine.
+
+The Code is : 				02005d54 : XXXX
+
+Here's a few example values that have some use.
+
+Spring Mine (base 58)
+Floor 5   : 003E (Orialcum)
+Floor 6   : 003F
+Floor 100 : 009D (Power Berry)
+Floor 255 : 0137 (Teleport Stone)
+
+Winter Mine : (base 314)
+Floor 19  : 014C (Cursed tools on every -9 floor)
+Floor 28  : 0156 
+Floor 39  : 0160 
+
+I did some hunting down for the Mine code in the boy version. It works exactly
+the same, except the address is :	02005CF8 : XXXX
+
+The values are slightly different as well. 
+Spring Mine :  Floor 0 = 0034 (base 51)
+Winter Mine :  Floor 0 = 0134 (base 307)
+
+========
+End Word
+========
+I realize now that I've restarted a new game, that knowing all I want to do as 
+per what I wrote in this guide makes it tons easier on a second play. You'll 
+change the order of things, and do tasks faster than I did in this guide.
+
+So what I'm considering this guide now is a 'steady' guide. There are slower 
+and faster ways of doing this, but this is a way that worked, doesn't give you 
+everything that easily but doesn't make it too hard to get most of the goals 
+done in the first year, which is getting all the tools to blessed, having a 
+good amount of spare money and a good start on whatever else you're working 
+on, like wedding/befriending.
+
+I didn't want to make a day per day guide either. I think that this kind of 
+game has the advantage of doing things like you want. Giving you the goals to 
+reach and things to get your attention for a small time frame is more 
+interesting as it lets you do things in the order you prefer.
+
+I still hope you found the guide useful.
+
+==========
+Disclaimer
+==========
+This may be not be reproduced under any circumstances except for personal,
+private use. It may not be placed on any web site or otherwise distributed
+publicly without advance written permission. Use of this guide on any other web
+site or as a part of any public display is strictly prohibited, and a violation
+of copyright.
+
+Permissions are granted to the following websites for use of this walkthrough. 
+Any other websites is prohibited from displaying this guide :
+-GameFAQs/IGN
+
+All trademarks and copyrights contained in this document are owned by their
+respective trademark and copyright holders.
+
+===============
+Version history
+===============
+Version : 0.2
+Submitted on : 
+-Added and modified a few sections for clarification purposes :
+	-Weather
+	-Passting Time
+	-useful Tricks
+-Added the Gameshark codes I figured out.
+
+Version : 0.1
+Submitted on : June 4th, 2010
+ -First submission of the guide
+
