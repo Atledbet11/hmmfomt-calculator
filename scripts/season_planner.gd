@@ -1,13 +1,11 @@
 # scripts/season_planner.gd
 # Season Planner — assign crops + plant days to tilled tiles.
-# Loads the active Farm Blueprint from AppState, overlays crops on the field.
-# Click a tilled tile to open a crop/plant-day picker.
 extends Control
 
 const TILE_SIZE    : int     = 16
 const FIELD_COLS   : int     = 43
 const FIELD_ROWS   : int     = 25
-const FIELD_OFFSET : Vector2 = Vector2(272.0, 160.0)
+const FIELD_OFFSET : Vector2 = Vector2(272.0, 176.0)
 
 const SEASON_MAPS := {
 	"spring": "res://assets/farm_maps/farm_spring.png",
@@ -15,21 +13,28 @@ const SEASON_MAPS := {
 	"fall":   "res://assets/farm_maps/farm_autumn.png",
 }
 
-const COL_TILLED   := Color(0.85, 0.72, 0.30, 0.30)
-const COL_HOVER    := Color(1.00, 1.00, 1.00, 0.25)
-const COL_GRID     := Color(0.20, 0.20, 0.20, 0.28)
-const COL_BG_PANEL := Color(0.10, 0.25, 0.10, 0.95)
+const COL_TILLED      := Color(0.85, 0.72, 0.30, 0.30)
+const COL_TILE_BORDER := Color(1.00, 1.00, 1.00, 0.55)   # always-visible outline on tilled tiles
+const COL_HOVER       := Color(1.00, 1.00, 1.00, 0.30)
+const COL_GRID        := Color(0.20, 0.20, 0.20, 0.28)
+const COL_BG_PANEL    := Color(0.10, 0.25, 0.10, 0.95)
 
-# Festival overlay alpha values per type
-const FESTIVAL_ALPHA := { "blocking": 0.65, "morning_safe": 0.45, "risky": 0.55, "unknown": 0.30 }
+var _hover_tile      : Vector2i    = Vector2i(-1, -1)
+var _grid_overlay    : Control
+var _map_texture     : TextureRect
+var _side_list       : VBoxContainer
+var _plan_name_edit  : LineEdit
+var _season_option   : OptionButton
+var _current_season  : String      = "spring"
 
-var _hover_tile : Vector2i = Vector2i(-1, -1)
-var _grid_overlay : Control
-var _map_texture  : TextureRect
-var _side_list    : VBoxContainer
-var _plan_name_edit: LineEdit
-var _season_option : OptionButton
-var _current_season: String = "spring"
+# ── Paint brush state ─────────────────────────────────────────────────────────
+var _paint_active    : bool   = false
+var _paint_crop_id   : String = ""
+var _paint_plant_day : int    = 1
+var _is_painting     : bool   = false  # true while left mouse button held in paint mode
+var _crop_dropdown   : OptionButton
+var _day_spin        : SpinBox
+var _crop_id_list    : Array  = []     # parallel array to dropdown items
 
 
 func _ready() -> void:
@@ -45,10 +50,8 @@ func _build_ui() -> void:
 	root_hbox.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(root_hbox)
 
-	# ── Left sidebar ──────────────────────────────────────────────────────────
 	root_hbox.add_child(_make_sidebar())
 
-	# ── Map + overlay ─────────────────────────────────────────────────────────
 	var scroll := ScrollContainer.new()
 	scroll.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.size_flags_vertical   = Control.SIZE_EXPAND_FILL
@@ -72,6 +75,7 @@ func _build_ui() -> void:
 	_grid_overlay.gui_input.connect(_on_grid_input)
 	_grid_overlay.mouse_exited.connect(func():
 		_hover_tile = Vector2i(-1, -1)
+		_is_painting = false
 		_grid_overlay.queue_redraw()
 	)
 	map_container.add_child(_grid_overlay)
@@ -85,14 +89,14 @@ func _make_sidebar() -> PanelContainer:
 	panel.add_theme_stylebox_override("panel", style)
 
 	var vbox := VBoxContainer.new()
-	vbox.add_theme_constant_override("separation", 8)
+	vbox.add_theme_constant_override("separation", 6)
 	panel.add_child(vbox)
 
 	_add_label(vbox, "Season Planner", 15, Color(0.98, 0.95, 0.60))
 	vbox.add_child(HSeparator.new())
 
 	# Season selector
-	_add_label(vbox, "Season", 12, Color(0.80, 0.80, 0.60))
+	_add_label(vbox, "Season", 11, Color(0.80, 0.80, 0.60))
 	_season_option = OptionButton.new()
 	for s in ["spring", "summer", "fall"]:
 		_season_option.add_item(s.capitalize())
@@ -100,25 +104,56 @@ func _make_sidebar() -> PanelContainer:
 	_season_option.item_selected.connect(_on_season_changed)
 	vbox.add_child(_season_option)
 
-	# Blueprint info
 	var bp_label := Label.new()
 	bp_label.text = "Blueprint: " + (AppState.active_blueprint_name if AppState.active_blueprint_name else "(none)")
 	bp_label.add_theme_font_size_override("font_size", 10)
 	bp_label.add_theme_color_override("font_color", Color(0.65, 0.80, 0.65))
-	bp_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	vbox.add_child(bp_label)
 
 	vbox.add_child(HSeparator.new())
 
 	# Plan name + save/load
-	_add_label(vbox, "Plan Name", 12, Color(0.80, 0.80, 0.60))
+	_add_label(vbox, "Plan Name", 11, Color(0.80, 0.80, 0.60))
 	_plan_name_edit = LineEdit.new()
 	_plan_name_edit.placeholder_text = "My Season Plan"
 	_plan_name_edit.text = AppState.active_plan_name
 	vbox.add_child(_plan_name_edit)
 	vbox.add_child(_make_button("Save Plan", _save_plan))
 	vbox.add_child(_make_button("Load Plan...", _show_load_dialog))
-	vbox.add_child(_make_button("Clear All Crops", func(): AppState.clear_plan(); _grid_overlay.queue_redraw()))
+	vbox.add_child(_make_button("Clear All Crops", func():
+		AppState.clear_plan()
+		_grid_overlay.queue_redraw()
+	))
+
+	vbox.add_child(HSeparator.new())
+
+	# ── Paint Brush ───────────────────────────────────────────────────────────
+	_add_label(vbox, "Paint Brush", 12, Color(0.98, 0.90, 0.50))
+
+	var paint_toggle := CheckButton.new()
+	paint_toggle.text = "Paint Mode (drag to fill)"
+	paint_toggle.add_theme_font_size_override("font_size", 11)
+	paint_toggle.toggled.connect(func(on: bool): _paint_active = on)
+	vbox.add_child(paint_toggle)
+
+	_add_label(vbox, "Crop", 11, Color(0.75, 0.80, 0.65))
+	_crop_dropdown = OptionButton.new()
+	_crop_dropdown.add_theme_font_size_override("font_size", 11)
+	_populate_crop_dropdown()
+	_crop_dropdown.item_selected.connect(func(idx: int):
+		_paint_crop_id = _get_crop_id_at(idx)
+	)
+	vbox.add_child(_crop_dropdown)
+
+	_add_label(vbox, "Plant Day", 11, Color(0.75, 0.80, 0.65))
+	_day_spin = SpinBox.new()
+	_day_spin.min_value = 1
+	_day_spin.max_value = 30
+	_day_spin.value = 1
+	_day_spin.value_changed.connect(func(v: float): _paint_plant_day = int(v))
+	vbox.add_child(_day_spin)
+
+	_add_label(vbox, "Right-click any tile to remove", 10, Color(0.60, 0.70, 0.55))
 
 	vbox.add_child(HSeparator.new())
 
@@ -131,16 +166,18 @@ func _make_sidebar() -> PanelContainer:
 	vbox.add_child(HSeparator.new())
 
 	# Planted crops list
-	_add_label(vbox, "Planted Crops", 12, Color(0.80, 0.80, 0.60))
-	var scroll := ScrollContainer.new()
-	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
-	scroll.custom_minimum_size = Vector2(0, 100)
-	vbox.add_child(scroll)
+	_add_label(vbox, "Planted Crops", 11, Color(0.80, 0.80, 0.60))
+	var list_scroll := ScrollContainer.new()
+	list_scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	list_scroll.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	list_scroll.custom_minimum_size = Vector2(0, 80)
+	vbox.add_child(list_scroll)
+
 	_side_list = VBoxContainer.new()
-	scroll.add_child(_side_list)
+	_side_list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	list_scroll.add_child(_side_list)
 	_refresh_side_list()
 
-	# Fill
 	var spacer := Control.new()
 	spacer.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	vbox.add_child(spacer)
@@ -156,6 +193,29 @@ func _make_sidebar() -> PanelContainer:
 	return panel
 
 
+# ── Crop dropdown helpers ──────────────────────────────────────────────────────
+
+func _populate_crop_dropdown() -> void:
+	_crop_id_list = []
+	_crop_dropdown.clear()
+	var season_crops := CropsData.get_season_crops(_current_season)
+	var ids: Array = season_crops.keys()
+	ids.sort()
+	for cid in ids:
+		_crop_id_list.append(cid)
+		_crop_dropdown.add_item(season_crops[cid].name)
+	if _crop_id_list.size() > 0:
+		_paint_crop_id = _crop_id_list[0]
+
+
+func _get_crop_id_at(idx: int) -> String:
+	if idx >= 0 and idx < _crop_id_list.size():
+		return _crop_id_list[idx]
+	return ""
+
+
+# ── Season map ────────────────────────────────────────────────────────────────
+
 func _load_season_map() -> void:
 	var path: String = SEASON_MAPS.get(_current_season, SEASON_MAPS["spring"])
 	var tex := load(path) as Texture2D
@@ -166,6 +226,7 @@ func _load_season_map() -> void:
 func _on_season_changed(idx: int) -> void:
 	_current_season = ["spring", "summer", "fall"][idx]
 	AppState.set_season(_current_season)
+	_populate_crop_dropdown()
 	_load_season_map()
 	_grid_overlay.queue_redraw()
 
@@ -175,12 +236,14 @@ func _on_season_changed(idx: int) -> void:
 func _on_grid_draw() -> void:
 	var o := _grid_overlay
 
-	# Tilled tiles with no crop assignment: show dim overlay
+	# Tilled tiles with no crop: dim fill + bright outline so they're visible on any map
 	for tile in AppState.active_tilled_tiles:
 		if AppState.get_plan_entry(tile).is_empty():
 			o.draw_rect(_tile_rect(tile), COL_TILLED)
+		# Always draw the border so tilled tiles are visible on dark/autumn backgrounds
+		o.draw_rect(_tile_rect(tile), COL_TILE_BORDER, false, 1.0)
 
-	# Crop-assigned tiles: show crop color
+	# Crop-assigned tiles: crop color fill + conflict overlay
 	for entry in AppState.active_plan_entries:
 		var tile: Vector2i = entry.tile
 		var crop := CropsData.get_crop(entry.crop_id)
@@ -190,18 +253,13 @@ func _on_grid_draw() -> void:
 		col.a = 0.80
 		o.draw_rect(_tile_rect(tile), col)
 
-		# Show harvest conflict overlay on the tile itself? (optional visual cue)
 		var harvest_days := Calculator.get_harvest_days(entry.crop_id, entry.plant_day)
-		var has_conflict := false
 		for hd in harvest_days:
-			var ft := HolidaysData.get_festival_type(_current_season, hd)
-			if ft == "blocking":
-				has_conflict = true
+			if HolidaysData.get_festival_type(_current_season, hd) == "blocking":
+				o.draw_rect(_tile_rect(tile), Color(0.85, 0.15, 0.15, 0.30))
 				break
-		if has_conflict:
-			o.draw_rect(_tile_rect(tile), Color(0.85, 0.15, 0.15, 0.30))
 
-		# Draw plant day number on tile
+		# Plant day number
 		var rect := _tile_rect(tile)
 		o.draw_string(
 			ThemeDB.fallback_font,
@@ -213,13 +271,20 @@ func _on_grid_draw() -> void:
 			Color(1, 1, 1, 0.90)
 		)
 
-	# Festival overlays on the entire field for the harvest-conflict days
-	var festival_days := HolidaysData.get_festival_days(_current_season)
-	# (We skip per-day visual on the map — that's the calendar view's job)
+		# Bright border on assigned tiles too
+		o.draw_rect(_tile_rect(tile), COL_TILE_BORDER, false, 1.0)
 
-	# Hover
+	# Hover highlight
 	if _hover_tile.x >= 0 and AppState.is_tilled(_hover_tile):
 		o.draw_rect(_tile_rect(_hover_tile), COL_HOVER)
+
+	# Paint brush preview: show what would be painted
+	if _paint_active and _hover_tile.x >= 0 and not _paint_crop_id.is_empty():
+		var crop := CropsData.get_crop(_paint_crop_id)
+		if not crop.is_empty():
+			var preview_col: Color = crop.color
+			preview_col.a = 0.50
+			o.draw_rect(_tile_rect(_hover_tile), preview_col)
 
 	# Grid lines
 	for col in range(FIELD_COLS + 1):
@@ -260,19 +325,41 @@ func _on_grid_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
 		var tile := _pixel_to_tile(event.position)
 		_hover_tile = tile if _tile_in_bounds(tile) and AppState.is_tilled(tile) else Vector2i(-1, -1)
+
+		# Drag-paint in paint mode
+		if _is_painting and _paint_active and _hover_tile.x >= 0:
+			_apply_paint(_hover_tile)
+
 		_grid_overlay.queue_redraw()
 
-	elif event is InputEventMouseButton and event.pressed:
+	elif event is InputEventMouseButton:
 		var tile := _pixel_to_tile(event.position)
-		if not _tile_in_bounds(tile) or not AppState.is_tilled(tile):
-			return
 
 		if event.button_index == MOUSE_BUTTON_LEFT:
-			_open_crop_picker(tile)
-		elif event.button_index == MOUSE_BUTTON_RIGHT:
-			AppState.remove_plan_entry(tile)
-			_grid_overlay.queue_redraw()
+			if event.pressed:
+				if _tile_in_bounds(tile) and AppState.is_tilled(tile):
+					if _paint_active and not _paint_crop_id.is_empty():
+						_is_painting = true
+						_apply_paint(tile)
+					else:
+						_open_crop_picker(tile)
+			else:
+				_is_painting = false
 
+		elif event.button_index == MOUSE_BUTTON_RIGHT and event.pressed:
+			if _tile_in_bounds(tile):
+				AppState.remove_plan_entry(tile)
+				_grid_overlay.queue_redraw()
+
+
+func _apply_paint(tile: Vector2i) -> void:
+	if _paint_crop_id.is_empty():
+		return
+	AppState.upsert_plan_entry(tile, _paint_crop_id, _paint_plant_day)
+	_grid_overlay.queue_redraw()
+
+
+# ── Crop picker dialog (click mode) ───────────────────────────────────────────
 
 func _open_crop_picker(tile: Vector2i) -> void:
 	var existing := AppState.get_plan_entry(tile)
@@ -280,27 +367,22 @@ func _open_crop_picker(tile: Vector2i) -> void:
 
 	var dialog := Window.new()
 	dialog.title = "Assign Crop — Tile (%d, %d)" % [tile.x, tile.y]
-	dialog.size = Vector2i(360, 420)
+	dialog.size = Vector2i(360, 400)
 	dialog.exclusive = true
 	add_child(dialog)
-
-	var vbox := VBoxContainer.new()
-	vbox.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	vbox.add_theme_constant_override("separation", 8)
-	dialog.add_child(vbox)
 
 	var margin := MarginContainer.new()
 	for side in ["left", "right", "top", "bottom"]:
 		margin.add_theme_constant_override("margin_" + side, 12)
 	margin.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	dialog.add_child(margin)
-	vbox = VBoxContainer.new()
+
+	var vbox := VBoxContainer.new()
 	vbox.add_theme_constant_override("separation", 8)
 	margin.add_child(vbox)
 
-	# Crop dropdown
 	var crop_option := OptionButton.new()
-	var crop_ids := season_crops.keys()
+	var crop_ids: Array = season_crops.keys()
 	crop_ids.sort()
 	var sel_idx := 0
 	for i in range(crop_ids.size()):
@@ -309,11 +391,11 @@ func _open_crop_picker(tile: Vector2i) -> void:
 		if cid == existing.get("crop_id", ""):
 			sel_idx = i
 	crop_option.selected = sel_idx
-	vbox.add_child(Label.new())
-	(vbox.get_child(0) as Label).text = "Crop:"
+	var crop_lbl := Label.new()
+	crop_lbl.text = "Crop:"
+	vbox.add_child(crop_lbl)
 	vbox.add_child(crop_option)
 
-	# Plant day
 	var day_spin := SpinBox.new()
 	day_spin.min_value = 1
 	day_spin.max_value = 30
@@ -323,7 +405,6 @@ func _open_crop_picker(tile: Vector2i) -> void:
 	vbox.add_child(day_label)
 	vbox.add_child(day_spin)
 
-	# Info label — updates dynamically
 	var info_label := Label.new()
 	info_label.add_theme_font_size_override("font_size", 11)
 	info_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
@@ -333,24 +414,24 @@ func _open_crop_picker(tile: Vector2i) -> void:
 		var cid: String = crop_ids[crop_option.selected]
 		var pd  := int(day_spin.value)
 		var hdays := Calculator.get_harvest_days(cid, pd)
-		var lines := ["First harvest: Day %d" % (hdays[0] if hdays.size() > 0 else -1)]
-		lines.append("Total harvests: %d" % hdays.size())
-		var conflicts := []
+		var info_lines := ["First harvest: Day %d" % (hdays[0] if hdays.size() > 0 else -1)]
+		info_lines.append("Total harvests: %d" % hdays.size())
+		var conflicts: Array = []
 		for hd in hdays:
 			var ft := HolidaysData.get_festival_type(_current_season, hd)
 			if ft != "":
 				conflicts.append("Day %d (%s)" % [hd, HolidaysData.get_festival(_current_season, hd).name])
 		if conflicts.size() > 0:
-			lines.append("⚠ Conflicts: " + ", ".join(conflicts))
-		info_label.text = "\n".join(lines)
+			info_lines.append("⚠ Conflicts: " + ", ".join(conflicts))
+		info_label.text = "\n".join(info_lines)
 
 	crop_option.item_selected.connect(func(_i): refresh_info.call())
 	day_spin.value_changed.connect(func(_v): refresh_info.call())
 	refresh_info.call()
 
-	# Buttons
 	var hbox := HBoxContainer.new()
 	vbox.add_child(hbox)
+
 	var ok_btn := Button.new()
 	ok_btn.text = "Assign"
 	ok_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -371,7 +452,7 @@ func _open_crop_picker(tile: Vector2i) -> void:
 
 	if not existing.is_empty():
 		var remove_btn := Button.new()
-		remove_btn.text = "Remove"
+		remove_btn.text = "Remove Crop"
 		remove_btn.pressed.connect(func():
 			AppState.remove_plan_entry(tile)
 			_grid_overlay.queue_redraw()
@@ -393,10 +474,10 @@ func _refresh_side_list() -> void:
 	var entries := AppState.active_plan_entries
 	if entries.is_empty():
 		var lbl := Label.new()
-		lbl.text = "No crops planted yet.\nClick a tilled tile."
+		lbl.text = "No crops planted yet."
 		lbl.add_theme_font_size_override("font_size", 10)
 		lbl.add_theme_color_override("font_color", Color(0.60, 0.75, 0.60))
-		lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		lbl.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		_side_list.add_child(lbl)
 		return
 
@@ -406,9 +487,10 @@ func _refresh_side_list() -> void:
 			continue
 		var hdays := Calculator.get_harvest_days(entry.crop_id, entry.plant_day)
 		var lbl := Label.new()
-		lbl.text = "%s (D%d) → %d harvests" % [crop.name, entry.plant_day, hdays.size()]
+		lbl.text = "%s D%d → %dx" % [crop.name, entry.plant_day, hdays.size()]
 		lbl.add_theme_font_size_override("font_size", 10)
 		lbl.add_theme_color_override("font_color", crop.color.lightened(0.3))
+		lbl.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		_side_list.add_child(lbl)
 
 
@@ -471,13 +553,12 @@ func _add_label(parent: Control, text: String, size: int, color: Color) -> void:
 	lbl.text = text
 	lbl.add_theme_font_size_override("font_size", size)
 	lbl.add_theme_color_override("font_color", color)
-	lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	parent.add_child(lbl)
 
 
 func _make_button(text: String, callback: Callable) -> Button:
 	var btn := Button.new()
 	btn.text = text
-	btn.custom_minimum_size = Vector2(0, 34)
+	btn.custom_minimum_size = Vector2(0, 32)
 	btn.pressed.connect(callback)
 	return btn

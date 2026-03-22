@@ -15,7 +15,7 @@ const FIELD_COLS   : int     = 43
 const FIELD_ROWS   : int     = 25
 # Estimated pixel offset from farm map top-left to field top-left corner.
 # Needs calibration with the user.
-const FIELD_OFFSET : Vector2 = Vector2(272.0, 160.0)
+const FIELD_OFFSET : Vector2 = Vector2(272.0, 176.0)
 
 const SEASON_MAPS := {
 	"spring": "res://assets/farm_maps/farm_spring.png",
