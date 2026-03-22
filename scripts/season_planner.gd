@@ -568,7 +568,7 @@ func _refresh_side_list() -> void:
 	# Aggregate by crop_id + plant_day for a compact summary
 	var summary: Dictionary = {}
 	for entry in entries:
-		var key := entry.crop_id + "|" + str(entry.plant_day)
+		var key: String = str(entry.crop_id) + "|" + str(entry.plant_day)
 		if not summary.has(key):
 			summary[key] = {"crop_id": entry.crop_id, "plant_day": entry.plant_day, "count": 0}
 		summary[key].count += 1
