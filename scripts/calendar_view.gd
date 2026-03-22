@@ -268,7 +268,7 @@ func _make_day_row(day: int) -> PanelContainer:
 	if count > 0:
 		var names_by_crop: Dictionary = {}
 		for h in day_data.get("harvests", []):
-			var cname := CropsData.get_crop(h.crop_id).get("name", "?")
+			var cname: String = CropsData.get_crop(h.crop_id).get("name", "?")
 			names_by_crop[cname] = names_by_crop.get(cname, 0) + 1
 		var parts := []
 		for cname in names_by_crop:

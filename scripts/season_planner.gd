@@ -157,7 +157,7 @@ func _make_sidebar() -> PanelContainer:
 
 
 func _load_season_map() -> void:
-	var path := SEASON_MAPS.get(_current_season, SEASON_MAPS["spring"])
+	var path: String = SEASON_MAPS.get(_current_season, SEASON_MAPS["spring"])
 	var tex := load(path) as Texture2D
 	if tex:
 		_map_texture.texture = tex
@@ -304,7 +304,7 @@ func _open_crop_picker(tile: Vector2i) -> void:
 	crop_ids.sort()
 	var sel_idx := 0
 	for i in range(crop_ids.size()):
-		var cid := crop_ids[i]
+		var cid: String = crop_ids[i]
 		crop_option.add_item(season_crops[cid].name)
 		if cid == existing.get("crop_id", ""):
 			sel_idx = i
@@ -330,7 +330,7 @@ func _open_crop_picker(tile: Vector2i) -> void:
 	vbox.add_child(info_label)
 
 	var refresh_info := func():
-		var cid := crop_ids[crop_option.selected]
+		var cid: String = crop_ids[crop_option.selected]
 		var pd  := int(day_spin.value)
 		var hdays := Calculator.get_harvest_days(cid, pd)
 		var lines := ["First harvest: Day %d" % (hdays[0] if hdays.size() > 0 else -1)]
@@ -355,7 +355,7 @@ func _open_crop_picker(tile: Vector2i) -> void:
 	ok_btn.text = "Assign"
 	ok_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	ok_btn.pressed.connect(func():
-		var cid := crop_ids[crop_option.selected]
+		var cid: String = crop_ids[crop_option.selected]
 		var pd  := int(day_spin.value)
 		AppState.upsert_plan_entry(tile, cid, pd)
 		_grid_overlay.queue_redraw()

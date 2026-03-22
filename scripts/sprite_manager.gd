@@ -131,7 +131,7 @@ func _make_sprite_card(sprite_id: String) -> PanelContainer:
 	panel.custom_minimum_size = Vector2(200, 160)
 
 	var style := StyleBoxFlat.new()
-	var sp_color := sp.get("color", Color.WHITE) as Color
+	var sp_color: Color = sp.get("color", Color.WHITE)
 	style.bg_color = sp_color.darkened(0.70)
 	style.border_color = sp_color
 	style.border_width_left = 2
@@ -206,7 +206,7 @@ func _update_card_hireable(sprite_id: String, hireable: bool) -> void:
 	var card = _sprite_cards.get(sprite_id, {})
 	if card.is_empty():
 		return
-	var hire_lbl := card.get("hire_lbl") as Label
+	var hire_lbl: Label = card.get("hire_lbl")
 	if hire_lbl == null:
 		return
 	var hearts := AppState.get_sprite_hearts(sprite_id)
