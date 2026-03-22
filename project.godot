@@ -13,6 +13,24 @@ config_version=5
 config/name="HMMFOMTCalculator"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
+run/main_scene="res://scenes/main_menu.tscn"
+
+[autoload]
+
+CropsData="*res://data/crops.gd"
+HolidaysData="*res://data/holidays.gd"
+SpritesData="*res://data/sprites_data.gd"
+Calculator="*res://core/calculator.gd"
+Economics="*res://core/economics.gd"
+BlueprintManager="*res://core/blueprint_manager.gd"
+AppState="*res://core/app_state.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=800
+window/size/resizable=true
+window/stretch/mode="canvas_items"
 
 [rendering]
 
