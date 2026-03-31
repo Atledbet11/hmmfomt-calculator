@@ -18,6 +18,8 @@ const COL_DIM     := Color(0.50, 0.55, 0.45)
 const DEFAULT_BACK := "res://scenes/main_menu.tscn"
 
 var _back_scene: String = DEFAULT_BACK
+var _tiles_per_throw: int = 9  # 1–9; affects Profit/Tile column
+var _body: VBoxContainer        # kept for rebuilds when spinner changes
 
 
 func _ready() -> void:
@@ -48,18 +50,20 @@ func _build_ui() -> void:
 	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	root_vbox.add_child(scroll)
 
-	var body := VBoxContainer.new()
-	body.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	body.add_theme_constant_override("separation", 1)
-	scroll.add_child(body)
+	_body = VBoxContainer.new()
+	_body.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	_body.add_theme_constant_override("separation", 1)
+	scroll.add_child(_body)
 
-	_populate_body(body)
+	_populate_body(_body)
 
 	# Footer note
 	var note := Label.new()
 	note.text = (
 		"  * Latest Plant Day = last day you can plant and still get the maximum " +
-		"number of harvests that season.   † Profit/Tile assumes planting on Day 1."
+		"number of harvests that season.   " +
+		"† Net/Tile = (harvests × sell price) − (seed cost ÷ tiles per throw × planting cycles). " +
+		"Adjust the Tiles/throw spinner to match your field layout."
 	)
 	note.add_theme_font_size_override("font_size", 9)
 	note.add_theme_color_override("font_color", COL_DIM)
@@ -79,6 +83,24 @@ func _make_top_bar() -> HBoxContainer:
 	title.add_theme_color_override("font_color", COL_HEADER)
 	title.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	hbox.add_child(title)
+
+	var throw_lbl := Label.new()
+	throw_lbl.text = "Tiles/throw:"
+	throw_lbl.add_theme_font_size_override("font_size", 11)
+	throw_lbl.add_theme_color_override("font_color", COL_SUBTEXT)
+	hbox.add_child(throw_lbl)
+
+	var throw_spin := SpinBox.new()
+	throw_spin.min_value = 1
+	throw_spin.max_value = 9
+	throw_spin.step = 1
+	throw_spin.value = _tiles_per_throw
+	throw_spin.custom_minimum_size = Vector2(72, 0)
+	throw_spin.value_changed.connect(func(v: float) -> void:
+		_tiles_per_throw = int(v)
+		_rebuild_body()
+	)
+	hbox.add_child(throw_spin)
 
 	var btn_back := Button.new()
 	btn_back.text = "← Back"
@@ -107,7 +129,7 @@ const COLUMNS := [
 	["Sell/Crop",          75],
 	["Latest Day*",        85],
 	["Max Harvests",       95],
-	["Profit/Tile†",       90],
+	["Net/Tile†",          90],
 	["Unlock",            200],
 ]
 
@@ -132,6 +154,12 @@ func _make_header_row() -> PanelContainer:
 		hbox.add_child(lbl)
 
 	return panel
+
+
+func _rebuild_body() -> void:
+	for child in _body.get_children():
+		child.queue_free()
+	_populate_body(_body)
 
 
 func _populate_body(body: VBoxContainer) -> void:
@@ -200,12 +228,15 @@ func _make_crop_row(crop_id: String, alternate: bool) -> PanelContainer:
 		if c > max_count:
 			max_count = c
 
-	var latest_day: int  = Calculator.latest_max_plant_day(crop_id)
-	var seed_cost_d1: int = Calculator.get_seed_cost_total(crop_id, 1)
-	var sellable: bool    = crop.get("sellable", false) as bool
-	var sell_price: int   = crop.get("sell_price", 0) as int
-	var gross_d1: int     = max_count * sell_price if sellable else 0
-	var profit_d1: int    = gross_d1 - seed_cost_d1
+	var latest_day: int = Calculator.latest_max_plant_day(crop_id)
+	var sellable: bool  = crop.get("sellable", false) as bool
+	var sell_price: int = crop.get("sell_price", 0) as int
+	var seed_cost: int  = crop.get("seed_cost", 0) as int
+	var cycles: int     = Calculator.get_planting_days(crop_id, 1).size()
+	# Seed cost per tile = one throw shared across tiles_per_throw tiles, repeated each cycle
+	var seed_cost_per_tile: int = int(round(float(seed_cost * cycles) / float(_tiles_per_throw)))
+	var gross_d1: int   = max_count * sell_price if sellable else 0
+	var profit_d1: int  = gross_d1 - seed_cost_per_tile
 
 	var regrow: int = crop.get("regrow_days", 0) as int
 	var regrow_str: String = "%dd" % regrow if regrow > 0 else "replant"
@@ -217,7 +248,7 @@ func _make_crop_row(crop_id: String, alternate: bool) -> PanelContainer:
 		[crop.get("season", "").capitalize(), 70, COL_SUBTEXT],
 		["%dd" % crop.get("first_harvest", 0), 65, COL_TEXT],
 		[regrow_str,                        60, COL_TEXT],
-		["%dG" % crop.get("seed_cost", 0), 80, COL_RED],
+		["%dG" % (seed_cost * cycles),     80, COL_RED],
 		["%dG" % sell_price if sellable else "—", 75, COL_GOLD if sellable else COL_DIM],
 		["Day %d" % latest_day if latest_day > 0 else "—", 85, COL_GREEN],
 		[str(max_count) if max_count > 0 else "—", 95, COL_TEXT],
