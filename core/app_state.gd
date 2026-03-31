@@ -71,17 +71,20 @@ func set_plan(name: String, season: String, entries: Array) -> void:
 	emit_signal("plan_changed")
 
 
-func upsert_plan_entry(tile: Vector2i, crop_id: String, plant_day: int) -> void:
+func upsert_plan_entry(tile: Vector2i, crop_id: String, plant_day: int, throw_center: Vector2i = Vector2i(-1, -1)) -> void:
+	var tc: Vector2i = throw_center if throw_center != Vector2i(-1, -1) else tile
 	for i in range(active_plan_entries.size()):
 		if active_plan_entries[i].tile == tile:
 			active_plan_entries[i].crop_id = crop_id
 			active_plan_entries[i].plant_day = plant_day
+			active_plan_entries[i].throw_center = tc
 			emit_signal("plan_changed")
 			return
 	active_plan_entries.append({
 		"crop_id": crop_id,
 		"plant_day": plant_day,
 		"tile": tile,
+		"throw_center": tc,
 	})
 	emit_signal("plan_changed")
 
@@ -92,6 +95,16 @@ func remove_plan_entry(tile: Vector2i) -> void:
 			active_plan_entries.remove_at(i)
 			emit_signal("plan_changed")
 			return
+
+
+# Removes all entries that belong to a throw (same throw_center).
+func remove_throw(throw_center: Vector2i) -> void:
+	var before: int = active_plan_entries.size()
+	active_plan_entries = active_plan_entries.filter(
+		func(e): return e.get("throw_center", Vector2i(-999, -999)) != throw_center
+	)
+	if active_plan_entries.size() != before:
+		emit_signal("plan_changed")
 
 
 func get_plan_entry(tile: Vector2i) -> Dictionary:

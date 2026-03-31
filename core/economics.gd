@@ -40,9 +40,12 @@ func season_breakdown(season: String, plan_entries: Array) -> Array:
 		var harvests: int = Calculator.get_harvest_count(crop_id, plant_day)
 		by_crop[crop_id]["tiles_planted"] += 1
 		by_crop[crop_id]["total_harvests"] += harvests
-		by_crop[crop_id]["seed_cost_total"] += Calculator.get_seed_cost_total(crop_id, plant_day)
 		if crop.sellable:
 			by_crop[crop_id]["gross_revenue"] += harvests * crop.sell_price
+
+	# Seed costs counted per throw (not per tile) after aggregating all entries
+	for crop_id in by_crop:
+		by_crop[crop_id]["seed_cost_total"] = Calculator.get_throw_seed_cost_for_crop(crop_id, plan_entries)
 
 	# Calculate net profit and break-even day per crop
 	var result: Array = []
@@ -63,9 +66,16 @@ func daily_gold_timeline(season: String, plan_entries: Array) -> Dictionary:
 	var schedule = Calculator.build_daily_schedule(season, plan_entries)
 	var seed_cost_by_day: Dictionary = {}
 
+	# Count seed cost per throw (not per tile): one bag per unique (crop, plant_day, throw_center)
+	var processed_throws: Dictionary = {}
 	for entry in plan_entries:
 		var crop_id: String = entry.get("crop_id", "")
 		var plant_day: int = entry.get("plant_day", 1)
+		var tc: Vector2i = entry.get("throw_center", entry.get("tile", Vector2i(-999, -999)))
+		var throw_key: String = crop_id + "|" + str(plant_day) + "|" + str(tc)
+		if processed_throws.has(throw_key):
+			continue
+		processed_throws[throw_key] = true
 		var crop: Dictionary = CropsData.get_crop(crop_id)
 		if crop.is_empty():
 			continue
@@ -104,11 +114,11 @@ func _break_even_day(season: String, crop_id: String, plan_entries: Array) -> in
 	var total_seed_cost: int = 0
 	var harvest_days: Array = []
 
+	total_seed_cost = Calculator.get_throw_seed_cost_for_crop(crop_id, plan_entries)
 	for entry in plan_entries:
 		if entry.get("crop_id", "") != crop_id:
 			continue
 		var ep_day: int = entry.get("plant_day", 1)
-		total_seed_cost += Calculator.get_seed_cost_total(crop_id, ep_day)
 		for h_day in Calculator.get_harvest_days(crop_id, ep_day):
 			harvest_days.append(h_day)
 

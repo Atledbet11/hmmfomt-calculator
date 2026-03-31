@@ -103,7 +103,7 @@ const COLUMNS := [
 	["Season",             70],
 	["Growth",             65],
 	["Regrow",             60],
-	["Seed Cost",          80],
+	["Seed/Throw",         80],
 	["Sell/Crop",          75],
 	["Latest Day*",        85],
 	["Max Harvests",       95],

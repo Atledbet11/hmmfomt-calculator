@@ -37,6 +37,7 @@ var _crop_dropdown   : OptionButton
 var _day_spin        : SpinBox
 var _crop_id_list    : Array  = []
 var _holiday_label   : Label
+var _undo_stack      : Array  = []  # Array of Vector2i throw_centers, most-recent last
 
 
 func _ready() -> void:
@@ -138,6 +139,7 @@ func _make_sidebar() -> PanelContainer:
 	vbox.add_child(_make_button("Load Plan...", _show_load_dialog))
 	vbox.add_child(_make_button("Clear All Crops", func():
 		AppState.clear_plan()
+		_undo_stack.clear()
 		_grid_overlay.queue_redraw()
 	))
 
@@ -182,7 +184,8 @@ func _make_sidebar() -> PanelContainer:
 	vbox.add_child(_holiday_label)
 	_update_holiday_preview()
 
-	_add_label(vbox, "Right-click tile to remove", 10, Color(0.55, 0.65, 0.50))
+	_add_label(vbox, "Left-click: throw 3×3  |  Right-click: remove throw", 10, Color(0.55, 0.65, 0.50))
+	vbox.add_child(_make_button("↩ Undo Last Throw", _undo_last_throw))
 
 	vbox.add_child(HSeparator.new())
 
@@ -337,17 +340,33 @@ func _on_grid_draw() -> void:
 		)
 		o.draw_rect(_tile_rect(tile), COL_TILE_BORDER, false, 1.0)
 
-	# Hover
-	if _hover_tile.x >= 0 and AppState.is_tilled(_hover_tile):
-		o.draw_rect(_tile_rect(_hover_tile), COL_HOVER)
-
-	# Paint preview under cursor
-	if _paint_active and _hover_tile.x >= 0 and not _paint_crop_id.is_empty():
-		var crop := CropsData.get_crop(_paint_crop_id)
-		if not crop.is_empty():
-			var preview: Color = crop.color
-			preview.a = 0.50
-			o.draw_rect(_tile_rect(_hover_tile), preview)
+	# Hover / paint preview
+	if _hover_tile.x >= 0:
+		if _paint_active and not _paint_crop_id.is_empty():
+			# Draw 3×3 throw preview: crop color on tilled, dim grey on untilled
+			var crop := CropsData.get_crop(_paint_crop_id)
+			if not crop.is_empty():
+				for dr in [-1, 0, 1]:
+					for dc in [-1, 0, 1]:
+						var pt := Vector2i(_hover_tile.x + dc, _hover_tile.y + dr)
+						if not _tile_in_bounds(pt):
+							continue
+						if AppState.is_tilled(pt):
+							var preview: Color = crop.color
+							preview.a = 0.50
+							o.draw_rect(_tile_rect(pt), preview)
+						else:
+							o.draw_rect(_tile_rect(pt), Color(0.50, 0.50, 0.50, 0.15))
+				# Cross-hair on center tile
+				var cr := _tile_rect(_hover_tile)
+				o.draw_line(cr.position + Vector2(cr.size.x * 0.5, 2),
+					cr.position + Vector2(cr.size.x * 0.5, cr.size.y - 2),
+					Color(1, 1, 1, 0.70), 1.0)
+				o.draw_line(cr.position + Vector2(2, cr.size.y * 0.5),
+					cr.position + Vector2(cr.size.x - 2, cr.size.y * 0.5),
+					Color(1, 1, 1, 0.70), 1.0)
+		elif AppState.is_tilled(_hover_tile):
+			o.draw_rect(_tile_rect(_hover_tile), COL_HOVER)
 
 	# Grid lines
 	for col in range(FIELD_COLS + 1):
@@ -387,10 +406,15 @@ func _tile_in_bounds(tile: Vector2i) -> bool:
 func _on_grid_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
 		var tile := _pixel_to_tile(event.position)
-		_hover_tile = tile if _tile_in_bounds(tile) and AppState.is_tilled(tile) else Vector2i(-1, -1)
+		# In paint mode, hover anywhere in bounds (throw center needn't be tilled).
+		# In picker mode, restrict to tilled tiles.
+		if _tile_in_bounds(tile):
+			_hover_tile = tile if (_paint_active or AppState.is_tilled(tile)) else Vector2i(-1, -1)
+		else:
+			_hover_tile = Vector2i(-1, -1)
 
 		if _is_painting and _paint_active and _hover_tile.x >= 0:
-			_apply_paint_silent(_hover_tile)
+			_apply_throw_silent(_hover_tile)
 
 		_grid_overlay.queue_redraw()
 
@@ -399,43 +423,63 @@ func _on_grid_input(event: InputEvent) -> void:
 
 		if event.button_index == MOUSE_BUTTON_LEFT:
 			if event.pressed:
-				if _tile_in_bounds(tile) and AppState.is_tilled(tile):
+				if _tile_in_bounds(tile):
 					if _paint_active and not _paint_crop_id.is_empty():
 						_is_painting = true
 						_batch_painting = true
-						_apply_paint_silent(tile)
-					else:
+						_apply_throw_silent(tile)
+					elif AppState.is_tilled(tile):
 						_open_crop_picker(tile)
 			else:
 				_finish_painting()
 
 		elif event.button_index == MOUSE_BUTTON_RIGHT and event.pressed:
 			if _tile_in_bounds(tile):
-				AppState.remove_plan_entry(tile)
+				var entry := AppState.get_plan_entry(tile)
+				if not entry.is_empty():
+					var tc: Vector2i = entry.get("throw_center", tile)
+					AppState.remove_throw(tc)
+					_undo_stack = _undo_stack.filter(func(c: Vector2i) -> bool: return c != tc)
+				else:
+					AppState.remove_plan_entry(tile)
 				_grid_overlay.queue_redraw()
 
 
-# Directly writes into AppState without emitting plan_changed.
-# Called on every mouse-move during drag — avoids rebuilding the side list
-# node tree on every event. _finish_painting() does the single end-of-stroke refresh.
-func _apply_paint_silent(tile: Vector2i) -> void:
+# Plants all tilled tiles in the 3×3 area around `center` directly into AppState,
+# without emitting plan_changed. One call = one seed bag cost.
+# Adds center to _undo_stack if any new tiles were actually painted.
+func _apply_throw_silent(center: Vector2i) -> void:
 	if _paint_crop_id.is_empty():
 		return
-	var entries := AppState.active_plan_entries
-	for i in range(entries.size()):
-		if entries[i].tile == tile:
-			if entries[i].crop_id == _paint_crop_id and entries[i].plant_day == _paint_plant_day:
-				return  # already painted, skip redraw entirely
-			entries[i].crop_id   = _paint_crop_id
-			entries[i].plant_day = _paint_plant_day
-			_grid_overlay.queue_redraw()
-			return
-	AppState.active_plan_entries.append({
-		"crop_id":   _paint_crop_id,
-		"plant_day": _paint_plant_day,
-		"tile":      tile,
-	})
-	_grid_overlay.queue_redraw()
+	var any_new := false
+	for dr in [-1, 0, 1]:
+		for dc in [-1, 0, 1]:
+			var tile := Vector2i(center.x + dc, center.y + dr)
+			if not _tile_in_bounds(tile) or not AppState.is_tilled(tile):
+				continue
+			var entries := AppState.active_plan_entries
+			var found := false
+			for i in range(entries.size()):
+				if entries[i].tile == tile:
+					found = true
+					if entries[i].crop_id != _paint_crop_id or entries[i].plant_day != _paint_plant_day:
+						entries[i].crop_id      = _paint_crop_id
+						entries[i].plant_day    = _paint_plant_day
+						entries[i].throw_center = center
+						any_new = true
+					break
+			if not found:
+				AppState.active_plan_entries.append({
+					"crop_id":      _paint_crop_id,
+					"plant_day":    _paint_plant_day,
+					"tile":         tile,
+					"throw_center": center,
+				})
+				any_new = true
+	if any_new:
+		if _undo_stack.is_empty() or _undo_stack.back() != center:
+			_undo_stack.append(center)
+		_grid_overlay.queue_redraw()
 
 
 func _finish_painting() -> void:
@@ -443,9 +487,16 @@ func _finish_painting() -> void:
 		return
 	_is_painting = false
 	_batch_painting = false
-	# Single refresh now that the stroke is done
 	_refresh_side_list()
 	AppState.emit_signal("plan_changed")
+
+
+func _undo_last_throw() -> void:
+	if _undo_stack.is_empty():
+		return
+	var center: Vector2i = _undo_stack.pop_back()
+	AppState.remove_throw(center)
+	_grid_overlay.queue_redraw()
 
 
 # ── Crop picker dialog (click / non-paint mode) ────────────────────────────────
@@ -521,7 +572,7 @@ func _open_crop_picker(tile: Vector2i) -> void:
 	ok.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	ok.pressed.connect(func():
 		var cid: String = crop_ids[crop_option.selected]
-		AppState.upsert_plan_entry(tile, cid, int(day_spin.value))
+		AppState.upsert_plan_entry(tile, cid, int(day_spin.value), tile)
 		_grid_overlay.queue_redraw()
 		dialog.queue_free()
 	)
@@ -572,22 +623,32 @@ func _refresh_side_list() -> void:
 		_side_list.add_child(lbl)
 		return
 
-	# Aggregate by crop_id + plant_day for a compact summary
+	# Aggregate by crop_id + plant_day; also count unique throw_centers per group
 	var summary: Dictionary = {}
 	for entry in entries:
 		var key: String = str(entry.crop_id) + "|" + str(entry.plant_day)
 		if not summary.has(key):
-			summary[key] = {"crop_id": entry.crop_id, "plant_day": entry.plant_day, "count": 0}
+			summary[key] = {
+				"crop_id": entry.crop_id, "plant_day": entry.plant_day,
+				"count": 0, "throws": {},
+			}
 		summary[key].count += 1
+		var tc: Vector2i = entry.get("throw_center", entry.tile)
+		summary[key].throws[tc] = true
 
 	for key: String in summary:
 		var row: Dictionary = summary[key]
-		var crop := CropsData.get_crop(row.crop_id)
+		var crop: Dictionary = CropsData.get_crop(row.crop_id)
 		if crop.is_empty():
 			continue
 		var hdays := Calculator.get_harvest_days(row.crop_id, row.plant_day)
+		var throw_count: int = (row.throws as Dictionary).size()
+		var cycles: int = Calculator.get_planting_days(row.crop_id, row.plant_day).size()
+		var seed_cost: int = (crop.get("seed_cost", 0) as int) * throw_count * cycles
 		var lbl := Label.new()
-		lbl.text = "%s × %d  D%d → %d×" % [crop.name, row.count, row.plant_day, hdays.size()]
+		lbl.text = "%s × %d (%d throws)  D%d → %d×  %dG" % [
+			crop.name, row.count, throw_count, row.plant_day, hdays.size(), seed_cost
+		]
 		lbl.add_theme_font_size_override("font_size", 10)
 		lbl.add_theme_color_override("font_color", (crop.color as Color).lightened(0.3))
 		lbl.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -653,6 +714,7 @@ func _show_load_dialog() -> void:
 			var data := BlueprintManager.load_plan(pname)
 			if not data.is_empty():
 				AppState.set_plan(data.name, data.season, data.entries)
+				_undo_stack.clear()
 			dialog.queue_free()
 			_grid_overlay.queue_redraw()
 		)

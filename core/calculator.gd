@@ -81,6 +81,29 @@ func last_viable_plant_day(crop_id: String) -> int:
 	return SEASON_LENGTH - crop.first_harvest
 
 
+# Returns total seed cost for one crop across all throws in a season plan.
+# Groups entries by (plant_day, throw_center) to count throws, not tiles.
+# Falls back to treating each tile as its own throw for old entries without throw_center.
+func get_throw_seed_cost_for_crop(crop_id: String, plan_entries: Array) -> int:
+	var crop: Dictionary = CropsData.get_crop(crop_id)
+	if crop.is_empty():
+		return 0
+	var throw_keys: Dictionary = {}
+	for entry in plan_entries:
+		if entry.get("crop_id", "") != crop_id:
+			continue
+		var pd: int = entry.get("plant_day", 1)
+		var tc: Vector2i = entry.get("throw_center", entry.get("tile", Vector2i(-999, -999)))
+		var key: String = str(pd) + "|" + str(tc)
+		if not throw_keys.has(key):
+			throw_keys[key] = pd
+	var total: int = 0
+	for key in throw_keys:
+		var pd: int = int(throw_keys[key])
+		total += crop.seed_cost * get_planting_days(crop_id, pd).size()
+	return total
+
+
 # Returns the latest plant day that still yields the maximum possible harvests.
 # Scans backward from day 30 to find the last day with the peak harvest count.
 func latest_max_plant_day(crop_id: String) -> int:
