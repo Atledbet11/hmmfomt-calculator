@@ -71,10 +71,12 @@ func delete_blueprint(blueprint_name: String) -> void:
 func save_plan(plan_name: String, season: String, blueprint_name: String, entries: Array) -> bool:
 	var json_entries: Array = []
 	for e in entries:
+		var tc: Vector2i = e.get("throw_center", e.tile)
 		json_entries.append({
 			"crop_id": e.crop_id,
 			"plant_day": e.plant_day,
 			"tile": [e.tile.x, e.tile.y],
+			"throw_center": [tc.x, tc.y],
 		})
 	var data: Dictionary = {
 		"version": 1,
@@ -92,10 +94,13 @@ func load_plan(plan_name: String) -> Dictionary:
 		return {}
 	var entries: Array = []
 	for e in data.get("entries", []):
+		var tile := Vector2i(e.get("tile", [0, 0])[0], e.get("tile", [0, 0])[1])
+		var tc_raw: Array = e.get("throw_center", [tile.x, tile.y])
 		entries.append({
 			"crop_id": e.get("crop_id", ""),
 			"plant_day": e.get("plant_day", 1),
-			"tile": Vector2i(e.get("tile", [0, 0])[0], e.get("tile", [0, 0])[1]),
+			"tile": tile,
+			"throw_center": Vector2i(tc_raw[0], tc_raw[1]),
 		})
 	return {
 		"name": data.get("name", plan_name),
