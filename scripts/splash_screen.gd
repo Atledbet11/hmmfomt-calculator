@@ -2,7 +2,7 @@
 # Opening splash: white → fade-in Natsume logo → hold → fade-out to white → main menu.
 extends Control
 
-const NEXT_SCENE    : String = "res://scenes/main_menu.tscn"
+const NEXT_SCENE    : String = "res://scenes/title_screen.tscn"
 const FADE_IN_TIME  : float  = 0.5
 const HOLD_TIME     : float  = 3.0
 const FADE_OUT_TIME : float  = 0.5
