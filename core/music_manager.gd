@@ -4,7 +4,7 @@
 # Drop audio files in res://assets/audio/ and call the play functions.
 extends Node
 
-const MENU_MUSIC_PATH : String = "res://assets/audio/menu_theme.ogg"
+const MENU_MUSIC_PATH : String = "res://assets/audio/menu_theme.mp3"
 
 var _player: AudioStreamPlayer
 
