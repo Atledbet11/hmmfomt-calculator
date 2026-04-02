@@ -51,7 +51,11 @@ func _run_sequence() -> void:
 	tween.tween_interval(HOLD_TIME)
 	# Fade out: white overlay fades back in → white screen again
 	tween.tween_property(_overlay, "color:a", 1.0, FADE_OUT_TIME).set_ease(Tween.EASE_IN_OUT)
-	# Advance to the main menu
+	# Music starts the moment the screen is fully white again
+	tween.tween_callback(func() -> void:
+		MusicManager.play_menu_music()
+	)
+	# Advance to the title screen
 	tween.tween_callback(func() -> void:
 		get_tree().change_scene_to_file(NEXT_SCENE)
 	)

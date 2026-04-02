@@ -24,6 +24,7 @@ Calculator="*res://core/calculator.gd"
 Economics="*res://core/economics.gd"
 BlueprintManager="*res://core/blueprint_manager.gd"
 AppState="*res://core/app_state.gd"
+MusicManager="*res://core/music_manager.gd"
 
 [display]
 
